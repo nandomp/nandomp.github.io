@@ -28,7 +28,7 @@ results in AI"*](https://doi.org/10.1126/science.adf6369). [Science](https://www
 
 * Aarohi Srivastava, ..., **Fernando Martínez-Plumed**, ..., Ziyi Wu, [*Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models*](https://openreview.net/pdf?id=uyTL5Bvosj). [Transactions on Machine Learning Research](https://www.jmlr.org/tmlr/index.html), ISSN 2835-8856, May 2023.
 
-* Behzad Mehrbakhsh; **Fernando Martínez-Plumed**, Jose Hernández-Orallo, [*"Adversarial Benchmark Evaluation Rectified by Controlling for Difficulty"*](https://ebooks.iospress.nl/doi/10.3233/FAIA230454), Proceedings of the [26th European Conference on Artificial Intelligence (ECAI 2023)](https://ecai2023.eu/),  Kraków, Poland. [Technical Appendix](https://riunet.upv.es/handle/10251/195689)
+* Behzad Mehrbakhsh; **Fernando Martínez-Plumed**, Jose Hernández-Orallo, [*"Adversarial Benchmark Evaluation Rectified by Controlling for Difficulty"*](https://ebooks.iospress.nl/doi/10.3233/FAIA230454), Proceedings of the [26th European Conference on Artificial Intelligence (ECAI 2023)](https://ecai2023.eu/),  Kraków, Poland, 2023. ([Technical Appendix](https://riunet.upv.es/handle/10251/195689))
 
 * **Fernando Martínez-Plumed**, Jose Hernández-Orallo, [*"Training Data Scientists through Project-based Learning"*](https://doi.org/10.1109/RITA.2023.3302954) [IEEE Latin-American Journal of Learning Technologie (IEEE RITA)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245520) Vol 18 (3), 2023.
 
