@@ -21,7 +21,7 @@ Recent Highlights
 
 * Member of the [OECD Expert Group on AI Futures](https://oecd.ai/en/network-of-experts/working-group/10847)
 
-* Papers accepted for ECAI 2023:  [Adversarial Benchmark Evaluation Rectified by Controlling for Difficulty](https://ebooks.iospress.nl/doi/10.3233/FAIA230454)
+* Paper accepted for ECAI 2023:  [Adversarial Benchmark Evaluation Rectified by Controlling for Difficulty](https://ebooks.iospress.nl/doi/10.3233/FAIA230454)
 
 * Paper published in **Science**! [*"Rethink reporting of evaluation results in AI"*](https://doi.org/10.1126/science.adf6369)
  
