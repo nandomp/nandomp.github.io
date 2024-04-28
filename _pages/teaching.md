@@ -58,8 +58,8 @@ author_profile: true
 
 ### [Diploma: SAMSUNG Innovation Campus in Artificial Intelligence]() - UPV
 
-* Machine Learning – Supervised Learning: 2022/23 - 2023/24
-* Machine Learning – Unsupervised Learning: 2022/23 - 2023/24
+* Machine Learning – Supervised Learning: 2022/23 - 2024/25
+* Machine Learning – Unsupervised Learning: 2022/23 - 2024/25
 
 
 ### [edX](https://www.edx.org/es/course/aprendizaje-automatico-y-ciencia-de-datos)
