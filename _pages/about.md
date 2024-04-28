@@ -15,6 +15,10 @@ Recent Highlights
 
 * Area Chair for [ECAI 2024](https://www.ecai2024.eu/),  join us in Santiago de Compostela!
 
+* Presented our paper [*"Your Prompt is My Command: On Assessing the Human-Centred Generality of Multimodal Models"*](https://ojs.aaai.org/index.php/AAAI/article/view/30612) in AAAI 2024.
+
+* Paper accepted in [IDA](): [Cracking black-box models: Revealing hidden machine learning techniques behind their predictions](https://doi.org/10.3233/IDA-230707)
+
 * Member of the [OECD Expert Group on AI Futures](https://oecd.ai/en/network-of-experts/working-group/10847)
 
 * Papers accepted for ECAI 2023:  [Adversarial Benchmark Evaluation Rectified by Controlling for Difficulty](https://ebooks.iospress.nl/doi/10.3233/FAIA230454)
