@@ -58,7 +58,7 @@ Program Committees
 * NIPS/NeurIPS [2018](https://nips.cc/Conferences/2018), [2019](https://nips.cc/Conferences/2019), [2020](https://nips.cc/Conferences/2020), [2021](https://nips.cc/Conferences/2021)
 * UAI [2019](http://auai.org/uai2019/), [2020](http://www.auai.org/uai2020/), [2021](https://www.auai.org/~w-auai/uai2021/), [2022](https://www.auai.org/~w-auai/uai2021/), [2023](https://www.auai.org/uai2023/)
 * ICRL [2019](https://iclr.cc/Conferences/2019), [2020](https://iclr.cc/),  [2021](https://iclr.cc/)
-* ECAI [2020](http://ecai2020.eu/), [2024*(https://www.ecai2024.eu/)
+* ECAI [2020](http://ecai2020.eu/), [2024*](https://www.ecai2024.eu/)
 * ECML [2020](https://ecmlpkdd2020.net/), [2021](https://2021.ecmlpkdd.org/), [2022](https://2022.ecmlpkdd.org/), [2023](https://2023.ecmlpkdd.org/), [2024](https://2024.ecmlpkdd.org/)
 * ACM SIGKDD [2021](https://www.kdd.org/kdd2021/)
 * ICML [2021](https://icml.cc/), [2022](https://icml.cc/), [2023](https://icml.cc/Conferences/2023)
