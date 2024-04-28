@@ -8,7 +8,7 @@ author_profile: true
 2024 
 ----
 
-* Raül Fabra-Boluda, Cesar Ferri, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Cracking black-box models: Revealing hidden machine learning techniques behind their predictions"*](https://doi.org/10.3233/IDA-230707). [Intelligent Data Analysis](https://content.iospress.com/journals/intelligent-data-analysis/Pre-press/Pre-press) Pre-press, pp. 1-21, 2024.
+* Raül Fabra-Boluda, Cesar Ferri, José Hernández-Orallo, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Cracking black-box models: Revealing hidden machine learning techniques behind their predictions"*](https://doi.org/10.3233/IDA-230707). [Intelligent Data Analysis](https://content.iospress.com/journals/intelligent-data-analysis/Pre-press/Pre-press) Journal, IOS Press, pp. 1-21 (pre-press), 2024.
 
 * Wout Schellaert, **Fernando Mart&iacute;nez-Plumed** , Karina Vold, John Burden, Pablo A. M. Casares, Bao Sheng Loe, Roi Reichart, Sean Ó hÉigeartaigh, Anna Korhonen, José Hernández-Orallo: [*"Your Prompt Is My Command: On Assessing the Human-Centred Generality of Multimodal Models (Abstract Reprint)"*](https://doi.org/10.1609/aaai.v38i20.30612),  [38th AAAI Conference on Artificial Intelligence](), pp  22712-22712, Vancouver, Canada, 2024.
   
@@ -22,7 +22,7 @@ results in AI"*](https://doi.org/10.1126/science.adf6369). [Science](https://www
 
 * Radosvet Desislavov, **Fernando Martínez-Plumed**, José Hernández-Orallo, J.: [*"Trends in AI Inference Energy Consumption: Beyond the Performance-vs-Parameter Laws of Deep Learning"*](https://doi.org/10.1016/j.suscom.2023.100857). [Sustainable Computing: Informatics and Systems](https://www.sciencedirect.com/journal/sustainable-computing-informatics-and-systems), Elsevier, Vol 38, 2023.
 
-* Gonzalo Jaimovitch-López, Cèsar Ferri, José Hernández-Orallo, J., **Fernando Martínez-Plumed**, Mº José Ramírez-Quintana,: [*"Can language models automate data wrangling?"*](https://doi.org/10.1007/s10994-022-06259-9). [Machine Learning Journal](https://www.springer.com/journal/10994), Springer, Vol. 112, 2053–2082, 2023.
+* Gonzalo Jaimovitch-López, Cèsar Ferri, José Hernández-Orallo,  **Fernando Martínez-Plumed**, Maria José Ramírez-Quintana,: [*"Can language models automate data wrangling?"*](https://doi.org/10.1007/s10994-022-06259-9). [Machine Learning Journal](https://www.springer.com/journal/10994), Springer, Vol. 112, 2053–2082, 2023.
 
 * Wout Schellaert, **Fernando Mart&iacute;nez-Plumed** , Karina Vold, John Burden, Pablo A. M. Casares, Bao Sheng Loe, Roi Reichart, Sean Ó hÉigeartaigh, Anna Korhonen, José Hernández-Orallo: [*"Your Prompt is My Command: On Assessing the Human-Centred Generality of Multimodal Models"*](https://doi.org/10.1613/jair.1.14157),  [Journal of Artificial Intelligence Research (JAIR)](https://www.jair.org/index.php/jair). Vol. 77, 377-394, 2023.
 
