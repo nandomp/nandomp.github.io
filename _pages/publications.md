@@ -8,8 +8,9 @@ author_profile: true
 2024 
 ----
 
-* Raül Fabra-Boluda, Cesar Ferri, Maria Jose Ramirez-Quintana, **Fernando Martínez-Plumed** [*"Cracking black-box models: Revealing hidden machine learning techniques behind their predictions"*](https://doi.org/10.3233/IDA-230707). [Intelligent Data Analysis](https://content.iospress.com/journals/intelligent-data-analysis/Pre-press/Pre-press) Pre-press, pp. 1-21, 2024.
+* Raül Fabra-Boluda, Cesar Ferri, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Cracking black-box models: Revealing hidden machine learning techniques behind their predictions"*](https://doi.org/10.3233/IDA-230707). [Intelligent Data Analysis](https://content.iospress.com/journals/intelligent-data-analysis/Pre-press/Pre-press) Pre-press, pp. 1-21, 2024.
 
+* Wout Schellaert, **Fernando Mart&iacute;nez-Plumed** , Karina Vold, John Burden, Pablo A. M. Casares, Bao Sheng Loe, Roi Reichart, Sean Ó hÉigeartaigh, Anna Korhonen, José Hernández-Orallo: [*"Your Prompt Is My Command: On Assessing the Human-Centred Generality of Multimodal Models (Abstract Reprint)"*](https://doi.org/10.1609/aaai.v38i20.30612),  [38th AAAI Conference on Artificial Intelligence](), pp  22712-22712, Vancouver, Canada, 2024.
   
 * Wout Schellaert, Ronan Hamon, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo [*"A Proposal for Scaling the Scaling Laws"*](https://aclanthology.org/2024.scalellm-1.1.pdf). Workshop on the [Scaling Behavior of Large Language Models (SCALE-LLM)](https://scale-llm-24.pages.dev/), Malta, 22 March 2024, co-located with [EACL 2024](https://2024.eacl.org/), Association for Computational Linguistic, 2024
 
