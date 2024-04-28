@@ -7,43 +7,104 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Associate Professor at the Technical University of Valencia ([UPV](http://www.upv.es/)) and former Scientific Project Officer at the [Joint Research Centre](https://ec.europa.eu/jrc/en/about/jrc-site/seville), European Commission. Part of [VRAIN](https://vrain.upv.es/),  [ELP](https://elp.webs.upv.es/) and [DMIP Team](https://dmip.webs.upv.es/). Lecturer in the Bachelor's Degree in [Informatics Engineering](https://www.upv.es/titulaciones/GII/), the degree in [Interactive Technologies](https://www.upv.es/titulaciones/GTI/index-en.html),  [Máster Universitario en Ingeniería Informática](http://muiinf.webs.upv.es/), [Master in Big Data Analytics](http://bigdata.inf.upv.es/) and Master's in (Business Administration and Digital Transformation)[https://www.cegea.upv.es/es/formacion/] at the UPV. Teaching Assistant in the [Máster Universitario en Investigación en Inteligencia Artificial](http://www.uimp.es/postgrado/estudios/fichaestudio.php?plan=P03S&any=2016-17&verasi=N&lan=es) at [UIMP](http://www.uimp.es/). I received a B.Sc. degree in Computer Science (2009), M.Sc. degree in Software Engineering, Formal Methods and Information Systems (2010), a Post-Graduate Diploma in Engineering Business Management (2011) and a Ph.D in Computer Science (2016) from UPV. The evaluation and measurement of intelligent systems is, among other more applied research topics, the main scientific-technical objective of my research agenda.
 
-A data-driven personal website
+Recent Highlights
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+* Area Chair for [ECAI 2024](https://www.ecai2024.eu/),  join us in Santiago de Compostela!
 
-Getting started
+* Member of the [OECD Expert Group on AI Futures](https://oecd.ai/en/network-of-experts/working-group/10847)
+
+* Papers accepted for ECAI 2023:  [Adversarial Benchmark Evaluation Rectified by Controlling for Difficulty](https://ebooks.iospress.nl/doi/10.3233/FAIA230454)
+
+* Paper published in **Science**! [*"Rethink reporting of evaluation results in AI"*](https://doi.org/10.1126/science.adf6369)
+ 
+* Co-organising a Workshop on [Predictable AI](https://www.predictable-ai.org/march2023event)
+
+* Two papers accepted for JAIR: [*"Your Prompt is My Command: On Assessing the Human-Centred Generality of Multimodal Models"*](https://dmip.webs.upv.es/papers/_JAIR2023__Your_Prompt_is_My_Command__PREPRINT.pdf) and SUSCOM: [*" Trends in AI Inference Energy Consumption: Beyond the Performance-vs-Parameter Laws of Deep Learning"*](https://doi.org/10.1016/j.suscom.2023.100857)
+
+* *European Commission JRC Excellence Award*: 2021 Best Young Researcher
+
+* Paper published in the Machine Learning Journal: ["Can language models automate data wrangling?"](https://doi.org/10.1007/s10994-022-06259-9)
+
+* BigBench paper published! ["Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models"](https://arxiv.org/abs/2206.04615)
+
+* The European Commission’s ["Glossary of human-centric artificial intelligence"](http://dx.doi.org/10.2760/860665) it's out there now!
+
+* Two papers accepted for AAAI 2022: [*Training on the Test Set: Mapping the System-Problem Space in AI*](https://doi.org/10.1609/aaai.v36i11.21487) ([Blue Sky Idea Runner-Up Award!](https://cccblog.org/2022/03/03/blue-sky-at-aaai-2022/)) and [*When AI Difficulty is Easy: The Explanatory Power of Predicting IRT Difficulty*](https://doi.org/10.1609/aaai.v36i7.20739)
+
+* Papers accepted for publication in the Nature Machine Intelligence journal: [*Research community dynamics behind popular AI benchmarks*](https://rdcu.be/ckK8X), Nature Scientific Reports [*General intelligence disentangled via a generality metric for natural and artificial intelligence*](https://www.nature.com/articles/s41598-021-01997-7), the Wiley International Journal of Intelligent Systems: [*"Missing the missing values: The ugly duckling of fairness in machine learning"*](https://doi.org/10.1002/int.22415), the Journal of Artificial Intelligence Research:  [*"Measuring the Occupational Impact of AI: Tasks, Cognitive Abilities and AI Benchmarks"*](https://doi.org/10.1613/jair.1.12647), and the Elsevier Telematics and Informatics: [*"Futures of Artificial Intelligence through Technology Readiness Levels"*](https://doi.org/10.1016/j.tele.2020.101525), 2021
+
+* Co-organising the 1st Workshop on *[Evaluating Progress in AI (EPAI2020)](http://dmip.webs.upv.es/EPAI2020/)*  @ [ECAI 2020](http://ecai2020.eu/) taking place (digitally) in Santiago (Spain) in September 4, 2020
+
+* 3 papers accepted for ECAI 2020:  [Tracking AI: The Capability is (Not) Near](http://ecai2020.eu/papers/1009_paper.pdf),  [AI Paradigms and AI Safety: Mapping Artefacts and Techniques to Safety Issues](https://ecai2020.eu/papers/1364_paper.pdf) and [Family and Prejudice: A Behavioural Taxonomy of Machine Learning Techniques](https://ecai2020.eu/papers/1285_paper.pdf)
+
+* Papers accepted for IEEE Transactions on Knowledge and Data Engineering journal: [*CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science Trajectories*](https://doi.org/10.1109/TKDE.2019.2962680), and the IEEE Transactions on Games Journal: [*Dual Indicators to Analyse AI Benchmarks: Difficulty, Discrimination, Ability and Generality*](https://doi.org/10.1109/TG.2018.2883773), 2020
+
+* Paper accepted for the [AAAI/ACM Conference on Artificcial Intelligence, Ethics, and Society](https://www.aies-conference.com/2020/): "Does AI Qualify for the Job? A Bidirectional Model Mapping Labour and AI Intensities", 2020
+
+* Paper accepted for the Artificial Intelligence Journal: [*Item Response Theory in AI: Analysing Machine Learning Classifiers at the Instance Level*](https://authors.elsevier.com/a/1YWua-c5NdLy), 2019
+
+* 2 papers accepted for ECML 2019:  [Automated Data Transformation with Inductive Programming and Dynamic Background Knowledge](https://doi.org/10.1007/978-3-030-46133-1_44) and [ABK-ADAPT: Dynamic Background Knowledge for Automating Data Transformation](https://doi.org/10.1007/978-3-030-46133-1_45)
+
+
+Program Committees
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* IJCAI [2019](https://ijcai19.org/), [2020](https://ijcai20.org/), [2022](https://ijcai-22.org/calls-survey/), [2024](https://ijcai24.org/)		
+* AAAI [2020](https://aaai.org/Conferences/AAAI-20/), [2021](https://aaai.org/Conferences/AAAI-21/), [2022+](https://aaai.org/Conferences/AAAI-22/), [2023+](https://aaai.org/Conferences/AAAI-23/), [2024+](https://aaai.org/aaai-conference/)
+* NIPS/NeurIPS [2018](https://nips.cc/Conferences/2018), [2019](https://nips.cc/Conferences/2019), [2020](https://nips.cc/Conferences/2020), [2021](https://nips.cc/Conferences/2021)
+* UAI [2019](http://auai.org/uai2019/), [2020](http://www.auai.org/uai2020/), [2021](https://www.auai.org/~w-auai/uai2021/), [2022](https://www.auai.org/~w-auai/uai2021/), [2023](https://www.auai.org/uai2023/)
+* ICRL [2019](https://iclr.cc/Conferences/2019), [2020](https://iclr.cc/),  [2021](https://iclr.cc/)
+* ECAI [2020](http://ecai2020.eu/), [2024*(https://www.ecai2024.eu/)
+* ECML [2020](https://ecmlpkdd2020.net/), [2021](https://2021.ecmlpkdd.org/), [2022](https://2022.ecmlpkdd.org/), [2023](https://2023.ecmlpkdd.org/), [2024](https://2024.ecmlpkdd.org/)
+* ACM SIGKDD [2021](https://www.kdd.org/kdd2021/)
+* ICML [2021](https://icml.cc/), [2022](https://icml.cc/), [2023](https://icml.cc/Conferences/2023)
+* AAMAS [2021](https://aamas2021.soton.ac.uk/), [2022](https://aamas2022-conference.auckland.ac.nz/), [2023](https://aamas2023.soton.ac.uk/), [2024](https://www.aamas2024-conference.auckland.ac.nz/)
+* ICMLA [2021](https://www.icmla-conference.org/icmla21/), [2022](https://www.icmla-conference.org/icmla22/), [2023](https://www.icmla-conference.org/icmla23/), [2024](https://www.icmla-conference.org/icmla24/)
+* ACL [2023](https://2023.aclweb.org/)
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
++: Senior PC member
+*: Area Chair
 
-**Markdown generator**
+Organising Committees
+======
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+* Co-organised the Workshop on [**Predictable AI**](https://www.predictable-ai.org/march2023event).
+* Co-organised the 1st [**Evaluation Beyond Metrics (EBeM 2022)**](https://sites.google.com/view/ebem2022?pli=1) Workshop at [IJCAI 2022](https://ijcai-22.org/).
+* Co-organised the 1st [**Evaluating Progress in AI (EPAI2020)**](http://dmip.webs.upv.es/EPAI2020/) Workshop at [ECAI 2020](http://ecai2020.eu/).
+* Co-organised the 1st [**Architectures and Evaluation for Generality, Autonomy & Progress in AI (AEGAP)**](http://cadia.ru.is/workshops/aegap2018/) Workshop at [IJCAI 2018](https://www.ijcai-18.org/).
+* Co-organised the 2nd [**Evaluating General-Purpose AI (EGPAI)**](http://dmip.webs.upv.es/EGPAI2017/) Workshop at [IJCAI 2017](https://ijcai-17.org/).
+* Co-organised the 1st [**Data Wrangling Automation (DWA)**](http://dmip.webs.upv.es/DWA2016/) Workshop at [ICDM 2016](https://icdm2016.eurecat.cat/).
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Editorial Boards
+======
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+* [Machine Learning Journal](https://link.springer.com/journal/10994)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+Awards
+======
+
+* AAAI 2022 [**Blue Sky Idea Runner-Up Award**](https://cccblog.org/2022/03/03/blue-sky-at-aaai-2022/)
+
+* UPV Research Awards 2022: [Excellent Research Publication Award Runner-up](https://www.upv.es/entidades/VINV/menu_urlc.html?/entidades/VINV/info/U0922148.pdf)
+
+* European Commission JRC Excellence Award: 2021 Best Young Researcher
+
+* [**Best Poster Award**]() @ [16th IEEE ICCSE](http://ieee-iccse.org/): [*Project-Based Learning for Scaffolding Data Scientists' Skills*](https://ieeexplore.ieee.org/document/9569289)
+
+* [**Best Paper Award**]() @ [ECAI 2016](http://www.ecai2016.org): [*Making sense of item response theory in machine learning*](http://ebooks.iospress.com/volumearticle/44867)
+
+* [**Best Paper Award Runner-up**](https://www.cser.ac.uk/news/safeai-workshop/) @ [AAAI SafeAI 2019](https://safeai.webs.upv.es/): [*Surveying Safety-relevant AI Characteristics*](http://ceur-ws.org/Vol-2301/paper_22.pdf)
+
+
+* <a href="http://www.upv.es/noticias-upv/noticia-10040-hackforgood-gl-es.html"><b>2nd Prize (Local) & 2nd Prize (National)</b></a> VI Hackathon Telef&oacute;nica <em><a href="http://hackforgood.net/">HackForGood 2018</a></em> - Project <a href="http://users.dsic.upv.es/~flip/particleAI/">ParticleAI</a>.
+
+* <a href="http://noticias.inf.upv.es/?p=7962"><b>1st prize</b></a> <a href="http://dataupv.webs.upv.es/ii-opendatathon-etsinf-upv/">II OpenDatathon ETSINF-UPV 2017</a>: <em>Valencia City council Award</em> - Project <a href="http://safe-tools.dsic.upv.es/bikeflow/"> bikeFlow</a> - <a href="./papers/fmartinez_BikeFlow_TR.pdf">TechReport</a>.
+
+* <a href="http://hackforgood.net/el-resumen-de-hackforgood-2016/"><b>1st Prize (Local) & 3rd Prize (National)</b></a> IV Hackathon Telef&oacute;nica <em><a href="http://hackforgood.net/">HackForGood 2016</a></em> - Project <a href="http://users.dsic.upv.es/~flip/bikeXplorer/">BikeXplorer</a>.					
+
+* <a href="http://noticias.inf.upv.es/?p=7962"><b>1st prize</b></a> <a href="http://dataupv.webs.upv.es/i-opendatathon-etsinf-upv/">I OpenDatathon ETSINF-UPV 2016</a>: <em>BigML Award for Best predictive project</em> - Project <a href="http://users.dsic.upv.es/~flip/trafico/">TrafficXplorer</a>.
+
