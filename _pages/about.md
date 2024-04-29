@@ -13,6 +13,8 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 Recent Highlights
 ======
 
+* Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates and important information!
+  
 * Area Chair for [ECAI 2024](https://www.ecai2024.eu/),  join us in Santiago de Compostela!
 
 * Presented our paper [*"Your Prompt is My Command: On Assessing the Human-Centred Generality of Multimodal Models"*](https://ojs.aaai.org/index.php/AAAI/article/view/30612) in AAAI 2024.
