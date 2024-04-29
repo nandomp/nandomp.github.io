@@ -87,7 +87,7 @@ Editorial Boards
 ======
 
 * [Machine Learning Journal](https://link.springer.com/journal/10994)
-
+* [Discover Data](https://link.springer.com/journal/44248/editors)
 
 Awards
 ======
