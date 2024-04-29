@@ -13,7 +13,7 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 Recent Highlights
 ======
 
-* Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates and important information!
+* Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates!
   
 * Area Chair for [ECAI 2024](https://www.ecai2024.eu/),  join us in Santiago de Compostela!
 
