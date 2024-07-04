@@ -14,6 +14,8 @@ Recent Highlights
 ======
 
 * Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates!
+
+* Two papers accepted for ECAI 2024! [*"Distilling the Effects of Language Model Contamination"*]() & [*"Language Task Difficulty Prediction through LLM-Annotated Meta-Features"*]()
   
 * Area Chair for [ECAI 2024](https://www.ecai2024.eu/),  join us in Santiago de Compostela!
 
