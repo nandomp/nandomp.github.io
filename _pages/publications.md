@@ -20,7 +20,7 @@ author_profile: true
   
 * Wout Schellaert, Ronan Hamon, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo [*"A Proposal for Scaling the Scaling Laws"*](https://aclanthology.org/2024.scalellm-1.1.pdf). Workshop on the [Scaling Behavior of Large Language Models (SCALE-LLM)](https://scale-llm-24.pages.dev/), Malta, 22 March 2024, co-located with [EACL 2024](https://2024.eacl.org/), Association for Computational Linguistic, 2024
 
-* Behzad Mehrbakhsh, Dario Garigliotti, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo [*"Confounders in Instance Variation for the Analysis of Data Contamination"*](). Workshop on [Data Contamination](https://conda-workshop.github.io/) @ [ACL 2024](https://2024.aclweb.org/), Bangkok, Thailand, August 11th to 16th, 2024
+* Behzad Mehrbakhsh, Dario Garigliotti, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo [*"Confounders in Instance Variation for the Analysis of Data Contamination"*](https://xai.w.uib.no/files/2024/07/ACL_2024_CONDA-Confounders.pdf). Workshop on [Data Contamination](https://conda-workshop.github.io/) @ [ACL 2024](https://2024.aclweb.org/), Bangkok, Thailand, August 11th to 16th, 2024
 
 2023
 ----
