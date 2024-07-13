@@ -8,7 +8,7 @@ author_profile: true
 2024 
 ----
 
-* Raül Fabra-Boluda, Cesar Ferri, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Unveiling the Robustness of Machine Learning Families"*](). [Machine Learning: Science and Technology](https://iopscience.iop.org/journal/2632-2153) Journal, IOPScience, pp. 1-21 (to appear), 2024
+* Raül Fabra-Boluda, Cesar Ferri, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Unveiling the Robustness of Machine Learning Families"*](https://doi.org/10.1088/2632-2153/ad62ab). [Machine Learning: Science and Technology](https://iopscience.iop.org/journal/2632-2153) Journal, IOPScience, pp. 1-21 (to appear), 2024
   
 * Raül Fabra-Boluda, Cesar Ferri, José Hernández-Orallo, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Cracking black-box models: Revealing hidden machine learning techniques behind their predictions"*](https://doi.org/10.3233/IDA-230707). [Intelligent Data Analysis](https://content.iospress.com/journals/intelligent-data-analysis/Pre-press/Pre-press) Journal, IOS Press, pp. 1-21 (pre-press), 2024
 
