@@ -15,13 +15,15 @@ Recent Highlights
 
 * Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates!
 
-* Two papers accepted for ECAI 2024! [*"Distilling the Effects of Language Model Contamination"*](https://www.ecai2024.eu/programme/accepted-papers) & [*"Language Task Difficulty Prediction through LLM-Annotated Meta-Features"*](https://www.ecai2024.eu/programme/accepted-papers)
+* Paper accepted in [Complex & Intelligent Systems](https://link.springer.com/journal/40747): [*A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference*]() 
+
+* Two papers accepted for [ECAI 2024](https://www.ecai2024.eu/)! [*"Distilling the Effects of Language Model Contamination"*](https://www.ecai2024.eu/programme/accepted-papers) & [*"Language Task Difficulty Prediction through LLM-Annotated Meta-Features"*](https://www.ecai2024.eu/programme/accepted-papers)
   
 * Area Chair for [ECAI 2024](https://www.ecai2024.eu/),  join us in Santiago de Compostela!
 
 * Presented our paper [*"Your Prompt is My Command: On Assessing the Human-Centred Generality of Multimodal Models"*](https://ojs.aaai.org/index.php/AAAI/article/view/30612) in AAAI 2024.
 
-* Papers accepted in [MLST]():[Unveiling the Robustness of Machine Learning Families](https://doi.org/10.1088/2632-2153/ad62ab) and [IDA](https://www.iospress.com/catalog/journals/intelligent-data-analysis): [Cracking black-box models: Revealing hidden machine learning techniques behind their predictions](https://doi.org/10.3233/IDA-230707)
+* Papers accepted in [MLST](https://iopscience.iop.org/journal/2632-2153):[Unveiling the Robustness of Machine Learning Families](https://doi.org/10.1088/2632-2153/ad62ab) and [IDA](https://www.iospress.com/catalog/journals/intelligent-data-analysis): [Cracking black-box models: Revealing hidden machine learning techniques behind their predictions](https://doi.org/10.3233/IDA-230707)
 
 * Member of the [OECD Expert Group on AI Futures](https://oecd.ai/en/network-of-experts/working-group/10847)
 
