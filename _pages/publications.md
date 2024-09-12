@@ -8,7 +8,7 @@ author_profile: true
 2024 
 ----
 
-* **Fernando Martínez-Plumed**, Gonzalo Jaimovitch-López, Cèsar Ferri, José Hernández-Orallo, Maria José Ramírez-Quintana,: [*"A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference"*](). [Complex & Intelligent Systems](https://link.springer.com/journal/40747) Journal, Springer, To appear.
+* **Fernando Martínez-Plumed**, Gonzalo Jaimovitch-López, Cèsar Ferri, José Hernández-Orallo, Maria José Ramírez-Quintana,: [*"A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference"*](https://doi.org/10.1007/s40747-024-01599-6). [Complex & Intelligent Systems](https://link.springer.com/journal/40747) Journal, Springer.
 
 
 * Raül Fabra-Boluda, Cesar Ferri, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Unveiling the Robustness of Machine Learning Families"*](https://doi.org/10.1088/2632-2153/ad62ab). [Machine Learning: Science and Technology](https://iopscience.iop.org/journal/2632-2153) Journal, IOPScience, pp. 1-21 (to appear), 2024
