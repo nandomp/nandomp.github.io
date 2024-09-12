@@ -15,7 +15,7 @@ Recent Highlights
 
 * Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates!
 
-* Paper accepted in [Complex & Intelligent Systems](https://link.springer.com/journal/40747): [*A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference*]() 
+* Paper accepted in [Complex & Intelligent Systems](https://link.springer.com/journal/40747): [*A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference*](https://link.springer.com/article/10.1007/s40747-024-01599-6) 
 
 * Two papers accepted for [ECAI 2024](https://www.ecai2024.eu/)! [*"Distilling the Effects of Language Model Contamination"*](https://www.ecai2024.eu/programme/accepted-papers) & [*"Language Task Difficulty Prediction through LLM-Annotated Meta-Features"*](https://www.ecai2024.eu/programme/accepted-papers)
   
