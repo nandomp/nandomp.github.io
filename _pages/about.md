@@ -13,6 +13,9 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 Recent Highlights
 ======
 
+* Paper published in **NATURE** :mortar_board::mortar_board::mortar_board: !!!  [Scaled-up, Shaped-up, but Letting Down? Reliability Fluctuations of Large Language Model Families](https://www.nature.com/articles/s41586-024-07930-y)
+  * Some related news: [Bigger AI chatbots more likely to spew nonsense — and people don't always realize](https://www.nature.com/articles/d41586-024-03137-3)
+
 * Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates!
 
 * Paper accepted in [Complex & Intelligent Systems](https://link.springer.com/journal/40747): [*A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference*](https://link.springer.com/article/10.1007/s40747-024-01599-6) 
