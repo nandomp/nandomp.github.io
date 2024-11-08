@@ -14,7 +14,7 @@ Recent Highlights
 ======
 
 * Paper published in **NATURE** 🎓 !!!  [Scaled-up, Shaped-up, but Letting Down? Reliability Fluctuations of Large Language Model Families](https://www.nature.com/articles/s41586-024-07930-y)
-  * Some related news: [Bigger AI chatbots more likely to spew nonsense — and people don't always realize](https://www.nature.com/articles/d41586-024-03137-3)
+  * Nature coverage: [Bigger AI chatbots more likely to spew nonsense — and people don't always realize](https://www.nature.com/articles/d41586-024-03137-3)
 
 * Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates!
 
