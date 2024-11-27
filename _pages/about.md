@@ -10,13 +10,14 @@ redirect_from:
 
 Associate Professor at the Technical University of Valencia ([UPV](http://www.upv.es/)) and former Scientific Project Officer at the [Joint Research Centre](https://ec.europa.eu/jrc/en/about/jrc-site/seville), European Commission. Part of [VRAIN](https://vrain.upv.es/),  [ELP](https://elp.webs.upv.es/) and [DMIP Team](https://dmip.webs.upv.es/). Director of the [Master in Big Data Analytics](http://bigdata.inf.upv.es/) at the UPV. Teaching in the Bachelor's Degree in [Informatics Engineering](https://www.upv.es/titulaciones/GII/) (UPV), [Interactive Technologies](https://www.upv.es/titulaciones/GTI/index-en.html) (EPSG), Master's Degree in [Informatics Engineering](http://muiinf.webs.upv.es/) (UPV), Master's in [Business Administration and Digital Transformation](https://www.cegea.upv.es/es/formacion/) (UPV), and the Master's Degree in [Artificial Intelligence Research](https://www.uimp.es/postgrado/estudios/fichaestudio.php?plan=P04C&any=2022-23&lan=es) ([UIMP](http://www.uimp.es/)). I received a B.Sc. degree in Computer Science (2009), M.Sc. degree in Software Engineering, Formal Methods and Information Systems (2010), a Post-Graduate Diploma in Engineering Business Management (2011) and a Ph.D in Computer Science (2016) from UPV. The evaluation and measurement of intelligent systems is, among other more applied research topics, the main scientific-technical objective of my research agenda.
 
+--> Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates!
+
+
 Recent Highlights
 ======
 
 * Paper published in **NATURE** 🎓 !!!  [Scaled-up, Shaped-up, but Letting Down? Reliability Fluctuations of Large Language Model Families](https://www.nature.com/articles/s41586-024-07930-y)
   * Nature coverage: [Bigger AI chatbots more likely to spew nonsense — and people don't always realize](https://www.nature.com/articles/d41586-024-03137-3)
-
-* Subscribe to our [AI Evaluation Digest](https://aievaluation.substack.com/) for the latest updates!
 
 * Paper accepted in [Complex & Intelligent Systems](https://link.springer.com/journal/40747): [*A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference*](https://link.springer.com/article/10.1007/s40747-024-01599-6) 
 
