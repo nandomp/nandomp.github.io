@@ -7,7 +7,9 @@ author_profile: true
 
 2024 
 ----
-* Lexin Zhou, Wout Schellaert, **Fernando Martínez-Plumed**, Moros-Daval, Y., Cèsar Ferri, & José Hernández-Orallo: [*"Larger and more instructable language models become less reliable"*](https://doi.org/10.1038/s41586-024-07930-y), [Nature](https://www.nature.com/) 634, 61–68, 2024
+* Lexin Zhou, Wout Schellaert, **Fernando Martínez-Plumed**, Moros-Daval, Y., Cèsar Ferri,  José Hernández-Orallo: [*"Larger and more instructable language models become less reliable"*](https://doi.org/10.1038/s41586-024-07930-y), [Nature](https://www.nature.com/) 634, 61–68, 2024
+
+* Wout Schellaert, **Fernando Martínez-Plumed**, José Hernández-Orallo: [*"Analysing the Predictability of Language Model Performance"*](http://dx.doi.org/10.1145/3706118), in [ACM Transactions on Intelligent Systems and Technology](https://dl.acm.org/journal/TIST), 2024
 
 * **Fernando Martínez-Plumed**, Gonzalo Jaimovitch-López, Cèsar Ferri, José Hernández-Orallo, Maria José Ramírez-Quintana,: [*"A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference"*](https://doi.org/10.1007/s40747-024-01599-6). [Complex & Intelligent Systems](https://link.springer.com/journal/40747) Journal, Springer.
 
@@ -21,11 +23,11 @@ author_profile: true
 
 * Wout Schellaert, **Fernando Mart&iacute;nez-Plumed** , Karina Vold, John Burden, Pablo A. M. Casares, Bao Sheng Loe, Roi Reichart, Sean Ó hÉigeartaigh, Anna Korhonen, José Hernández-Orallo: [*"Your Prompt Is My Command: On Assessing the Human-Centred Generality of Multimodal Models (Abstract Reprint)"*](https://doi.org/10.1609/aaai.v38i20.30612),  [38th AAAI Conference on Artificial Intelligence](), pp  22712-22712, Vancouver, Canada, 2024
 
-* Daniel Romero, José Hernández-Orallo, **Fernando Martínez-Plumed**: [*"How Resilient are Language Models to Text Perturbations?"*](), [The 25th International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2024)](https://ideal2024.webs.upv.es/), November 20-22, 2024, LNCS 15346, Valencia, Spain, 2024
+* Daniel Romero, José Hernández-Orallo, **Fernando Martínez-Plumed**: [*"How Resilient are Language Models to Text Perturbations?"*](https://doi.org/10.1007/978-3-031-77731-8_8), [The 25th International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2024)](https://ideal2024.webs.upv.es/), November 20-22, 2024, LNCS 15346, Valencia, Spain, 2024
 
-* Cristina Padro-Ferragut, M. José Ramírez-Quintana, **Fernando Martínez-Plumed**: [*"Noise tolerance and robustness ranking in Machine Learning models"*](), [The 25th International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2024)](https://ideal2024.webs.upv.es/), November 20-22, 2024, LNCS 15346, Valencia, Spain, 2024
+* Cristina Padro-Ferragut, M. José Ramírez-Quintana, **Fernando Martínez-Plumed**: [*"Noise tolerance and robustness ranking in Machine Learning models"*](https://doi.org/10.1007/978-3-031-77738-7_9), [The 25th International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2024)](https://ideal2024.webs.upv.es/), November 20-22, 2024, LNCS 15346, Valencia, Spain, 2024
 
-* Sócrates Llácer Luna, Dario Garigliotti,  **Fernando Martínez-Plumed**, Cèsar Ferri: [*"Automatic PDF Document Classification with Machine Learning"*](), [The 25th International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2024)](https://ideal2024.webs.upv.es/), November 20-22, 2024, LNCS 15346, Valencia, Spain, 2024
+* Sócrates Llácer Luna, Dario Garigliotti,  **Fernando Martínez-Plumed**, Cèsar Ferri: [*"Automatic PDF Document Classification with Machine Learning"*](https://doi.org/10.1007/978-3-031-77731-8_40), [The 25th International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2024)](https://ideal2024.webs.upv.es/), November 20-22, 2024, LNCS 15346, Valencia, Spain, 2024
   
 * Wout Schellaert, Ronan Hamon, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo [*"A Proposal for Scaling the Scaling Laws"*](https://aclanthology.org/2024.scalellm-1.1.pdf). Workshop on the [Scaling Behavior of Large Language Models (SCALE-LLM)](https://scale-llm-24.pages.dev/), Malta, 22 March 2024, co-located with [EACL 2024](https://2024.eacl.org/), Association for Computational Linguistic, 2024
 
