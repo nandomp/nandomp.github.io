@@ -5,11 +5,21 @@ permalink: /publications/
 author_profile: true
 ---
 
+2025
+----
+* Wout Schellaert, **Fernando Martínez-Plumed**, José Hernández-Orallo: [*"Analysing the Predictability of Language Model Performance"*](http://dx.doi.org/10.1145/3706118), in [ACM Transactions on Intelligent Systems and Technology](https://dl.acm.org/journal/TIST), 6(2), 1-26, 2025
+
+* Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, José Hernández-Orallo, Lexin Zhou, Wout Schellaert [*PredictaBoard: Benchmarking LLM Score Predictability*](https://arxiv.org/abs/2502.14445). arXiv preprint arXiv:2502.14445, 2025
+
+* Daniel Romero-Alvarado, Fernando Martínez-Plumed, José Hernández-Orallo [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365). arXiv preprint arXiv:2502.00365.
+
+* Lexin Zhou, Lorenzo Pacchiardi, **0Fernando Martínez-Plumed**, Katherine M. Collins, Yael Moros-Daval, Seraphina Zhang, Qinlin Zhao, Yitian Huang, Luning Sun, Jonathan E. Prunty, Zongqian Li, Pablo Sánchez-García, Kexin Jiang Chen, Pablo A. M. Casares, Jiyun Zu, John Burden, Behzad Mehrbakhsh, David Stillwell, Manuel Cebrian, Jindong Wang, Peter Henderson, Sherry Tongshuang Wu, Patrick C. Kyllonen, Lucy Cheke, Xing Xie, José Hernández-Orallo [*General Scales Unlock AI Evaluation with Explanatory and Predictive Power*](https://arxiv.org/abs/2503.06378). arXiv preprint arXiv:2503.06378, 2025
+
+
+
 2024 
 ----
 * Lexin Zhou, Wout Schellaert, **Fernando Martínez-Plumed**, Moros-Daval, Y., Cèsar Ferri,  José Hernández-Orallo: [*"Larger and more instructable language models become less reliable"*](https://doi.org/10.1038/s41586-024-07930-y), [Nature](https://www.nature.com/) 634, 61–68, 2024
-
-* Wout Schellaert, **Fernando Martínez-Plumed**, José Hernández-Orallo: [*"Analysing the Predictability of Language Model Performance"*](http://dx.doi.org/10.1145/3706118), in [ACM Transactions on Intelligent Systems and Technology](https://dl.acm.org/journal/TIST), 2024
 
 * **Fernando Martínez-Plumed**, Gonzalo Jaimovitch-López, Cèsar Ferri, José Hernández-Orallo, Maria José Ramírez-Quintana,: [*"A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference"*](https://doi.org/10.1007/s40747-024-01599-6). [Complex & Intelligent Systems](https://link.springer.com/journal/40747) Journal, Springer.
 
