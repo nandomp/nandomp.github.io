@@ -13,7 +13,7 @@ author_profile: true
 
 * Daniel Romero-Alvarado, Fernando Martínez-Plumed, José Hernández-Orallo [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365). arXiv preprint arXiv:2502.00365.
 
-* Lexin Zhou, Lorenzo Pacchiardi, **0Fernando Martínez-Plumed**, Katherine M. Collins, Yael Moros-Daval, Seraphina Zhang, Qinlin Zhao, Yitian Huang, Luning Sun, Jonathan E. Prunty, Zongqian Li, Pablo Sánchez-García, Kexin Jiang Chen, Pablo A. M. Casares, Jiyun Zu, John Burden, Behzad Mehrbakhsh, David Stillwell, Manuel Cebrian, Jindong Wang, Peter Henderson, Sherry Tongshuang Wu, Patrick C. Kyllonen, Lucy Cheke, Xing Xie, José Hernández-Orallo [*General Scales Unlock AI Evaluation with Explanatory and Predictive Power*](https://arxiv.org/abs/2503.06378). arXiv preprint arXiv:2503.06378, 2025
+* Lexin Zhou, Lorenzo Pacchiardi, **Fernando Martínez-Plumed**, Katherine M. Collins, Yael Moros-Daval, Seraphina Zhang, Qinlin Zhao, Yitian Huang, Luning Sun, Jonathan E. Prunty, Zongqian Li, Pablo Sánchez-García, Kexin Jiang Chen, Pablo A. M. Casares, Jiyun Zu, John Burden, Behzad Mehrbakhsh, David Stillwell, Manuel Cebrian, Jindong Wang, Peter Henderson, Sherry Tongshuang Wu, Patrick C. Kyllonen, Lucy Cheke, Xing Xie, José Hernández-Orallo [*General Scales Unlock AI Evaluation with Explanatory and Predictive Power*](https://arxiv.org/abs/2503.06378). arXiv preprint arXiv:2503.06378, 2025
 
 
 
