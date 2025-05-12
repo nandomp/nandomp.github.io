@@ -30,7 +30,7 @@ author_profile: true
 
 * Raül Fabra-Boluda, Cesar Ferri, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Unveiling the Robustness of Machine Learning Families"*](https://doi.org/10.1088/2632-2153/ad62ab). [Machine Learning: Science and Technology](https://iopscience.iop.org/journal/2632-2153) Journal, IOPScience, pp. 1-21 (to appear), 2024
   
-* Raül Fabra-Boluda, Cesar Ferri, José Hernández-Orallo, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Cracking black-box models: Revealing hidden machine learning techniques behind their predictions"*](https://doi.org/10.3233/IDA-230707). [Intelligent Data Analysis](https://content.iospress.com/journals/intelligent-data-analysis/Pre-press/Pre-press) Journal, IOS Press, pp. 1-21 (pre-press), 2024
+* Raül Fabra-Boluda, Cesar Ferri, José Hernández-Orallo, Maria Jose Ramírez-Quintana, **Fernando Martínez-Plumed** [*"Cracking black-box models: Revealing hidden machine learning techniques behind their predictions"*](https://doi.org/10.3233/IDA-230707). [Intelligent Data Analysis](https://content.iospress.com/journals/intelligent-data-analysis/Pre-press/Pre-press) Journal, IOS Press, 29(1), pp 28-44.
 
 * Behzad Mehrbakhsh; **Fernando Martínez-Plumed**, Jose Hernández-Orallo, [*"Distilling the Effects of Language Model Contamination"*](http://dx.doi.org/10.3233/FAIA240753), Proceedings of the [27th European Conference on Artificial Intelligence (ECAI 2024)](https://www.ecai2024.eu/),  Santiago de Compostela, Spain, 2024
 
