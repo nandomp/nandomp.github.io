@@ -15,9 +15,14 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 
 Recent Highlights
 ======
+
+* Paper accepted for [IJCAI 2025](https://2025.ijcai.org): [Contamination Budget: Trade-offs between Breadth, Depth and Difficulty]()
+  
 * Check out our new preprints about AI evaluation!
   * 🥇 [*PredictaBoard: Benchmarking LLM Score Predictability*](https://predictaboard.github.io/)
   * 📐 [*General Scales Unlock AI Evaluation with Explanatory and Predictive Power*](https://arxiv.org/pdf/2503.06378) (𝕏 [Thread](https://x.com/lexin_zhou/status/1899271596264825308))
+  * 📎​ [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365)
+
 
 * Paper published in **NATURE** 🎓 !!!  [Scaled-up, Shaped-up, but Letting Down? Reliability Fluctuations of Large Language Model Families](https://www.nature.com/articles/s41586-024-07930-y)
   * Nature coverage: [Bigger AI chatbots more likely to spew nonsense — and people don't always realize](https://www.nature.com/articles/d41586-024-03137-3)
