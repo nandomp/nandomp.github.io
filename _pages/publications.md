@@ -9,6 +9,10 @@ author_profile: true
 ----
 * Wout Schellaert, **Fernando Martínez-Plumed**, José Hernández-Orallo: [*"Analysing the Predictability of Language Model Performance"*](http://dx.doi.org/10.1145/3706118), in [ACM Transactions on Intelligent Systems and Technology](https://dl.acm.org/journal/TIST), 6(2), 1-26, 2025
 
+* Behzad Mehrbakhsh; **Fernando Martínez-Plumed**, Jose Hernández-Orallo, [*"Contamination Budget: Trade-offs Between Breadth, Depth and Difficulty"*](), Proceedings of the [34th International Joint Conference on Artificial Intelligence (IJCAI 2025)](https://2025.ijcai.org/),  Montreal, Canada, August 16 - 22, 2025.
+  
+* Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo, Lexin Zhou, Wout Schellaert: [*"PredictaBoard: Benchmarking LLM Score Predictability"*](https://openreview.net/forum?id=yZO97D7dU5#discussion). In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics ([ACL 2025]([https://data.scitevents.org/](https://2025.aclweb.org/))), Vienna, Austria, July 27–August 1st, 2025.
+
 * Diego Vallejo-Huanga, Cèsar Ferri, **Fernando Martínez-Plumed**. [*ClustSize: An Algorithmic Framework for Size-Constrained Clustering*](). In Proceedings of the 14th International Conference on Data Science, Technology and Applications ([DATA 2025](https://data.scitevents.org/)), ISSN 2184-285X, pages 481-490, 2025.
 
 * Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, José Hernández-Orallo, Lexin Zhou, Wout Schellaert [*PredictaBoard: Benchmarking LLM Score Predictability*](https://arxiv.org/abs/2502.14445). arXiv preprint arXiv:2502.14445, 2025
