@@ -17,6 +17,8 @@ Recent Highlights
 ======
 
 * Paper accepted for [IJCAI 2025](https://2025.ijcai.org): [Contamination Budget: Trade-offs between Breadth, Depth and Difficulty]()
+* Paper accepted for [ACL 2025](https://2025.ijcai.org) Findings: [PredictaBoard: Benchmarking LLM Score Predictability](https://openreview.net/forum?id=yZO97D7dU5#discussion)
+
   
 * Check out our new preprints about AI evaluation!
   * 🥇 [*PredictaBoard: Benchmarking LLM Score Predictability*](https://predictaboard.github.io/)
