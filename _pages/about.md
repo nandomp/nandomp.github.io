@@ -17,11 +17,10 @@ Recent Highlights
 ======
 
 * Paper accepted for [IJCAI 2025](https://2025.ijcai.org): [Contamination Budget: Trade-offs between Breadth, Depth and Difficulty]()
-* Paper accepted for [ACL 2025](https://2025.ijcai.org) Findings: [PredictaBoard: Benchmarking LLM Score Predictability](https://openreview.net/forum?id=yZO97D7dU5#discussion)
+* Paper accepted for [ACL 2025](https://2025.ijcai.org) Findings: 🥇 [PredictaBoard: Benchmarking LLM Score Predictability](https://openreview.net/forum?id=yZO97D7dU5#discussion)
 
   
 * Check out our new preprints about AI evaluation!
-  * 🥇 [*PredictaBoard: Benchmarking LLM Score Predictability*](https://predictaboard.github.io/)
   * 📐 [*General Scales Unlock AI Evaluation with Explanatory and Predictive Power*](https://arxiv.org/pdf/2503.06378) (𝕏 [Thread](https://x.com/lexin_zhou/status/1899271596264825308))
   * 📎​ [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365)
 
