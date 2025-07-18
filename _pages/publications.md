@@ -19,7 +19,7 @@ author_profile: true
 
 * Diego Vallejo-Huanga, Cèsar Ferri, **Fernando Martínez-Plumed**. [*Cardinality-Constrained Clustering via BAT Metaheuristic Optimization*](). In Proceedings of the 22nd International Conference on Modeling Decisions for Artificial Intelligence ([MDAI 2025](https://www.mdai.cat/mdai2025/)), València, Spain, September 15-18, 2025.
   
-* Diego Vallejo-Huanga, Cèsar Ferri, **Fernando Martínez-Plumed**. [*ClustSize: An Algorithmic Framework for Size-Constrained Clustering*](). In Proceedings of the 14th International Conference on Data Science, Technology and Applications ([DATA 2025](https://data.scitevents.org/)), ISSN 2184-285X, pages 481-490, 2025.
+* Diego Vallejo-Huanga, Cèsar Ferri, **Fernando Martínez-Plumed**. [*ClustSize: An Algorithmic Framework for Size-Constrained Clustering*](https://doi.org/10.5220/0013558900003967). In Proceedings of the 14th International Conference on Data Science, Technology and Applications ([DATA 2025](https://data.scitevents.org/)), ISBN 978-989-758-758-0; ISSN 2184-285X, SciTePress, pages 481-490, 2025.
 
 * Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, José Hernández-Orallo, Lexin Zhou, Wout Schellaert [*PredictaBoard: Benchmarking LLM Score Predictability*](https://arxiv.org/abs/2502.14445). arXiv preprint arXiv:2502.14445, 2025
 
