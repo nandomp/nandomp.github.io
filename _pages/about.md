@@ -16,7 +16,7 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 Recent Highlights
 ======
 
-* Paper published in **Nature Scientific Reports** [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://www.nature.com/articles/s41598-025-06071-0)
+* Papers published in **Nature Scientific Reports** [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://www.nature.com/articles/s41598-025-06071-0) and in **Intelligent Transportation Systems** [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*]().
   
 * Paper accepted for [IJCAI 2025](https://2025.ijcai.org): [Contamination Budget: Trade-offs between Breadth, Depth and Difficulty]()
   
