@@ -11,17 +11,19 @@ author_profile: true
 
 * Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, **Fernando Martínez-Plumed**, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo: [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://doi.org/10.1038/s41598-025-06071-0), in [Nature Scientific Reports](https://www.nature.com/srep/), 15, Article number: 21695, 2025.
 
+* Andres L. Marin, **Fernando Martínez-Plumed**, Michail A. Makridisb, Alessandro Tansinic, Luca Pulvirentid, Jaime Suarez Corujoc, Dimitrios Komnosc, María José Ramírez-Quintanaa, Carlos Monserrat, Georgios Fontaras: [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*](), in Taylor & Francis Journal of [Intelligent Transportation Systems: Technology, Planning, and Operations](https://www.tandfonline.com/journals/gits20), to appear.
+
 * Behzad Mehrbakhsh, **Fernando Martínez-Plumed**, Jose Hernández-Orallo, [*"Contamination Budget: Trade-offs Between Breadth, Depth and Difficulty"*](), Proceedings of the [34th International Joint Conference on Artificial Intelligence (IJCAI 2025)](https://2025.ijcai.org/),  Montreal, Canada, August 16 - 22, 2025.
   
 * Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo, Lexin Zhou, Wout Schellaert: [*"PredictaBoard: Benchmarking LLM Score Predictability"*](https://openreview.net/forum?id=yZO97D7dU5#discussion). In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics ([ACL 2025]([https://data.scitevents.org/](https://2025.aclweb.org/))), Vienna, Austria, July 27–August 1st, 2025.
 
-* Diego Vallejo-Huanga, Cèsar Ferri, **Fernando Martínez-Plumed**. [*Refining Community Detection in Social Networks: Agglomerative and Divisive Methods with Size Constraints*](). In Proceedings of the 22nd International Conference on Modeling Decisions for Artificial Intelligence ([MDAI 2025](https://www.mdai.cat/mdai2025/)), València, Spain, September 15-18, 2025.
+* Diego Vallejo-Huanga, Cèsar Ferri, **Fernando Martínez-Plumed**. [*Refining Community Detection in Social Networks: Agglomerative and Divisive Methods with Size Constraints*](https://doi.org/10.1007/978-3-032-00891-6_26). In Proceedings of the 22nd International Conference on Modeling Decisions for Artificial Intelligence ([MDAI 2025](https://www.mdai.cat/mdai2025/)), València, Spain, September 15-18, 2025.
 
-* Diego Vallejo-Huanga, Cèsar Ferri, **Fernando Martínez-Plumed**. [*Cardinality-Constrained Clustering via BAT Metaheuristic Optimization*](). In Proceedings of the 22nd International Conference on Modeling Decisions for Artificial Intelligence ([MDAI 2025](https://www.mdai.cat/mdai2025/)), València, Spain, September 15-18, 2025.
-  
 * Diego Vallejo-Huanga, Cèsar Ferri, **Fernando Martínez-Plumed**. [*ClustSize: An Algorithmic Framework for Size-Constrained Clustering*](https://doi.org/10.5220/0013558900003967). In Proceedings of the 14th International Conference on Data Science, Technology and Applications ([DATA 2025](https://data.scitevents.org/)), ISBN 978-989-758-758-0; ISSN 2184-285X, SciTePress, pages 481-490, 2025.
 
-* Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, José Hernández-Orallo, Lexin Zhou, Wout Schellaert [*PredictaBoard: Benchmarking LLM Score Predictability*](https://arxiv.org/abs/2502.14445). arXiv preprint arXiv:2502.14445, 2025
+* Lorenzo Pacchiardi, John Burden, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo, Emilia Gomez, David Fernández-Llorca: [*"A Framework for the Categorisation of General-Purpose AI Models under the EU AI Act"*](https://openreview.net/forum?id=uE33aEsyX1), in [NeurIPS 2025](https://neurips.cc/) Workshop on [Regulatable ML](https://regulatableml.github.io/#overview), San Diego, Dec 2-7th, 2025
+
+* Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, José Hernández-Orallo, Lexin Zhou, Wout Schellaert: [*"PredictaBoard: Benchmarking LLM Score Predictability"*](https://arxiv.org/abs/2502.14445). arXiv preprint arXiv:2502.14445, 2025
 
 * Daniel Romero-Alvarado, **Fernando Martínez-Plumed**, José Hernández-Orallo [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365). arXiv preprint arXiv:2502.00365.
 
