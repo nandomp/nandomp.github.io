@@ -16,7 +16,7 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 Recent Highlights
 ======
 
-* :car: :electric_plug: Papers published in **Nature Scientific Reports** [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://www.nature.com/articles/s41598-025-06071-0) and in **Intelligent Transportation Systems** [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*]()
+* :car::electric_plug: Papers published in **Nature Scientific Reports** [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://www.nature.com/articles/s41598-025-06071-0) and in **Intelligent Transportation Systems** [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*]()
   
 * Paper accepted for [NeurIPS 2025](https://neurips.cc/) Workshop on [Regulatable ML](https://regulatableml.github.io/#overview) [*"A Framework for the Categorisation of General-Purpose AI Models under the EU AI Act"*](https://openreview.net/forum?id=uE33aEsyX1)
 
