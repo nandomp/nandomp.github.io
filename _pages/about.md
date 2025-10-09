@@ -20,12 +20,12 @@ Recent Highlights
 
 * Paper accepted for [NeurIPS 2025](https://neurips.cc/) Workshop on [Regulatable ML](https://regulatableml.github.io/#overview) [*"A Framework for the Categorisation of General-Purpose AI Models under the EU AI Act"*](https://openreview.net/forum?id=uE33aEsyX1)
 
-* Papers accepted for MDAI 2025  [*"Refining Community Detection in Social Networks: Agglomerative and Divisive Methods with Size Constraints"*](https://doi.org/10.1007/978-3-032-00891-6_26) and DATA 2025 [*"ClustSize: An Algorithmic Framework for Size-Constrained Clustering"*](https://doi.org/10.5220/0013558900003967)
-
 * Paper accepted for [IJCAI 2025](https://2025.ijcai.org): [Contamination Budget: Trade-offs between Breadth, Depth and Difficulty]()
   
 * Paper accepted for [ACL 2025](https://2025.ijcai.org) Findings: 🥇 [PredictaBoard: Benchmarking LLM Score Predictability](https://openreview.net/forum?id=yZO97D7dU5#discussion)
 
+* Papers accepted for MDAI 2025  [*"Refining Community Detection in Social Networks: Agglomerative and Divisive Methods with Size Constraints"*](https://doi.org/10.1007/978-3-032-00891-6_26) and DATA 2025 [*"ClustSize: An Algorithmic Framework for Size-Constrained Clustering"*](https://doi.org/10.5220/0013558900003967)
+  
 * Check out our new preprints about AI evaluation!
   * 📐 [*General Scales Unlock AI Evaluation with Explanatory and Predictive Power*](https://arxiv.org/pdf/2503.06378) (𝕏 [Thread](https://x.com/lexin_zhou/status/1899271596264825308))
   * 📎​ [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365)
