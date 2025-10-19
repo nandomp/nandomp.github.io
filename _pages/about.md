@@ -16,7 +16,7 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 Recent Highlights
 ======
 
-* Two new publications [*"A Framework for General-Purpose AI Model Categorisation"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143256) and [*"A Framework to Categorise Modified General-Purpose AI Models as New Models Based on Behavioural Changes"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143257) that advance GPAI categorisation and regulatory assessment under the EU AI Act 🇪🇺
+* Two new publications [*"A Framework for General-Purpose AI Model Categorisation"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143256) and [*"A Framework to Categorise Modified General-Purpose AI Models as New Models Based on Behavioural Changes"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143257) that advance GPAI categorisation and regulatory assessment under the 🇪🇺 AI Act 
 
 * 🚗🔌 Papers published in **Nature Scientific Reports**: [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://www.nature.com/articles/s41598-025-06071-0) and in **Intelligent Transportation Systems**: [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*](https://doi.org/10.1080/15472450.2025.2576907)
 
