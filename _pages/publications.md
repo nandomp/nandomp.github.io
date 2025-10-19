@@ -11,7 +11,7 @@ author_profile: true
 
 * Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, **Fernando Martínez-Plumed**, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo: [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://doi.org/10.1038/s41598-025-06071-0), in [Nature Scientific Reports](https://www.nature.com/srep/), 15, Article number: 21695, 2025.
 
-* Andres L. Marin, **Fernando Martínez-Plumed**, Michail A. Makridisb, Alessandro Tansinic, Luca Pulvirentid, Jaime Suarez Corujoc, Dimitrios Komnosc, María José Ramírez-Quintanaa, Carlos Monserrat, Georgios Fontaras: [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*](), in Taylor & Francis Journal of [Intelligent Transportation Systems: Technology, Planning, and Operations](https://www.tandfonline.com/journals/gits20), to appear.
+* Andres L. Marin, **Fernando Martínez-Plumed**, Michail A. Makridisb, Alessandro Tansinic, Luca Pulvirentid, Jaime Suarez Corujoc, Dimitrios Komnosc, María José Ramírez-Quintanaa, Carlos Monserrat, Georgios Fontaras: [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*](https://doi.org/10.1080/15472450.2025.2576907), in Taylor & Francis Journal of [Intelligent Transportation Systems: Technology, Planning, and Operations](https://www.tandfonline.com/journals/gits20), to appear.
 
 * Behzad Mehrbakhsh, **Fernando Martínez-Plumed**, Jose Hernández-Orallo, [*"Contamination Budget: Trade-offs Between Breadth, Depth and Difficulty"*](), Proceedings of the [34th International Joint Conference on Artificial Intelligence (IJCAI 2025)](https://2025.ijcai.org/),  Montreal, Canada, August 16 - 22, 2025.
   
@@ -22,6 +22,10 @@ author_profile: true
 * Diego Vallejo-Huanga, Cèsar Ferri, **Fernando Martínez-Plumed**. [*ClustSize: An Algorithmic Framework for Size-Constrained Clustering*](https://doi.org/10.5220/0013558900003967). In Proceedings of the 14th International Conference on Data Science, Technology and Applications ([DATA 2025](https://data.scitevents.org/)), ISBN 978-989-758-758-0; ISSN 2184-285X, SciTePress, pages 481-490, 2025.
 
 * Lorenzo Pacchiardi, John Burden, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo, Emilia Gomez, David Fernández-Llorca: [*"A Framework for the Categorisation of General-Purpose AI Models under the EU AI Act"*](https://openreview.net/forum?id=uE33aEsyX1), in [NeurIPS 2025](https://neurips.cc/) Workshop on [Regulatable ML](https://regulatableml.github.io/#overview), San Diego, Dec 2-7th, 2025
+
+* John Burden, Lorenzo Pacchiardi, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo: [*"A Framework for General-Purpose AI Model Categorisation*](https://dx.doi.org/10.2760/5330387), FERNANDEZ LLORCA, D. and GOMEZ, E. (editors), Publications Office of the European Union, Luxembourg, 2025, https://data.europa.eu/doi/10.2760/5330387, JRC143256.
+
+* Lorenzo Pacchiardi, John Burden, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo: [*"A Framework to Categorise Modified General-Purpose AI Models as New Models Based on Behavioural Changes*](https://dx.doi.org/10.2760/4372557), FERNANDEZ LLORCA, D. and GOMEZ, E. (editors), Publications Office of the European Union, Luxembourg, 2025, https://data.europa.eu/doi/10.2760/4372557, JRC143257.
 
 * Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, José Hernández-Orallo, Lexin Zhou, Wout Schellaert: [*"PredictaBoard: Benchmarking LLM Score Predictability"*](https://arxiv.org/abs/2502.14445). arXiv preprint arXiv:2502.14445, 2025
 
