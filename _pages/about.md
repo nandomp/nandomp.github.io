@@ -18,7 +18,7 @@ Recent Highlights
 
 * Two new publications [*"A Framework for General-Purpose AI Model Categorisation"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143256) and [*"A Framework to Categorise Modified General-Purpose AI Models as New Models Based on Behavioural Changes"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143257) that advance GPAI categorisation and regulatory assessment under the 🇪🇺 AI Act 
 
-* 🚗🔌 Papers published in **Nature Scientific Reports**: [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://www.nature.com/articles/s41598-025-06071-0) and in **Intelligent Transportation Systems**: [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*](https://doi.org/10.1080/15472450.2025.2576907)
+* 🚗🔌 Papers published in **Nature Scientific Reports**: [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://www.nature.com/articles/s41598-025-06071-0), **IEEE Transactions on Intelligent Transportation Systems**: [*"Human or Machine: A novel deep learning framework for autonomous driver identification based on vehicle trajectories"*], and in **Intelligent Transportation Systems**: [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*](https://doi.org/10.1080/15472450.2025.2576907)
 
 * Paper accepted for [NeurIPS 2025](https://neurips.cc/) Workshop on [Regulatable ML](https://regulatableml.github.io/#overview): [*"A Framework for the Categorisation of General-Purpose AI Models under the EU AI Act"*](https://openreview.net/forum?id=uE33aEsyX1)
 
