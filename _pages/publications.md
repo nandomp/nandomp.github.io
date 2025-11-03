@@ -34,10 +34,6 @@ author_profile: true
 * Daniel Romero-Alvarado, **Fernando Martínez-Plumed**, José Hernández-Orallo [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365). arXiv preprint arXiv:2502.00365.
 
 * Lexin Zhou, Lorenzo Pacchiardi, **Fernando Martínez-Plumed**, Katherine M. Collins, Yael Moros-Daval, Seraphina Zhang, Qinlin Zhao, Yitian Huang, Luning Sun, Jonathan E. Prunty, Zongqian Li, Pablo Sánchez-García, Kexin Jiang Chen, Pablo A. M. Casares, Jiyun Zu, John Burden, Behzad Mehrbakhsh, David Stillwell, Manuel Cebrian, Jindong Wang, Peter Henderson, Sherry Tongshuang Wu, Patrick C. Kyllonen, Lucy Cheke, Xing Xie, José Hernández-Orallo [*General Scales Unlock AI Evaluation with Explanatory and Predictive Power*](https://arxiv.org/abs/2503.06378). arXiv preprint arXiv:2503.06378, 2025
-  
-* Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, **Fernando Martínez-Plumed**, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo. [*Comparative Analysis of Public and Expert Perceptions of Electrified Vehicles in the European Union*](https://doi.org/10.21203/rs.3.rs-5496987/v1). Preprint, 2025.
-
-
 
 
 2024 
