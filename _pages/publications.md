@@ -5,13 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
+2026
+----
+
+* Andres L. Marin, **Fernando Martínez-Plumed**,  María José Ramírez-Quintana, Konstantinos Mattas, Georgios Fontaras; Anastasios Kouvelas, Michail Makridis: [*"Human or Machine: A novel deep learning framework for autonomous driver identification based on vehicle trajectories"*](https://ieeexplore.ieee.org/document/11247850), in [IEEE Transactions on Intelligent Transportation Systems](https://ieee-itss.org/pub/t-its/), vol. 27, no. 1, pp. 1388-1399, 2026.
+
 2025
 ----
-* Wout Schellaert, **Fernando Martínez-Plumed**, José Hernández-Orallo: [*"Analysing the Predictability of Language Model Performance"*](http://dx.doi.org/10.1145/3706118), in [ACM Transactions on Intelligent Systems and Technology](https://dl.acm.org/journal/TIST), 6(2), 1-26, 2025
+* Wout Schellaert, **Fernando Martínez-Plumed**, José Hernández-Orallo: [*"Analysing the Predictability of Language Model Performance"*](http://dx.doi.org/10.1145/3706118), in [ACM Transactions on Intelligent Systems and Technology](https://dl.acm.org/journal/TIST), 6(2), 1-26, 2025.
 
 * Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, **Fernando Martínez-Plumed**, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo: [*"Comparative analysis of public and expert perceptions of electrified vehicles in the European Union"*](https://doi.org/10.1038/s41598-025-06071-0), in [Nature Scientific Reports](https://www.nature.com/srep/), 15, Article number: 21695, 2025.
-
-* Andres L. Marin, **Fernando Martínez-Plumed**,  María José Ramírez-Quintana, Konstantinos Mattas, Georgios Fontaras; Anastasios Kouvelas, Michail Makridis: [*"Human or Machine: A novel deep learning framework for autonomous driver identification based on vehicle trajectories"*](https://ieeexplore.ieee.org/document/11247850), in [IEEE Transactions on Intelligent Transportation Systems](https://ieee-itss.org/pub/t-its/), to appear.
 
 * Andres L. Marin, **Fernando Martínez-Plumed**, Michail A. Makridisb, Alessandro Tansinic, Luca Pulvirentid, Jaime Suarez Corujoc, Dimitrios Komnosc, María José Ramírez-Quintana, Carlos Monserrat, Georgios Fontaras: [*"Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"*](https://doi.org/10.1080/15472450.2025.2576907), in Taylor & Francis Journal of [Intelligent Transportation Systems: Technology, Planning, and Operations](https://www.tandfonline.com/journals/gits20), to appear.
 
@@ -28,6 +31,8 @@ author_profile: true
 * John Burden, Lorenzo Pacchiardi, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo: [*"A Framework for General-Purpose AI Model Categorisation*](https://dx.doi.org/10.2760/5330387), FERNANDEZ LLORCA, D. and GOMEZ, E. (editors), Publications Office of the European Union, Luxembourg, 2025, https://data.europa.eu/doi/10.2760/5330387, JRC143256.
 
 * Lorenzo Pacchiardi, John Burden, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo: [*"A Framework to Categorise Modified General-Purpose AI Models as New Models Based on Behavioural Changes*](https://dx.doi.org/10.2760/4372557), FERNANDEZ LLORCA, D. and GOMEZ, E. (editors), Publications Office of the European Union, Luxembourg, 2025, https://data.europa.eu/doi/10.2760/4372557, JRC143257.
+
+* 
 
 * Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, José Hernández-Orallo, Lexin Zhou, Wout Schellaert: [*"PredictaBoard: Benchmarking LLM Score Predictability"*](https://arxiv.org/abs/2502.14445). arXiv preprint arXiv:2502.14445, 2025
 
