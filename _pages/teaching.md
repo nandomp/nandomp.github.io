@@ -26,7 +26,7 @@ author_profile: true
 * Sistemas de Información Estratégicos (SIE): 2013/14 - present
 * Métodos Formales Industriales (MFI): 2022/23 - present
 * Bases de Datos y Sistemas de Información (BDA): 2023/24
-* Tecnología de Bases de Datos (TBD): 2023/2024 - present
+* Tecnología de Bases de Datos (TBD): 2023/2024 - 2024/25
 
 ### [Bachelor's Degree in Interactive Technologies](https://www.upv.es/titulaciones/GTI/) - EPSG - UPV
 
