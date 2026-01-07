@@ -38,11 +38,16 @@ author_profile: true
 
 * Data Science (CDA): 2017/18 - 2022/23
 
+### [Master IA & Big Data Analytics](https://iabigdata.webs.upv.es/) - ETSInf - UPV
+
+
+* R for Data Science: 2025/2026 - 
+
 ### [Master Big Data Analytics](https://bigdata.webs.upv.es/) - ETSInf - UPV
 
 
-* Introducción al Business Intelligence: 2014/2015 - present
-* Visualización de Información Médica: 2015/16 - present
+* Introducción al Business Intelligence: 2014/2015 - 2024/2025
+* Visualización de Información Médica: 2015/16 - 2024/2025
 
 ### [Master Universitario en Investigación en Inteligencia Artificial](http://www.aepia.org/aepia/index.php/masteria)  - UIMP - AEPIA
 
