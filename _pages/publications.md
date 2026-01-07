@@ -32,9 +32,12 @@ author_profile: true
 
 * Lorenzo Pacchiardi, John Burden, **Fernando Martínez-Plumed**, Jose Hernandez-Orallo: [*"A Framework to Categorise Modified General-Purpose AI Models as New Models Based on Behavioural Changes*](https://dx.doi.org/10.2760/4372557), FERNANDEZ LLORCA, D. and GOMEZ, E. (editors), Publications Office of the European Union, Luxembourg, 2025, https://data.europa.eu/doi/10.2760/4372557, JRC143257.
 
-* 
+* Daniel Romero Alvarado, Yael Moros Daval, Behzad Mehrbakhsh, **Fernando Martínez Plumed**: [*"Aprender IA sin necesidad de programar: Una propuesta educativa basada en herramientas visuales"*](https://doi.org/10.4995/INRED2025.2025.20651), XI Congreso Nacional de Innovación Educativa y Docencia en Red (IN-RED 2025), June 17 - 18,  2025.
 
-* Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, José Hernández-Orallo, Lexin Zhou, Wout Schellaert: [*"PredictaBoard: Benchmarking LLM Score Predictability"*](https://arxiv.org/abs/2502.14445). arXiv preprint arXiv:2502.14445, 2025
+* Yael Moros Daval, Daniel Romero Alvarado,  Behzad Mehrbakhsh, **Fernando Martínez Plumed**: [*"La integración de la IA en la educación superior: oportunidades, retos y recomendaciones
+"*](https://doi.org/10.4995/INRED2025.2025.20652), XI Congreso Nacional de Innovación Educativa y Docencia en Red (IN-RED 2025), June 17 - 18,  2025.
+
+* Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, **Fernando Martínez-Plumed**, José Hernández-Orallo, Lexin Zhou, Wout Schellaert: [*"PredictaBoard: Benchmarking LLM Score Predictability"*](https://arxiv.org/abs/2502.14445). arXiv preprint arXiv:2502.14445, 2025.
 
 * Daniel Romero-Alvarado, **Fernando Martínez-Plumed**, José Hernández-Orallo [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365). arXiv preprint arXiv:2502.00365.
 
