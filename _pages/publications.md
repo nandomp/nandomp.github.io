@@ -7,6 +7,7 @@ author_profile: true
 
 2026
 ----
+* Lexin Zhou, Pablo A. Moreno-Casares, **Fernando Martínez-Plumed**, John Burden, Ryan Burnell, Lucy Cheke, Cèsar Ferri, Alexandru Marcoci, Behzad Mehrbakhsh, Yael Moros-Daval, Seán Ó hÉigeartaigh, Danaja Rutar, Wout Schellaert, Konstantinos Voudouris, José Hernández-Orallo: [*"Predictable Artificial Intelligence"*]()., [Artificial Intelligence Journal](https://www.journals.elsevier.com/artificial-intelligence), Elsevier Publications, To appear.  See arXiv [here](https://arxiv.org/abs/2310.06167).
 
 * Andres L. Marin, **Fernando Martínez-Plumed**,  María José Ramírez-Quintana, Konstantinos Mattas, Georgios Fontaras; Anastasios Kouvelas, Michail Makridis: [*"Human or Machine: A novel deep learning framework for autonomous driver identification based on vehicle trajectories"*](https://ieeexplore.ieee.org/document/11247850), in [IEEE Transactions on Intelligent Transportation Systems](https://ieee-itss.org/pub/t-its/), vol. 27, no. 1, pp. 1388-1399, 2026.
 
