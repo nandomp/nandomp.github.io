@@ -11,6 +11,8 @@ author_profile: true
 
 * Andres L. Marin, **Fernando Martínez-Plumed**,  María José Ramírez-Quintana, Konstantinos Mattas, Georgios Fontaras; Anastasios Kouvelas, Michail Makridis: [*"Human or Machine: A novel deep learning framework for autonomous driver identification based on vehicle trajectories"*](https://ieeexplore.ieee.org/document/11247850), in [IEEE Transactions on Intelligent Transportation Systems](https://ieee-itss.org/pub/t-its/), vol. 27, no. 1, pp. 1388-1399, 2026.
 
+* Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, **Fernando Martínez-Plumed**, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo: [*"Analysis of Public and Expert Views on Electrified Vehicles: A Comparative Study in the European Union"*](), in [Transport Research Arena (TRA 2026)](https://traconference.eu/), Oral Presentation, 18-21 May, 2026.
+
 2025
 ----
 * Wout Schellaert, **Fernando Martínez-Plumed**, José Hernández-Orallo: [*"Analysing the Predictability of Language Model Performance"*](http://dx.doi.org/10.1145/3706118), in [ACM Transactions on Intelligent Systems and Technology](https://dl.acm.org/journal/TIST), 6(2), 1-26, 2025.
