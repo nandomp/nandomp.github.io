@@ -16,7 +16,7 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 Recent Highlights
 ======
 
-* Paper accepted for the **Artificial Intelligence Journal**: [*"Predictable Artificial Intelligence"*](). See arXiv [here](https://arxiv.org/abs/2310.06167).
+* Paper accepted for the **Artificial Intelligence Journal**: [*"Predictable Artificial Intelligence"*](https://doi.org/10.1016/j.artint.2026.104491)
   
 * Two new publications [*"A Framework for General-Purpose AI Model Categorisation"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143256) and [*"A Framework to Categorise Modified General-Purpose AI Models as New Models Based on Behavioural Changes"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143257) that advance GPAI categorisation and regulatory assessment under the 🇪🇺 AI Act 
 
