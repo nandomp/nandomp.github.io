@@ -17,6 +17,8 @@ Recent Highlights
 ======
 
 * Paper accepted for the **Artificial Intelligence Journal**: [*"Predictable Artificial Intelligence"*](https://doi.org/10.1016/j.artint.2026.104491)
+
+* Paper published in **International Journal of Data Science and Analytics**: [*"Robustness under noise: assessing the impact of perturbed key attributes on machine learning models"*](https://doi.org/10.1007/s41060-025-01006-4)
   
 * Two new publications [*"A Framework for General-Purpose AI Model Categorisation"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143256) and [*"A Framework to Categorise Modified General-Purpose AI Models as New Models Based on Behavioural Changes"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143257) that advance GPAI categorisation and regulatory assessment under the 🇪🇺 AI Act 
 
