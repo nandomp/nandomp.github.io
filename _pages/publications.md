@@ -15,7 +15,7 @@ author_profile: true
 
 * Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, **Fernando Martínez-Plumed**, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo: [*"Analysis of Public and Expert Views on Electrified Vehicles: A Comparative Study in the European Union"*](), in [Transport Research Arena (TRA 2026)](https://traconference.eu/), Oral Presentation, 18-21 May, 2026.
 
-* Casas, P., Fernández-Macías, E., **Martínez-Plumed, F.**, Gómez, E., González-Vázquez, I., Salotti, S., Revisiting the occupational impact of AI in the generative AI era - JRC Working Papers Series on Labour, Education and Technology 2026/02, European Commission, Seville, 2026, JRC14583.
+* Casas, P., Fernández-Macías, E., **Martínez-Plumed, F.**, Gómez, E., González-Vázquez, I., Salotti, S., Revisiting the occupational impact of AI in the generative AI era - JRC Working Papers Series on Labour, Education and Technology 2026/02, European Commission, 2026, JRC14583.
   
 
 2025
