@@ -16,7 +16,11 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 Recent Highlights
 ======
 
-* Paper accepted for the **Artificial Intelligence Journal**: [*"Predictable Artificial Intelligence"*](https://doi.org/10.1016/j.artint.2026.104491)
+* Paper published in **NATURE**:  [General scales unlock ai evaluation with explanatory and predictive power](https://www.nature.com/articles/s41586-026-10303-2)
+
+* Paper published in **Artificial Intelligence Journal**: [*"Predictable Artificial Intelligence"*](https://doi.org/10.1016/j.artint.2026.104491)
+
+* Paper accepted in [ICPR 2026](https://icpr2026.org/): [*"Semi-Supervised Soft Clustering with Flexible Cardinality"*]()
 
 * Paper published in **International Journal of Data Science and Analytics**: [*"Robustness under noise: assessing the impact of perturbed key attributes on machine learning models"*](https://doi.org/10.1007/s41060-025-01006-4)
   
