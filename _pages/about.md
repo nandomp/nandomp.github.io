@@ -16,7 +16,7 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 Recent Highlights
 ======
 
-* Paper published in **NATURE**:  [General scales unlock ai evaluation with explanatory and predictive power](https://www.nature.com/articles/s41586-026-10303-2)
+* Paper published in **NATURE** 🎓:  [General scales unlock ai evaluation with explanatory and predictive power](https://www.nature.com/articles/s41586-026-10303-2)
 
 * Paper published in **Artificial Intelligence Journal**: [*"Predictable Artificial Intelligence"*](https://doi.org/10.1016/j.artint.2026.104491)
 
