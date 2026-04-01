@@ -20,7 +20,7 @@ Recent Highlights
 
 * Paper published in **Artificial Intelligence Journal**: [*"Predictable Artificial Intelligence"*](https://doi.org/10.1016/j.artint.2026.104491)
 
-* Paper accepted in [ICPR 2026](https://icpr2026.org/): [*"Semi-Supervised Soft Clustering with Flexible Cardinality"*]()
+* Paper accepted for [ICPR 2026](https://icpr2026.org/): [*"Semi-Supervised Soft Clustering with Flexible Cardinality"*]()
 
 * Paper published in **International Journal of Data Science and Analytics**: [*"Robustness under noise: assessing the impact of perturbed key attributes on machine learning models"*](https://doi.org/10.1007/s41060-025-01006-4)
   
