@@ -8,7 +8,7 @@ author_profile: true
 2026
 ----
 
-* Lexin Zhou, Lorenzo Pacchiardi, **Fernando Martínez-Plumed**, ..., José Hernández-Orallo: [General scales unlock ai evaluation with explanatory and predictive power](https://www.nature.com/articles/s41586-026-10303-2), [Nature](https://www.nature.com/), 652 (810).
+* Lexin Zhou, Lorenzo Pacchiardi, **Fernando Martínez-Plumed**, ..., José Hernández-Orallo: [*"General scales unlock ai evaluation with explanatory and predictive power"*](https://www.nature.com/articles/s41586-026-10303-2), [Nature](https://www.nature.com/), 652 (810).
 
 * Lexin Zhou, Pablo A. Moreno-Casares, **Fernando Martínez-Plumed**, John Burden, Ryan Burnell, Lucy Cheke, Cèsar Ferri, Alexandru Marcoci, Behzad Mehrbakhsh, Yael Moros-Daval, Seán Ó hÉigeartaigh, Danaja Rutar, Wout Schellaert, Konstantinos Voudouris, José Hernández-Orallo: [*"Predictable Artificial Intelligence"*](https://doi.org/10.1016/j.artint.2026.104491)., [Artificial Intelligence Journal](https://www.journals.elsevier.com/artificial-intelligence), Elsevier Publications, In Press, 2026.  
 
@@ -21,6 +21,11 @@ author_profile: true
 * Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, **Fernando Martínez-Plumed**, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo: [*"Analysis of Public and Expert Views on Electrified Vehicles: A Comparative Study in the European Union"*](), in [Transport Research Arena (TRA 2026)](https://traconference.eu/), Oral Presentation, 18-21 May, 2026.
 
 * Casas, P., Fernández-Macías, E., **Martínez-Plumed, F.**, Gómez, E., González-Vázquez, I., Salotti, S., Revisiting the occupational impact of AI in the generative AI era - JRC Working Papers Series on Labour, Education and Technology 2026/02, European Commission, 2026, JRC14583.
+
+* Peter Romero, **Fernando Martínez-Plumed**, Zachary R Tyler, Matthieu Téhénan, Sipeng Chen, Álvaro David Gómez Antón, Luning Sun, Manuel Cebrian, Lexin Zhou, Yael Moros Daval, Daniel Romero-Alvarado, Félix Martí Pérez, Kevin Wei, José Hernández-Orallo:  [*"From Human-Level AI Tales to AI Leveling Human Scales
+"*](https://arxiv.org/abs/2602.18911), arXiv preprint arXiv:2602.18911, 2026.
+
+* Daniel Romero-Alvarado, **Fernando Martínez-Plumed**, Lorenzo Pacchiardi, Hugo Save, Siddhesh Milind Pawar, Behzad Mehrbakhsh, Pablo Antonio Moreno Casares, Ben Slater, Paolo Bova, Peter Romero, Zachary R. Tidler, Jonathan Prunty, Luning Sun, Jose Hernandez-Orallo: [*"Capabilities Ain't All You Need: Measuring Propensities in AI"*](https://arxiv.org/abs/2602.18182), arXiv preprint arXiv:2602.18182, 2026.
   
 
 2025
