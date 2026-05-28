@@ -20,11 +20,11 @@ Recent Highlights
 
 * Paper published in **Artificial Intelligence Journal**: [*"Predictable Artificial Intelligence"*](https://doi.org/10.1016/j.artint.2026.104491)
 
-* 3 Papers accepted for [ECML 2026](https://ecmlpkdd.org/2026/): [*"What should an AI assessor optimise for?"*]() (Machine Learning Journal Track);  [*"Robustness under noise: assessing the impact of perturbed key attributes on machine learning models"*]() (Research Track); and [*"CapFlex: Multimodal Soft Clustering with Flexible Size Constraints*"]() (Demo Track)
+* 3 Papers accepted for [**ECML 2026**](https://ecmlpkdd.org/2026/): [*"What should an AI assessor optimise for?"*]() (Machine Learning Journal Track);  [*"Robustness under noise: assessing the impact of perturbed key attributes on machine learning models"*]() (Research Track); and [*"CapFlex: Multimodal Soft Clustering with Flexible Size Constraints*"]() (Demo Track)
 
 * Paper published in **International Journal of Data Science and Analytics**: [*"From Formal to Informal: How Register Shift Confuses LLMs in Spanish Dialect Recognition"*]()
 
-* Paper accepted for [ICPR 2026](https://icpr2026.org/): [*"Semi-Supervised Soft Clustering with Flexible Cardinality"*]()
+* Paper accepted for [**ICPR 2026**](https://icpr2026.org/): [*"Semi-Supervised Soft Clustering with Flexible Cardinality"*]()
 
 * Paper published in **International Journal of Data Science and Analytics**: [*"Robustness under noise: assessing the impact of perturbed key attributes on machine learning models"*](https://doi.org/10.1007/s41060-025-01006-4)
   
