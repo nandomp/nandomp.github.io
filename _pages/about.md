@@ -15,6 +15,7 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 
 Recent Highlights
 ======
+* Visiting Scholar at the **Leverhulme Centre for the Future of Intelligence** (University of Cambridge) · June–July 2026 
 
 * Paper published in **NATURE** 🎓:  [General scales unlock ai evaluation with explanatory and predictive power](https://www.nature.com/articles/s41586-026-10303-2)
 
