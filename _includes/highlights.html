@@ -1,0 +1,25 @@
+{% comment %}
+  Renders _data/highlights.yml as a vertical timeline.
+  Usage: {% include highlights.html limit=6 %}
+{% endcomment %}
+{% assign highlight_limit = include.limit | default: 6 %}
+
+<ol class="timeline">
+  {% for item in site.data.highlights limit: highlight_limit %}
+  <li class="timeline__item">
+    <div class="timeline__date">{{ item.date }}</div>
+    <h3 class="timeline__title">
+      {% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+    </h3>
+    {% if item.note %}<div class="timeline__note">{{ item.note | markdownify }}</div>{% endif %}
+    {% if item.venue or item.links %}
+    <p class="timeline__links">
+      {% if item.venue %}
+        {% if item.venue_url %}<a class="badge badge--venue" href="{{ item.venue_url }}">{{ item.venue }}</a>{% else %}<span class="badge badge--venue">{{ item.venue }}</span>{% endif %}
+      {% endif %}
+      {% for link in item.links %}<a class="badge" href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+    </p>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>

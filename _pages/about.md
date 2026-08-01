@@ -3,18 +3,34 @@ permalink: /
 title: ""
 author_profile: true
 excerpt: "About me"
+classes:
+  - page--home
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Associate Professor at the Technical University of Valencia ([UPV](http://www.upv.es/)) and former Scientific Project Officer at the [Joint Research Centre](https://ec.europa.eu/jrc/en/about/jrc-site/seville), European Commission. Part of [VRAIN](https://vrain.upv.es/),  [ELP](https://elp.webs.upv.es/) and [DMIP Team](https://dmip.webs.upv.es/). Director of the **NEW** [Master in AI & Big Data Analytics](https://iabigdata.webs.upv.es/) at the UPV. Teaching in the Bachelor's Degree in [Informatics Engineering](https://www.upv.es/titulaciones/GII/) (UPV), [Interactive Technologies](https://www.upv.es/titulaciones/GTI/index-en.html) (EPSG), Master's Degree in [Informatics Engineering](http://muiinf.webs.upv.es/) (UPV), Master's in [Business Administration and Digital Transformation](https://www.cegea.upv.es/es/formacion/) (UPV), and the Master's Degree in [Artificial Intelligence Research](https://www.uimp.es/postgrado/estudios/fichaestudio.php?plan=P04C&any=2022-23&lan=es) ([UIMP](http://www.uimp.es/)). B.Sc. in Computer Science, M.Sc. in Software Engineering, Formal Methods and Information Systems, Post-Graduate Diploma in Engineering Business Management and a Ph.D in Computer Science from UPV. The evaluation and measurement of intelligent systems is, among other more applied research topics, the main scientific-technical objective of my research agenda.
+Associate Professor at the Technical University of Valencia ([UPV](http://www.upv.es/)) and former Scientific Project Officer at the [Joint Research Centre](https://ec.europa.eu/jrc/en/about/jrc-site/seville), European Commission. Part of [VRAIN](https://vrain.upv.es/), [ELP](https://elp.webs.upv.es/) and the [DMIP Team](https://dmip.webs.upv.es/), and Director of the **NEW** [Master in AI & Big Data Analytics](https://iabigdata.webs.upv.es/) at the UPV. The evaluation and measurement of intelligent systems is, among other more applied research topics, the main scientific-technical objective of my research agenda.
+{: .lead}
 
-👉 Subscribe to our **[AI Evaluation Digest ](https://aievaluation.substack.com/) 📐💻** for the latest updates!
+<p class="callout">👉 Subscribe to our <strong><a href="https://aievaluation.substack.com/">AI Evaluation Digest</a> 📐💻</strong> for the latest updates!</p>
 
+{% capture about_background %}
+Teaching in the Bachelor's Degree in [Informatics Engineering](https://www.upv.es/titulaciones/GII/) (UPV), [Interactive Technologies](https://www.upv.es/titulaciones/GTI/index-en.html) (EPSG), Master's Degree in [Informatics Engineering](http://muiinf.webs.upv.es/) (UPV), Master's in [Business Administration and Digital Transformation](https://www.cegea.upv.es/es/formacion/) (UPV), and the Master's Degree in [Artificial Intelligence Research](https://www.uimp.es/postgrado/estudios/fichaestudio.php?plan=P04C&any=2022-23&lan=es) ([UIMP](http://www.uimp.es/)).
 
-Recent Highlights
-======
+B.Sc. in Computer Science, M.Sc. in Software Engineering, Formal Methods and Information Systems, Post-Graduate Diploma in Engineering Business Management and a Ph.D in Computer Science from UPV.
+{% endcapture %}
+
+<details class="collapsible">
+<summary>Teaching affiliations &amp; education</summary>
+<div class="collapsible__body">{{ about_background | markdownify }}</div>
+</details>
+
+## Recent highlights
+
+{% include highlights.html limit=6 %}
+
+{% capture all_news %}
 * Visiting Scholar at the **Leverhulme Centre for the Future of Intelligence** (University of Cambridge) · June–July 2026 
 
 * Paper published in **NATURE** 🎓:  [General scales unlock ai evaluation with explanatory and predictive power](https://www.nature.com/articles/s41586-026-10303-2)
@@ -96,64 +112,26 @@ Recent Highlights
 * Paper accepted for the **Artificial Intelligence Journal**: [*Item Response Theory in AI: Analysing Machine Learning Classifiers at the Instance Level*](https://authors.elsevier.com/a/1YWua-c5NdLy), 2019
 
 * 2 papers accepted for **ECML 2019**:  [Automated Data Transformation with Inductive Programming and Dynamic Background Knowledge](https://doi.org/10.1007/978-3-030-46133-1_44) and [ABK-ADAPT: Dynamic Background Knowledge for Automating Data Transformation](https://doi.org/10.1007/978-3-030-46133-1_45)
+{% endcapture %}
 
+<details class="collapsible">
+<summary>All news &amp; earlier highlights</summary>
+<div class="collapsible__body">{{ all_news | markdownify }}</div>
+</details>
 
-Program Committees
-======
+## Elsewhere on this site
 
-* IJCAI [2019](https://ijcai19.org/), [2020](https://ijcai20.org/), [2022](https://ijcai-22.org/calls-survey/), [2024](https://ijcai24.org/)		
-* AAAI [2020](https://aaai.org/Conferences/AAAI-20/), [2021](https://aaai.org/Conferences/AAAI-21/), [2022+](https://aaai.org/Conferences/AAAI-22/), [2023+](https://aaai.org/Conferences/AAAI-23/), [2024+](https://aaai.org/aaai-conference/)
-* NIPS/NeurIPS [2018](https://nips.cc/Conferences/2018), [2019](https://nips.cc/Conferences/2019), [2020](https://nips.cc/Conferences/2020), [2021](https://nips.cc/Conferences/2021)
-* UAI [2019](http://auai.org/uai2019/), [2020](http://www.auai.org/uai2020/), [2021](https://www.auai.org/~w-auai/uai2021/), [2022](https://www.auai.org/~w-auai/uai2021/), [2023](https://www.auai.org/uai2023/)
-* ICRL [2019](https://iclr.cc/Conferences/2019), [2020](https://iclr.cc/),  [2021](https://iclr.cc/)
-* ECAI [2020](http://ecai2020.eu/), [2024*](https://www.ecai2024.eu/)
-* ECML [2020](https://ecmlpkdd2020.net/), [2021](https://2021.ecmlpkdd.org/), [2022](https://2022.ecmlpkdd.org/), [2023](https://2023.ecmlpkdd.org/), [2024](https://2024.ecmlpkdd.org/)
-* ACM SIGKDD [2021](https://www.kdd.org/kdd2021/)
-* ICML [2021](https://icml.cc/), [2022](https://icml.cc/), [2023](https://icml.cc/Conferences/2023)
-* AAMAS [2021](https://aamas2021.soton.ac.uk/), [2022](https://aamas2022-conference.auckland.ac.nz/), [2023](https://aamas2023.soton.ac.uk/), [2024](https://www.aamas2024-conference.auckland.ac.nz/)
-* ICMLA [2021](https://www.icmla-conference.org/icmla21/), [2022](https://www.icmla-conference.org/icmla22/), [2023](https://www.icmla-conference.org/icmla23/), [2024](https://www.icmla-conference.org/icmla24/)
-* ACL [2023](https://2023.aclweb.org/)
-
-+: Senior PC member
-*: Area Chair
-
-Organising Committees
-======
-
-* Co-organised the Workshop on [**Predictable AI**](https://www.predictable-ai.org/march2023event).
-* Co-organised the 1st [**Evaluation Beyond Metrics (EBeM 2022)**](https://sites.google.com/view/ebem2022?pli=1) Workshop at [IJCAI 2022](https://ijcai-22.org/).
-* Co-organised the 1st [**Evaluating Progress in AI (EPAI2020)**](http://dmip.webs.upv.es/EPAI2020/) Workshop at [ECAI 2020](http://ecai2020.eu/).
-* Co-organised the 1st [**Architectures and Evaluation for Generality, Autonomy & Progress in AI (AEGAP)**](http://cadia.ru.is/workshops/aegap2018/) Workshop at [IJCAI 2018](https://www.ijcai-18.org/).
-* Co-organised the 2nd [**Evaluating General-Purpose AI (EGPAI)**](http://dmip.webs.upv.es/EGPAI2017/) Workshop at [IJCAI 2017](https://ijcai-17.org/).
-* Co-organised the 1st [**Data Wrangling Automation (DWA)**](http://dmip.webs.upv.es/DWA2016/) Workshop at [ICDM 2016](https://icdm2016.eurecat.cat/).
-
-Editorial Boards
-======
-
-* [Machine Learning Journal](https://link.springer.com/journal/10994)
-* [Discover Data](https://link.springer.com/journal/44248/editors)
-
-Awards
-======
-
-* AAAI 2022 [**Blue Sky Idea Runner-Up Award**](https://cccblog.org/2022/03/03/blue-sky-at-aaai-2022/)
-
-* UPV Research Awards 2022: [Excellent Research Publication Award Runner-up](https://www.upv.es/entidades/VINV/menu_urlc.html?/entidades/VINV/info/U0922148.pdf)
-
-* European Commission JRC Excellence Award: 2021 Best Young Researcher
-
-* [**Best Poster Award**]() @ [16th IEEE ICCSE](http://ieee-iccse.org/): [*Project-Based Learning for Scaffolding Data Scientists' Skills*](https://ieeexplore.ieee.org/document/9569289)
-
-* [**Best Paper Award**]() @ [ECAI 2016](http://www.ecai2016.org): [*Making sense of item response theory in machine learning*](http://ebooks.iospress.com/volumearticle/44867)
-
-* [**Best Paper Award Runner-up**](https://www.cser.ac.uk/news/safeai-workshop/) @ [AAAI SafeAI 2019](https://safeai.webs.upv.es/): [*Surveying Safety-relevant AI Characteristics*](http://ceur-ws.org/Vol-2301/paper_22.pdf)
-
-
-* <a href="http://www.upv.es/noticias-upv/noticia-10040-hackforgood-gl-es.html"><b>2nd Prize (Local) & 2nd Prize (National)</b></a> VI Hackathon Telef&oacute;nica <em><a href="http://hackforgood.net/">HackForGood 2018</a></em> - Project <a href="http://users.dsic.upv.es/~flip/particleAI/">ParticleAI</a>.
-
-* <a href="http://noticias.inf.upv.es/?p=7962"><b>1st prize</b></a> <a href="http://dataupv.webs.upv.es/ii-opendatathon-etsinf-upv/">II OpenDatathon ETSINF-UPV 2017</a>: <em>Valencia City council Award</em> - Project <a href="http://safe-tools.dsic.upv.es/bikeflow/"> bikeFlow</a> - <a href="./papers/fmartinez_BikeFlow_TR.pdf">TechReport</a>.
-
-* <a href="http://hackforgood.net/el-resumen-de-hackforgood-2016/"><b>1st Prize (Local) & 3rd Prize (National)</b></a> IV Hackathon Telef&oacute;nica <em><a href="http://hackforgood.net/">HackForGood 2016</a></em> - Project <a href="http://users.dsic.upv.es/~flip/bikeXplorer/">BikeXplorer</a>.					
-
-* <a href="http://noticias.inf.upv.es/?p=7962"><b>1st prize</b></a> <a href="http://dataupv.webs.upv.es/i-opendatathon-etsinf-upv/">I OpenDatathon ETSINF-UPV 2016</a>: <em>BigML Award for Best predictive project</em> - Project <a href="http://users.dsic.upv.es/~flip/trafico/">TrafficXplorer</a>.
-
+<div class="card-grid card-grid--3">
+  <a class="card" href="{{ site.baseurl }}/publications/">
+    <span class="card__title">Publications</span>
+    <span class="card__desc">Journal articles, conference papers and reports, searchable by year.</span>
+  </a>
+  <a class="card" href="{{ site.baseurl }}/teaching/">
+    <span class="card__title">Teaching</span>
+    <span class="card__desc">Courses across bachelor's, master's and MOOC programmes.</span>
+  </a>
+  <a class="card" href="{{ site.baseurl }}/service/">
+    <span class="card__title">Service &amp; awards</span>
+    <span class="card__desc">Programme and organising committees, editorial boards, awards.</span>
+  </a>
+</div>

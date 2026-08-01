@@ -39,3 +39,12 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/*
+ * Site customisations — keep these LAST.
+ * All bespoke design lives in these three partials so the vendored theme
+ * files above stay untouched and remain easy to update.
+ */
+@import "custom-tokens";
+@import "custom-components";
+@import "custom-dark";

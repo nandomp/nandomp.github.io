@@ -1,0 +1,112 @@
+/* ==========================================================================
+   CUSTOM :: DARK MODE MOP-UP
+   The palette itself lives in _custom-tokens.scss. This file only covers the
+   handful of vendored rules that hardcode light values in places the token
+   layer cannot reach (forms, notices, syntax highlighting, popups).
+   ========================================================================== */
+
+/* Elements that are always themed via tokens, light or dark ---------------- */
+
+figcaption {
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="number"],
+input[type="password"],
+select,
+textarea {
+  background-color: var(--surface);
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  background-color: var(--surface-2);
+  border-radius: var(--radius);
+  color: var(--text);
+}
+
+.search-content,
+.search__toggle,
+.ais-search-box {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* Dark-only adjustments ---------------------------------------------------- */
+
+@mixin custom-dark-fixes {
+  /* Keep the avatar and content imagery from glowing against a dark page. */
+  .page__content img,
+  .archive img {
+    border-radius: var(--radius);
+  }
+
+  /* Highlighted code: retint the light-theme Rouge palette. */
+  .highlight,
+  .highlight pre,
+  div.highlighter-rouge,
+  figure.highlight {
+    background-color: var(--code-bg);
+    color: var(--text);
+  }
+
+  .highlight .c,
+  .highlight .c1,
+  .highlight .cm,
+  .highlight .cs { color: #6b7684; }
+
+  .highlight .k,
+  .highlight .kd,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .kr,
+  .highlight .kt { color: #c792ea; }
+
+  .highlight .s,
+  .highlight .s1,
+  .highlight .s2,
+  .highlight .sb,
+  .highlight .sc,
+  .highlight .sd { color: #a5d6a7; }
+
+  .highlight .n,
+  .highlight .nb,
+  .highlight .nc,
+  .highlight .nf,
+  .highlight .nn { color: #82aaff; }
+
+  .highlight .m,
+  .highlight .mi,
+  .highlight .mf { color: #f78c6c; }
+
+  /* Magnific popup / gallery chrome. */
+  .mfp-bg { background: #05070a; }
+  .mfp-figure:after { box-shadow: none; }
+
+  /* Table zebra + header contrast. */
+  thead { background-color: var(--surface-3); }
+
+  /* The browser-upgrade nag and any inherited light banners. */
+  .notice--danger { background-color: var(--surface-3); }
+}
+
+html[data-theme="dark"] {
+  @include custom-dark-fixes;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    @include custom-dark-fixes;
+  }
+}

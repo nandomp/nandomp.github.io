@@ -1,0 +1,489 @@
+/* ==========================================================================
+   CUSTOM :: DESIGN TOKENS + BASE TYPOGRAPHY
+   --------------------------------------------------------------------------
+   This file (and its siblings _custom-components / _custom-dark) is the ONLY
+   place site-specific design decisions live. It is imported last from
+   assets/css/main.scss, so equal-specificity rules here win over the vendored
+   Minimal Mistakes / AcademicPages partials without editing them.
+
+   Everything is written as plain CSS custom properties + media queries, which
+   compiles identically under Ruby Sass 3.7 (what GitHub Pages runs) and Dart
+   Sass. No @use, no math.div, no slashes inside custom property values.
+   ========================================================================== */
+
+/* Dark palette lives in a mixin so it can be applied both by the explicit
+   toggle (html[data-theme="dark"]) and by the OS preference. */
+@mixin custom-dark-tokens {
+  --accent:          #60a5fa;
+  --accent-strong:   #93c5fd;
+  --accent-contrast: #0b1220;
+  --accent-soft:     rgba(96, 165, 250, 0.15);
+  --accent-line:     rgba(96, 165, 250, 0.35);
+
+  --bg:            #0e1116;
+  --surface:       #12161c;
+  --surface-2:     #171c24;
+  --surface-3:     #1d232c;
+
+  --text:          #e6e8eb;
+  --text-strong:   #f5f7fa;
+  --text-muted:    #9aa4b2;
+  --text-faint:    #6b7684;
+
+  --border:        #242b35;
+  --border-strong: #323b47;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.55);
+
+  --code-bg: #161b22;
+  color-scheme: dark;
+}
+
+:root {
+  /* Type */
+  --font-sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, Cambria, "Times New Roman", serif;
+  --font-mono:  "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
+  /* Color :: light (default) */
+  --accent:          #1d4ed8;
+  --accent-strong:   #1e3a8a;
+  --accent-contrast: #ffffff;
+  --accent-soft:     rgba(29, 78, 216, 0.08);
+  --accent-line:     rgba(29, 78, 216, 0.25);
+
+  --bg:            #ffffff;
+  --surface:       #ffffff;
+  --surface-2:     #f5f7fa;
+  --surface-3:     #eef2f7;
+
+  --text:          #23282f;
+  --text-strong:   #14171c;
+  --text-muted:    #5b6472;
+  --text-faint:    #8892a0;
+
+  --border:        #e3e8ef;
+  --border-strong: #cbd5e1;
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 14px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 12px 28px rgba(15, 23, 42, 0.12);
+
+  --code-bg: #f5f7fa;
+
+  /* Shape + motion */
+  --radius-sm: 6px;
+  --radius:    10px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  color-scheme: light dark;
+}
+
+html[data-theme="dark"] {
+  @include custom-dark-tokens;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    @include custom-dark-tokens;
+  }
+}
+
+/* Respect reduced-motion for every transition/animation we add. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* ==========================================================================
+   BASE ELEMENTS
+   ========================================================================== */
+
+html {
+  background-color: var(--bg);
+  /* The theme jumps 16px -> 18px at $medium, which is oversized for long
+     academic prose. 16.5/17.5 reads better with Inter's large x-height. */
+  font-size: 16.5px;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 17.5px;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv05" 1, "cv11" 1, "ss01" 1;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-strong);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.008em;
+  line-height: 1.25;
+}
+
+h1 { font-size: 1.95em; margin: 0 0 0.6em; }
+h2 { font-size: 1.45em; margin: 2.2em 0 0.7em; }
+h3 { font-size: 1.14em; margin: 1.8em 0 0.5em; }
+h4 { font-size: 1em;    margin: 1.6em 0 0.4em; }
+h5, h6 { font-size: 0.92em; margin: 1.4em 0 0.4em; }
+
+/* Section rules give the long pages an obvious visual rhythm. */
+.page__content > h2,
+.archive > h2 {
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--border);
+}
+
+p {
+  margin-bottom: 1.15em;
+}
+
+strong, b {
+  color: var(--text-strong);
+  font-weight: 600;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  text-decoration-color: var(--accent-line);
+  text-underline-offset: 0.16em;
+  transition: color 0.15s var(--ease), text-decoration-color 0.15s var(--ease);
+}
+
+a:hover {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Prose links keep an underline so they read as links inside paragraphs. */
+.page__content p > a,
+.page__content li > a,
+.archive p > a,
+.archive li > a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+hr {
+  border-top: 1px solid var(--border);
+  margin: 2em 0;
+}
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  color: var(--text-muted);
+  font-style: normal;
+}
+
+::selection {
+  color: var(--accent-contrast);
+  background: var(--accent);
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+  color: var(--text-strong);
+  font-family: var(--font-mono);
+}
+
+pre,
+div.highlighter-rouge,
+figure.highlight {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+table {
+  border: 1px solid var(--border);
+  font-size: 0.85em;
+}
+
+thead {
+  background-color: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+}
+
+th, td {
+  border-color: var(--border);
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* ==========================================================================
+   CHROME :: masthead, footer, nav, sidebar
+   ========================================================================== */
+
+.masthead {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.masthead__inner-wrap {
+  font-family: var(--font-sans);
+  /* Room for the theme toggle pinned to the right edge. */
+  padding: 0.9em 1em;
+}
+
+.masthead__menu {
+  padding-right: 3.1rem;
+}
+
+.masthead__menu-item--lg a {
+  font-family: var(--font-serif);
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  color: var(--text-muted);
+  font-size: 0.86em;
+  font-weight: 500;
+}
+
+.greedy-nav a:hover {
+  color: var(--accent);
+}
+
+.greedy-nav .visible-links li:first-child a {
+  color: var(--text-strong);
+}
+
+.greedy-nav .visible-links a:before {
+  background: var(--accent);
+  height: 2px;
+}
+
+.greedy-nav button {
+  background-color: var(--accent);
+  border-radius: var(--radius-sm);
+  color: var(--accent-contrast);
+  height: auto;
+  padding: 0.45rem 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.greedy-nav .hidden-links {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+
+.greedy-nav .hidden-links:after {
+  border-color: var(--surface) transparent;
+}
+
+.greedy-nav .hidden-links:before {
+  border-color: var(--border) transparent;
+}
+
+.greedy-nav .hidden-links li {
+  border-bottom: 1px solid var(--border);
+}
+
+.greedy-nav .hidden-links a:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.navicon,
+.navicon:before,
+.navicon:after {
+  background: var(--accent-contrast);
+}
+
+.page__footer {
+  background-color: var(--surface-2);
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal {
+  color: var(--text-muted);
+}
+
+.page__footer-follow li {
+  font-family: var(--font-sans);
+  letter-spacing: 0.04em;
+}
+
+.page__footer a:hover {
+  color: var(--accent);
+}
+
+/* Author sidebar ---------------------------------------------------------- */
+
+.sidebar p,
+.sidebar li {
+  font-family: var(--font-sans);
+  font-size: 0.78em;
+}
+
+.sidebar .author__name {
+  font-family: var(--font-serif);
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.author__bio {
+  color: var(--text-muted);
+  font-size: 0.82em;
+  line-height: 1.5;
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  box-shadow: var(--shadow-md);
+}
+
+@media screen and (min-width: 925px) {
+  .author__avatar img {
+    border: 3px solid var(--surface);
+    padding: 0;
+    transition: transform 0.25s var(--ease);
+  }
+
+  .author__avatar img:hover {
+    transform: translateY(-2px) scale(1.02);
+  }
+}
+
+.author__urls {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+
+.author__urls:after {
+  border-color: var(--surface) transparent;
+}
+
+.author__urls:before {
+  border-color: var(--border) transparent;
+}
+
+/* On wide screens the theme drops the dropdown chrome and shows the links
+   inline in the sidebar — mirror that reset so we don't reintroduce a box.
+   57.8125em == the theme's $large (925px) breakpoint in ems. */
+@media screen and (min-width: 57.8125em) {
+  .author__urls {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+}
+
+.author__urls li {
+  padding: 0.1em 0;
+}
+
+.author__urls a {
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  display: inline-block;
+  padding: 0.15em 0.3em;
+  text-decoration: none;
+}
+
+.author__urls a:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.btn--inverse {
+  background-color: var(--surface);
+  border: 1px solid var(--border-strong) !important;
+  border-radius: var(--radius-pill);
+  color: var(--text-muted) !important;
+}
+
+.btn--inverse:hover {
+  background-color: var(--accent);
+  border-color: var(--accent) !important;
+  color: var(--accent-contrast) !important;
+}
+
+/* Page shell -------------------------------------------------------------- */
+
+#main {
+  margin-top: 2.4em;
+}
+
+/* The homepage sets `title: ""`, which the theme still renders as an empty
+   <h1>. Collapse it instead of leaving a gap above the bio. */
+.page__title:empty {
+  display: none;
+}
+
+.page__title {
+  font-family: var(--font-serif);
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  margin-bottom: 0.7em;
+}
+
+.archive a,
+.archive a:hover {
+  text-decoration: none;
+}
+
+.archive p > a,
+.archive li > a {
+  text-decoration: underline;
+}

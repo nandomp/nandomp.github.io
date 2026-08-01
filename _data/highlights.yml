@@ -1,0 +1,50 @@
+# ==========================================================================
+# Recent highlights shown as a timeline on the homepage.
+#
+# The homepage renders the first N entries (see {% include highlights.html %}
+# in _pages/about.md). Add a new item at the TOP of this list — order here is
+# the order on the page. Nothing else needs editing.
+#
+# Fields
+#   date       required. Free text, e.g. "2026", "Jun 2026", "Jun–Jul 2026".
+#   title      required. Plain text.
+#   url        optional. If set, the title links here.
+#   venue      optional. Rendered as a small accent badge.
+#   venue_url  optional. Makes the venue badge a link.
+#   note       optional. Markdown, rendered under the title.
+#   links      optional. List of { label, url } rendered as badges.
+# ==========================================================================
+
+- date: "Jun–Jul 2026"
+  title: "Visiting Scholar at the Leverhulme Centre for the Future of Intelligence"
+  venue: "University of Cambridge"
+
+- date: "2026"
+  title: "General Scales Unlock AI Evaluation with Explanatory and Predictive Power"
+  url: "https://www.nature.com/articles/s41586-026-10303-2"
+  venue: "Nature"
+
+- date: "2026"
+  title: "Predictable Artificial Intelligence"
+  url: "https://doi.org/10.1016/j.artint.2026.104491"
+  venue: "Artificial Intelligence Journal"
+
+- date: "Sep 2026"
+  title: "Three papers accepted at ECML-PKDD 2026"
+  venue: "ECML-PKDD 2026"
+  venue_url: "https://ecmlpkdd.org/2026/"
+  note: >-
+    *"What should an AI assessor optimise for?"* (Machine Learning Journal
+    track), *"Robustness under noise: assessing the impact of perturbed key
+    attributes on machine learning models"* (Research track) and
+    *"CapFlex: Multimodal Soft Clustering with Flexible Size Constraints"*
+    (Demo track).
+
+- date: "2026"
+  title: "From Formal to Informal: How Register Shift Confuses LLMs in Spanish Dialect Recognition"
+  venue: "International Journal of Data Science and Analytics"
+
+- date: "Aug 2026"
+  title: "Semi-Supervised Soft Clustering with Flexible Cardinality"
+  venue: "ICPR 2026"
+  venue_url: "https://icpr2026.org/"

@@ -3,74 +3,103 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
----
-<!--
----
-layout: archive
-title: "Teaching"
-permalink: /teaching/
-author_profile: true
+classes:
+  - page--teaching
 ---
 
+Courses taught across bachelor's degrees, master's programmes, professional diplomas and MOOCs.
+{: .lead}
+
+<div class="course-card">
+  <h3><a href="https://www.upv.es/titulaciones/GII/">Bachelor's Degree in Informatics Engineering</a></h3>
+  <span class="course-card__meta">ETSInf · UPV</span>
+  <ul>
+    <li><span>Sistemas de Información Estratégicos (SIE)</span> <span class="years">2013/14 – present</span></li>
+    <li><span>Métodos Formales Industriales (MFI)</span> <span class="years">2022/23 – present</span></li>
+    <li><span>Bases de Datos y Sistemas de Información (BDA)</span> <span class="years">2023/24</span></li>
+    <li><span>Tecnología de Bases de Datos (TBD)</span> <span class="years">2023/24 – 2024/25</span></li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <h3><a href="https://www.upv.es/titulaciones/GTI/">Bachelor's Degree in Interactive Technologies</a></h3>
+  <span class="course-card__meta">EPSG · UPV</span>
+  <ul>
+    <li><span>Algorítmica y Matemáticas para Juegos (AMJ)</span> <span class="years">2021/22 – present</span></li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <h3><a href="http://www.upv.es/titulaciones/MUIINF/indexi.html">Master's Degree in Informatics Engineering</a></h3>
+  <span class="course-card__meta">ETSInf · UPV</span>
+  <ul>
+    <li><span>Data Science (CDA)</span> <span class="years">2017/18 – 2022/23</span></li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <h3><a href="https://iabigdata.webs.upv.es/">Master in AI &amp; Big Data Analytics</a></h3>
+  <span class="course-card__meta">ETSInf · UPV</span>
+  <ul>
+    <li><span>R for Data Science</span> <span class="years">2025/26 – present</span></li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <h3><a href="https://bigdata.webs.upv.es/">Master in Big Data Analytics</a></h3>
+  <span class="course-card__meta">ETSInf · UPV</span>
+  <ul>
+    <li><span>Introducción al Business Intelligence</span> <span class="years">2014/15 – 2024/25</span></li>
+    <li><span>Visualización de Información Médica</span> <span class="years">2015/16 – 2024/25</span></li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <h3><a href="http://www.aepia.org/aepia/index.php/masteria">Master Universitario en Investigación en Inteligencia Artificial</a></h3>
+  <span class="course-card__meta">UIMP · AEPIA</span>
+  <ul>
+    <li><span>Ciencia de datos y aprendizaje automático</span> <span class="years">2016/17 – present</span></li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <h3><a href="https://www.cegea.upv.es/formacion/mdpe-mba/">Master of Business Administration</a></h3>
+  <span class="course-card__meta">CEGEA · UPV</span>
+  <ul>
+    <li><span>Business Intelligence</span> <span class="years">2019/20 – present</span></li>
+    <li><span>Big Data para Negocios</span> <span class="years">2019/20 – present</span></li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <h3>Diploma: SAMSUNG Innovation Campus in Artificial Intelligence</h3>
+  <span class="course-card__meta">UPV</span>
+  <ul>
+    <li><span>Machine Learning – Supervised Learning</span> <span class="years">2022/23 – present</span></li>
+    <li><span>Machine Learning – Unsupervised Learning</span> <span class="years">2022/23 – present</span></li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <h3><a href="https://www.edx.org/es/course/aprendizaje-automatico-y-ciencia-de-datos">edX</a></h3>
+  <span class="course-card__meta">MOOC</span>
+  <ul>
+    <li>
+      <span>Aprendizaje automático y ciencia de datos</span> <span class="years">2018/19 – present</span>
+      <span class="note">~20K already enrolled!</span>
+    </li>
+  </ul>
+</div>
+
+<!--
+An earlier version of this page rendered the _teaching collection instead of
+the hand-written list above. Kept for reference:
+
+{% raw %}
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
-{% endfor %}-->
-
-
-
-### [Bachelor's Degree in Informatics Engineering](https://www.upv.es/titulaciones/GII/) - ETSInf - UPV
-
-
-* Sistemas de Información Estratégicos (SIE): 2013/14 - present
-* Métodos Formales Industriales (MFI): 2022/23 - present
-* Bases de Datos y Sistemas de Información (BDA): 2023/24
-* Tecnología de Bases de Datos (TBD): 2023/2024 - 2024/25
-
-### [Bachelor's Degree in Interactive Technologies](https://www.upv.es/titulaciones/GTI/) - EPSG - UPV
-
-
-* Algorítmica y Matemáticas para Juegos (AMJ): 2021/22 - present
-
-### [Master's Degree in Informatics Engineering](http://www.upv.es/titulaciones/MUIINF/indexi.html) - ETSInf - UPV
-
-
-* Data Science (CDA): 2017/18 - 2022/23
-
-### [Master IA & Big Data Analytics](https://iabigdata.webs.upv.es/) - ETSInf - UPV
-
-
-* R for Data Science: 2025/2026 - 
-
-### [Master Big Data Analytics](https://bigdata.webs.upv.es/) - ETSInf - UPV
-
-
-* Introducción al Business Intelligence: 2014/2015 - 2024/2025
-* Visualización de Información Médica: 2015/16 - 2024/2025
-
-### [Master Universitario en Investigación en Inteligencia Artificial](http://www.aepia.org/aepia/index.php/masteria)  - UIMP - AEPIA
-
-
-* Ciencia de datos y aprendizaje automático: 2016/2017 - present
-
-
-### [Master of Business Administration](https://www.cegea.upv.es/formacion/mdpe-mba/) - CEGEA - UPV
-
-
-* Business Intelligence: 2019/20 - present
-* Big Data para Negocios: 2019/20 - present
-
-### [Diploma: SAMSUNG Innovation Campus in Artificial Intelligence]() - UPV
-
-* Machine Learning – Supervised Learning: 2022/23 - present
-* Machine Learning – Unsupervised Learning: 2022/23 - present
-
-
-### [edX](https://www.edx.org/es/course/aprendizaje-automatico-y-ciencia-de-datos)
-
-
-* [MOOC] Aprendizaje automático y ciencia de datos: 2018/19 - present
-  * ~20K already enrolled!
-
-
+{% endfor %}
+{% endraw %}
+-->

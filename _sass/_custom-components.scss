@@ -1,0 +1,767 @@
+/* ==========================================================================
+   CUSTOM :: COMPONENTS
+   Timeline, cards, badges, collapsibles, publication list, theme toggle.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Theme toggle (pinned to the right of the masthead, outside the greedy nav
+   so it is never swallowed into the overflow menu)
+   -------------------------------------------------------------------------- */
+
+.masthead__inner-wrap {
+  position: relative;
+}
+
+.theme-toggle {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 30;
+
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+  margin: 0;
+
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background-color 0.15s var(--ease), color 0.15s var(--ease), border-color 0.15s var(--ease);
+}
+
+.theme-toggle:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+  color: var(--accent);
+}
+
+.theme-toggle svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Sun in light mode, moon in dark mode. */
+.theme-toggle .theme-toggle__moon { display: none; }
+.theme-toggle .theme-toggle__sun  { display: block; }
+
+html[data-theme="dark"] .theme-toggle .theme-toggle__moon { display: block; }
+html[data-theme="dark"] .theme-toggle .theme-toggle__sun  { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) .theme-toggle .theme-toggle__moon { display: block; }
+  html:not([data-theme="light"]) .theme-toggle .theme-toggle__sun  { display: none; }
+}
+
+/* No JS: hide the control rather than show a dead button. */
+html.no-js .theme-toggle { display: none; }
+
+
+/* --------------------------------------------------------------------------
+   Lead paragraph + callout
+   -------------------------------------------------------------------------- */
+
+.lead {
+  color: var(--text);
+  font-size: 1.08em;
+  line-height: 1.6;
+}
+
+.callout {
+  margin: 1.8em 0;
+  padding: 0.9em 1.1em;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-line);
+  border-radius: var(--radius);
+  font-size: 0.94em;
+}
+
+.callout p {
+  margin: 0;
+}
+
+.callout a {
+  text-decoration: underline;
+}
+
+
+/* --------------------------------------------------------------------------
+   Badges / chips
+   -------------------------------------------------------------------------- */
+
+.badge {
+  display: inline-block;
+  margin: 0 0.35em 0.35em 0;
+  padding: 0.14em 0.6em;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.72em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background-color 0.15s var(--ease), color 0.15s var(--ease), border-color 0.15s var(--ease);
+}
+
+a.badge:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.badge--venue {
+  background: transparent;
+  border-color: var(--accent-line);
+  color: var(--accent);
+  font-weight: 600;
+  text-transform: none;
+}
+
+.badge--muted {
+  background: transparent;
+}
+
+
+/* --------------------------------------------------------------------------
+   Timeline (homepage: recent highlights)
+   -------------------------------------------------------------------------- */
+
+.timeline {
+  list-style: none;
+  margin: 1.5em 0 0;
+  padding: 0;
+  position: relative;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 0.34rem;
+  top: 0.55rem;
+  bottom: 0.9rem;
+  width: 2px;
+  background: var(--border);
+}
+
+.timeline__item {
+  position: relative;
+  margin: 0 0 1.5em;
+  padding-left: 1.9rem;
+  list-style: none;
+}
+
+.timeline__item:last-child {
+  margin-bottom: 0.5em;
+}
+
+.timeline__item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45rem;
+  width: 0.78rem;
+  height: 0.78rem;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  transition: transform 0.2s var(--ease), background-color 0.2s var(--ease);
+}
+
+.timeline__item:hover:before {
+  background: var(--accent);
+  transform: scale(1.15);
+}
+
+.timeline__date {
+  color: var(--text-faint);
+  font-family: var(--font-sans);
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 0.18em;
+}
+
+.timeline__title {
+  font-family: var(--font-serif);
+  font-size: 1.02em;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 0 0.28em;
+}
+
+.timeline__title a {
+  color: var(--text-strong);
+  text-decoration: none;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0 1px;
+  transition: background-size 0.25s var(--ease), color 0.15s var(--ease);
+}
+
+.timeline__title a:hover {
+  color: var(--accent);
+  background-size: 100% 1px;
+  text-decoration: none;
+}
+
+.timeline__venue {
+  color: var(--text-muted);
+  font-size: 0.84em;
+  margin: 0 0 0.35em;
+}
+
+.timeline__note {
+  color: var(--text-muted);
+  font-size: 0.86em;
+  margin: 0 0 0.4em;
+}
+
+.timeline__note p {
+  margin: 0 0 0.3em;
+}
+
+.timeline__links {
+  margin: 0.35em 0 0;
+  line-height: 1;
+}
+
+@media screen and (min-width: 700px) {
+  /* Wider screens: the dates move out into their own rail on the left.
+     The list is padded by 7.2rem, so each item's box (and therefore its
+     dot, at left: 0) already starts at x = 7.2rem — only the rail, which
+     is positioned against .timeline itself, needs shifting. */
+  .timeline {
+    padding-left: 7.2rem;
+  }
+
+  .timeline:before {
+    left: 7.54rem;
+  }
+
+  .timeline__date {
+    position: absolute;
+    left: -7.2rem;
+    top: 0.42rem;
+    width: 6.4rem;
+    text-align: right;
+    margin: 0;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   Collapsible sections (native <details>, works with JS disabled)
+   -------------------------------------------------------------------------- */
+
+.collapsible {
+  margin: 1.6em 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.15s var(--ease);
+}
+
+.collapsible:hover {
+  border-color: var(--border-strong);
+}
+
+.collapsible > summary {
+  cursor: pointer;
+  padding: 0.75em 1em 0.75em 2.1em;
+  position: relative;
+  color: var(--text-strong);
+  font-family: var(--font-sans);
+  font-size: 0.88em;
+  font-weight: 600;
+  list-style: none;
+  user-select: none;
+}
+
+.collapsible > summary::-webkit-details-marker {
+  display: none;
+}
+
+.collapsible > summary:before {
+  content: "";
+  position: absolute;
+  left: 1em;
+  top: 50%;
+  width: 0.45em;
+  height: 0.45em;
+  margin-top: -0.3em;
+  border-right: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+  transform: rotate(-45deg);
+  transition: transform 0.2s var(--ease);
+}
+
+.collapsible[open] > summary:before {
+  transform: rotate(45deg);
+  margin-top: -0.15em;
+}
+
+.collapsible[open] > summary {
+  border-bottom: 1px solid var(--border);
+}
+
+.collapsible__body {
+  padding: 0.4em 1.2em 0.9em;
+  font-size: 0.92em;
+}
+
+.collapsible__body > *:first-child {
+  margin-top: 0.8em;
+}
+
+.collapsible__body > *:last-child {
+  margin-bottom: 0.4em;
+}
+
+.collapsible__body ul {
+  padding-left: 1.15em;
+}
+
+.collapsible__body li {
+  margin-bottom: 0.65em;
+}
+
+
+/* --------------------------------------------------------------------------
+   Card grid (homepage quick links, editorial boards, courses)
+   -------------------------------------------------------------------------- */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+  margin: 1.4em 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 640px) {
+  .card-grid--2 { grid-template-columns: repeat(2, 1fr); }
+  .card-grid--3 { grid-template-columns: repeat(3, 1fr); }
+}
+
+.card {
+  display: block;
+  padding: 1em 1.1em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: inherit;
+  text-decoration: none !important;
+  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease), transform 0.18s var(--ease);
+}
+
+a.card:hover {
+  border-color: var(--accent-line);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.card__title {
+  display: block;
+  color: var(--text-strong);
+  font-family: var(--font-serif);
+  font-size: 1.02em;
+  font-weight: 600;
+  margin: 0 0 0.2em;
+}
+
+a.card:hover .card__title {
+  color: var(--accent);
+}
+
+.card__desc {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.84em;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   Publications
+   -------------------------------------------------------------------------- */
+
+.pub-toolbar {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1.6em;
+  padding: 0.85em 1em;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.pub-search {
+  -webkit-box-flex: 1;
+  flex: 1 1 15rem;
+  min-width: 0;
+  padding: 0.5em 0.85em;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.86em;
+  margin: 0;
+}
+
+.pub-search::placeholder {
+  color: var(--text-faint);
+}
+
+.pub-search:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+  outline: none;
+}
+
+.pub-count {
+  color: var(--text-muted);
+  font-size: 0.78em;
+  white-space: nowrap;
+}
+
+.pub-years {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pub-year-chip {
+  padding: 0.16em 0.62em;
+  background: transparent;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.73em;
+  font-weight: 500;
+  line-height: 1.7;
+  transition: background-color 0.15s var(--ease), color 0.15s var(--ease), border-color 0.15s var(--ease);
+}
+
+.pub-year-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.pub-year-chip[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.pub-year {
+  margin-bottom: 2.2em;
+}
+
+.pub-year > h2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  z-index: 5;
+  margin: 0 0 0.9em;
+  padding: 0.35em 0;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  color: var(--text-faint);
+  font-family: var(--font-sans);
+  font-size: 0.82em;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+
+/* Publication entries as cards -------------------------------------------- */
+
+.page--publications .archive ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page--publications .archive ul li,
+.pub-item {
+  position: relative;
+  list-style: none;
+  margin: 0 0 0.7rem;
+  padding: 0.85em 1em 0.85em 1.15em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.9em;
+  line-height: 1.55;
+  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease), background-color 0.18s var(--ease);
+}
+
+.page--publications .archive ul li:hover,
+.pub-item:hover {
+  border-color: var(--border-strong);
+  border-left-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Author's own name is already bold in the source — make it the anchor. */
+.pub-item strong,
+.pub-item b {
+  color: var(--text-strong);
+  font-weight: 600;
+}
+
+/* Titles are italic/emphasised in the source. */
+.pub-item em,
+.pub-item i {
+  color: var(--text-strong);
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Beats the `.archive li > a` underline set in _custom-tokens.scss. */
+.archive .pub-item a,
+.archive .pub-item li > a {
+  text-decoration: none;
+}
+
+.archive .pub-item a:hover {
+  color: var(--accent-strong);
+  text-decoration: underline;
+}
+
+.pub-item__links {
+  display: block;
+  margin-top: 0.55em;
+  line-height: 1;
+}
+
+.pub-item__links .badge {
+  font-size: 0.68em;
+}
+
+.pub-empty {
+  padding: 1.5em 0;
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+
+/* --------------------------------------------------------------------------
+   Teaching :: course cards
+   -------------------------------------------------------------------------- */
+
+.course-card {
+  margin: 0 0 1rem;
+  padding: 1.05em 1.2em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease);
+}
+
+.course-card:hover {
+  border-color: var(--accent-line);
+  box-shadow: var(--shadow-md);
+}
+
+.course-card > h3 {
+  margin: 0 0 0.15em;
+  font-size: 1.02em;
+}
+
+.course-card > h3 a {
+  color: var(--text-strong);
+}
+
+.course-card > h3 a:hover {
+  color: var(--accent);
+}
+
+.course-card__meta {
+  display: block;
+  margin: 0 0 0.75em;
+  color: var(--text-faint);
+  font-family: var(--font-sans);
+  font-size: 0.74em;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.course-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.course-card li {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  gap: 0.4em;
+  margin: 0;
+  padding: 0.45em 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.88em;
+}
+
+.course-card li:first-child {
+  border-top: 0;
+}
+
+.course-card li .years {
+  color: var(--text-faint);
+  font-size: 0.86em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.course-card li .note {
+  flex-basis: 100%;
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+
+/* --------------------------------------------------------------------------
+   Service :: venue grid + list cards
+   -------------------------------------------------------------------------- */
+
+.venue-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin: 1.4em 0;
+}
+
+@media screen and (min-width: 620px) {
+  .venue-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.venue-card {
+  padding: 0.85em 1em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease);
+}
+
+.venue-card:hover {
+  border-color: var(--accent-line);
+  box-shadow: var(--shadow-sm);
+}
+
+.venue-card__name {
+  margin: 0 0 0.5em;
+  color: var(--text-strong);
+  font-family: var(--font-sans);
+  font-size: 0.82em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.venue-card__years {
+  margin: 0;
+  line-height: 1;
+}
+
+.legend {
+  color: var(--text-muted);
+  font-size: 0.8em;
+  margin-top: 0.8em;
+}
+
+.service-list {
+  margin: 1.4em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-list > li {
+  margin: 0 0 0.7rem;
+  padding: 0.8em 1em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent-line);
+  border-radius: var(--radius);
+  font-size: 0.9em;
+  line-height: 1.55;
+  list-style: none;
+  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease);
+}
+
+.service-list > li:hover {
+  border-left-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+
+
+/* --------------------------------------------------------------------------
+   Print
+   -------------------------------------------------------------------------- */
+
+@media print {
+  .theme-toggle,
+  .pub-toolbar {
+    display: none !important;
+  }
+
+  .pub-item,
+  .card,
+  .course-card,
+  .venue-card,
+  .service-list > li {
+    border: 0;
+    box-shadow: none;
+    padding-left: 0;
+  }
+
+  .collapsible__body {
+    display: block !important;
+  }
+}
