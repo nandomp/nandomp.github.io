@@ -63,11 +63,6 @@
 html[data-theme="dark"] .theme-toggle .theme-toggle__moon { display: block; }
 html[data-theme="dark"] .theme-toggle .theme-toggle__sun  { display: none; }
 
-@media (prefers-color-scheme: dark) {
-  html:not([data-theme="light"]) .theme-toggle .theme-toggle__moon { display: block; }
-  html:not([data-theme="light"]) .theme-toggle .theme-toggle__sun  { display: none; }
-}
-
 /* No JS: hide the control rather than show a dead button. */
 html.no-js .theme-toggle { display: none; }
 
@@ -202,7 +197,7 @@ a.badge:hover {
 }
 
 .timeline__title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.02em;
   font-weight: 600;
   line-height: 1.35;
@@ -386,7 +381,7 @@ a.card:hover {
 .card__title {
   display: block;
   color: var(--text-strong);
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.02em;
   font-weight: 600;
   margin: 0 0 0.2em;
@@ -489,11 +484,16 @@ a.card:hover .card__title {
   color: var(--accent-contrast);
 }
 
+.pub-list {
+  margin-top: 0.5em;
+}
+
 .pub-year {
   margin-bottom: 2.2em;
 }
 
-.pub-year > h2 {
+/* Year label sticks just under the fixed 70px masthead while scrolling. */
+.archive .pub-year__label {
   position: -webkit-sticky;
   position: sticky;
   top: 70px;
@@ -505,74 +505,141 @@ a.card:hover .card__title {
   color: var(--text-faint);
   font-family: var(--font-sans);
   font-size: 0.82em;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.12em;
 }
 
 /* Publication entries as cards -------------------------------------------- */
 
-.page--publications .archive ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.page--publications .archive ul li,
 .pub-item {
   position: relative;
-  list-style: none;
   margin: 0 0 0.7rem;
-  padding: 0.85em 1em 0.85em 1.15em;
+  padding: 0.9em 1.1em 0.9em 1.2em;
   background: var(--surface);
   border: 1px solid var(--border);
   border-left: 3px solid var(--border);
   border-radius: var(--radius);
-  font-size: 0.9em;
-  line-height: 1.55;
-  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease), background-color 0.18s var(--ease);
+  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease);
 }
 
-.page--publications .archive ul li:hover,
 .pub-item:hover {
   border-color: var(--border-strong);
   border-left-color: var(--accent);
   box-shadow: var(--shadow-sm);
 }
 
-/* Author's own name is already bold in the source — make it the anchor. */
-.pub-item strong,
-.pub-item b {
+/* 1. Authors — regular weight, secondary colour, own name bolded. */
+.pub-item__authors {
+  margin: 0 0 0.2em;
+  color: var(--text-muted);
+  font-size: 0.82em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.pub-me {
   color: var(--text-strong);
+  font-weight: 700;
+}
+
+/* 2. Title — the dominant element. Accent coloured in both themes, and the
+      link is kept subtle (no browser blue, no permanent underline). */
+.archive .pub-item__title {
+  margin: 0 0 0.28em;
+  color: var(--accent);
+  font-family: var(--font-sans);
+  font-size: 1.03em;
   font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: 1.4;
 }
 
-/* Titles are italic/emphasised in the source. */
-.pub-item em,
-.pub-item i {
-  color: var(--text-strong);
-  font-style: normal;
-  font-weight: 500;
-}
-
-/* Beats the `.archive li > a` underline set in _custom-tokens.scss. */
-.archive .pub-item a,
-.archive .pub-item li > a {
+.archive .pub-item__title a {
+  color: inherit;
   text-decoration: none;
 }
 
-.archive .pub-item a:hover {
+.archive .pub-item__title a:hover,
+.archive .pub-item__title a:focus-visible {
   color: var(--accent-strong);
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 }
 
+/* 3. Venue (italic, always linked), volume/pages, year. */
+.pub-item__meta {
+  margin: 0 0 0.5em;
+  color: var(--text-muted);
+  font-size: 0.84em;
+  line-height: 1.5;
+}
+
+.archive .pub-item__venue {
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--border-strong);
+}
+
+.archive .pub-item__venue:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  text-decoration: none;
+}
+
+.pub-item__venue em {
+  font-style: italic;
+}
+
+/* 4. Type tag, award, then action pills — same order on every entry. */
 .pub-item__links {
   display: block;
-  margin-top: 0.55em;
+  margin: 0;
   line-height: 1;
 }
 
 .pub-item__links .badge {
   font-size: 0.68em;
+  margin-bottom: 0;
+}
+
+.badge--type {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text-faint);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.badge--award,
+.archive a.badge--award {
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.archive a.badge--award:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.archive .badge--action {
+  background: var(--surface-2);
+  border-color: var(--border);
+  color: var(--text-muted);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.archive .badge--action:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+  text-decoration: none;
 }
 
 .pub-empty {

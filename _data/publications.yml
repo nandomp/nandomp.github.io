@@ -1,0 +1,1421 @@
+# ==========================================================================
+# Publications — single source of truth for /publications/
+#
+# Every entry renders as:
+#   Authors. “Title”. Venue, details, Year.  [DOI] [PDF] [Code] …
+#
+# Fields
+#   title      required. No surrounding quotes — the template adds them.
+#   url        optional. Primary link, applied to the title.
+#   authors    required. Full list, in order. Write the site owner's name
+#              exactly as "Fernando Martínez-Plumed" — the template bolds it
+#              automatically, so no markup is needed here.
+#   venue      required. Journal/conference name + acronym (+ edition year for
+#              conferences). No dates, no locations.
+#   venue_url  required. Journal or conference series homepage (DBLP when the
+#              series has no stable official site).
+#   details    optional. Volume / issue / pages / publisher / status.
+#   type       required. journal | conference | workshop | chapter |
+#              report | preprint | thesis
+#   award      optional. Rendered as a small highlighted badge.
+#   links      optional. Action pills, ALWAYS in this order:
+#              DOI, Paper, PDF, arXiv, OpenReview, Code, Project, Slides,
+#              Poster, BibTeX, Appendix.
+# ==========================================================================
+
+- year: 2026
+  entries:
+
+    - title: General Scales Unlock AI Evaluation with Explanatory and Predictive Power
+      url: https://www.nature.com/articles/s41586-026-10303-2
+      authors: Lexin Zhou, Lorenzo Pacchiardi, Fernando Martínez-Plumed, …, José Hernández-Orallo
+      venue: Nature
+      venue_url: https://www.nature.com/nature/
+      details: Vol. 652, p. 810
+      type: journal
+      links:
+        - {label: Paper, url: "https://www.nature.com/articles/s41586-026-10303-2"}
+
+    - title: "Predictable Artificial Intelligence"
+      url: https://doi.org/10.1016/j.artint.2026.104491
+      authors: Lexin Zhou, Pablo A. Moreno-Casares, Fernando Martínez-Plumed, John Burden, Ryan Burnell, Lucy Cheke, Cèsar Ferri, Alexandru Marcoci, Behzad Mehrbakhsh, Yael Moros-Daval, Seán Ó hÉigeartaigh, Danaja Rutar, Wout Schellaert, Konstantinos Voudouris, José Hernández-Orallo
+      venue: Artificial Intelligence Journal (AIJ)
+      venue_url: https://www.sciencedirect.com/journal/artificial-intelligence
+      details: Elsevier, in press
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1016/j.artint.2026.104491"}
+
+    - title: What should an AI assessor optimise for?
+      authors: Daniel Romero-Alvarado, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: Machine Learning Journal
+      venue_url: https://link.springer.com/journal/10994
+      details: Springer, to appear
+      type: journal
+
+    - title: "Human or Machine: A Novel Deep Learning Framework for Autonomous Driver Identification Based on Vehicle Trajectories"
+      url: https://ieeexplore.ieee.org/document/11247850
+      authors: Andres L. Marin, Fernando Martínez-Plumed, María José Ramírez-Quintana, Konstantinos Mattas, Georgios Fontaras, Anastasios Kouvelas, Michail Makridis
+      venue: IEEE Transactions on Intelligent Transportation Systems (T-ITS)
+      venue_url: https://ieee-itss.org/pub/t-its/
+      details: Vol. 27(1), pp. 1388–1399
+      type: journal
+      links:
+        - {label: Paper, url: "https://ieeexplore.ieee.org/document/11247850"}
+
+    - title: "Robustness under noise: assessing the impact of perturbed key attributes on machine learning models"
+      url: https://doi.org/10.1007/s41060-025-01006-4
+      authors: Cristina Padró-Ferragut, Fernando Martínez-Plumed, Mª José Ramírez-Quintana
+      venue: International Journal of Data Science and Analytics (IJDSA)
+      venue_url: https://link.springer.com/journal/41060
+      details: Vol. 22, Article 71
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/s41060-025-01006-4"}
+
+    - title: "From Formal to Informal: How Register Shift Confuses LLMs in Spanish Dialect Recognition"
+      authors: Samuel Axel Zander-Marzano, José Hernández-Orallo, Fernando Martínez-Plumed, Pau Amores-Giner, Behzad Mehrbakhsh
+      venue: International Journal of Data Science and Analytics (IJDSA)
+      venue_url: https://link.springer.com/journal/41060
+      details: Springer, to appear
+      type: journal
+
+    - title: Targeted Robustness for Regression via Top-Feature Noise
+      authors: Fernando Martínez-Plumed, Cristina Padró-Ferragut, Mª José Ramírez-Quintana
+      venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2026)
+      venue_url: https://ecmlpkdd.org/
+      type: conference
+
+    - title: "CapFlex: Multimodal Soft Clustering with Flexible Size Constraints"
+      authors: Diego Vallejo-Huanga, Mateo Montenegro, Brenda Simbaña, Cèsar Ferri, Fernando Martínez-Plumed
+      venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2026)
+      venue_url: https://ecmlpkdd.org/
+      type: conference
+
+    - title: Semi-Supervised Soft Clustering with Flexible Cardinality
+      url: https://icpr2026.org/acceptedPapers.html
+      authors: Diego Vallejo-Huanga, Mateo Montenegro, Brenda Simbaña, Cèsar Ferri, Fernando Martínez-Plumed
+      venue: International Conference on Pattern Recognition (ICPR 2026)
+      venue_url: https://dblp.org/db/conf/icpr/index.html
+      type: conference
+      links:
+        - {label: Paper, url: "https://icpr2026.org/acceptedPapers.html"}
+
+    - title: "Analysis of Public and Expert Views on Electrified Vehicles: A Comparative Study in the European Union"
+      authors: Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, Fernando Martínez-Plumed, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo
+      venue: Transport Research Arena (TRA 2026)
+      venue_url: https://traconference.eu/
+      details: Oral presentation
+      type: conference
+
+    - title: Revisiting the occupational impact of AI in the generative AI era
+      authors: Pedro Casas, Enrique Fernández-Macías, Fernando Martínez-Plumed, Emilia Gómez, Ignacio González-Vázquez, Simone Salotti
+      venue: JRC Working Papers on Labour, Education and Technology
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, 2026/02, JRC14583
+      type: report
+
+    - title: From Human-Level AI Tales to AI Leveling Human Scales
+      url: https://arxiv.org/abs/2602.18911
+      authors: Peter Romero, Fernando Martínez-Plumed, Zachary R. Tyler, Matthieu Téhénan, Sipeng Chen, Álvaro David Gómez Antón, Luning Sun, Manuel Cebrian, Lexin Zhou, Yael Moros-Daval, Daniel Romero-Alvarado, Félix Martí Pérez, Kevin Wei, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "arXiv:2602.18911"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/2602.18911"}
+
+    - title: "Capabilities Ain't All You Need: Measuring Propensities in AI"
+      url: https://arxiv.org/abs/2602.18182
+      authors: Daniel Romero-Alvarado, Fernando Martínez-Plumed, Lorenzo Pacchiardi, Hugo Save, Siddhesh Milind Pawar, Behzad Mehrbakhsh, Pablo Antonio Moreno Casares, Ben Slater, Paolo Bova, Peter Romero, Zachary R. Tidler, Jonathan Prunty, Luning Sun, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "arXiv:2602.18182"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/2602.18182"}
+
+- year: 2025
+  entries:
+
+    - title: Analysing the Predictability of Language Model Performance
+      url: https://doi.org/10.1145/3706118
+      authors: Wout Schellaert, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: ACM Transactions on Intelligent Systems and Technology (TIST)
+      venue_url: https://dl.acm.org/journal/tist
+      details: Vol. 6(2), pp. 1–26
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1145/3706118"}
+
+    - title: Comparative analysis of public and expert perceptions of electrified vehicles in the European Union
+      url: https://doi.org/10.1038/s41598-025-06071-0
+      authors: Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, Fernando Martínez-Plumed, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo
+      venue: Nature Scientific Reports
+      venue_url: https://www.nature.com/srep/
+      details: Vol. 15, Article 21695
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1038/s41598-025-06071-0"}
+
+    - title: "Follow the Leader: A Deep Reinforcement Learning Framework for Safe and Efficient Autonomous Car-Following"
+      url: https://doi.org/10.1080/15472450.2025.2576907
+      authors: Andres L. Marin, Fernando Martínez-Plumed, Michail A. Makridis, Alessandro Tansini, Luca Pulvirenti, Jaime Suarez Corujo, Dimitrios Komnos, María José Ramírez-Quintana, Carlos Monserrat, Georgios Fontaras
+      venue: Journal of Intelligent Transportation Systems
+      venue_url: https://www.tandfonline.com/journals/gits20
+      details: Taylor & Francis, to appear
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1080/15472450.2025.2576907"}
+
+    - title: "Contamination Budget: Trade-offs Between Breadth, Depth and Difficulty"
+      url: https://doi.org/10.24963/ijcai.2025/911
+      authors: Behzad Mehrbakhsh, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: International Joint Conference on Artificial Intelligence (IJCAI 2025)
+      venue_url: https://www.ijcai.org/
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.24963/ijcai.2025/911"}
+
+    - title: "PredictaBoard: Benchmarking LLM Score Predictability"
+      url: https://openreview.net/forum?id=yZO97D7dU5
+      authors: Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, Fernando Martínez-Plumed, José Hernández-Orallo, Lexin Zhou, Wout Schellaert
+      venue: Annual Meeting of the Association for Computational Linguistics (ACL 2025)
+      venue_url: https://aclanthology.org/venues/acl/
+      details: Findings
+      type: conference
+      links:
+        - {label: OpenReview, url: "https://openreview.net/forum?id=yZO97D7dU5"}
+
+    - title: "Refining Community Detection in Social Networks: Agglomerative and Divisive Methods with Size Constraints"
+      url: https://doi.org/10.1007/978-3-032-00891-6_26
+      authors: Diego Vallejo-Huanga, Cèsar Ferri, Fernando Martínez-Plumed
+      venue: International Conference on Modeling Decisions for Artificial Intelligence (MDAI 2025)
+      venue_url: https://www.mdai.cat/
+      details: Springer
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-032-00891-6_26"}
+
+    - title: "ClustSize: An Algorithmic Framework for Size-Constrained Clustering"
+      url: https://doi.org/10.5220/0013558900003967
+      authors: Diego Vallejo-Huanga, Cèsar Ferri, Fernando Martínez-Plumed
+      venue: International Conference on Data Science, Technology and Applications (DATA 2025)
+      venue_url: https://data.scitevents.org/
+      details: SciTePress, pp. 481–490
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.5220/0013558900003967"}
+
+    - title: A Framework for the Categorisation of General-Purpose AI Models under the EU AI Act
+      url: https://openreview.net/forum?id=uE33aEsyX1
+      authors: Lorenzo Pacchiardi, John Burden, Fernando Martínez-Plumed, José Hernández-Orallo, Emilia Gómez, David Fernández-Llorca
+      venue: NeurIPS 2025 Workshop on Regulatable ML
+      venue_url: https://regulatableml.github.io/
+      type: workshop
+      links:
+        - {label: OpenReview, url: "https://openreview.net/forum?id=uE33aEsyX1"}
+
+    - title: A Framework for General-Purpose AI Model Categorisation
+      url: https://dx.doi.org/10.2760/5330387
+      authors: John Burden, Lorenzo Pacchiardi, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, JRC143256
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/5330387"}
+
+    - title: A Framework to Categorise Modified General-Purpose AI Models as New Models Based on Behavioural Changes
+      url: https://dx.doi.org/10.2760/4372557
+      authors: Lorenzo Pacchiardi, John Burden, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, JRC143257
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/4372557"}
+
+    - title: "Aprender IA sin necesidad de programar: Una propuesta educativa basada en herramientas visuales"
+      url: https://doi.org/10.4995/INRED2025.2025.20651
+      authors: Daniel Romero Alvarado, Yael Moros Daval, Behzad Mehrbakhsh, Fernando Martínez-Plumed
+      venue: Congreso Nacional de Innovación Educativa y Docencia en Red (IN-RED 2025)
+      venue_url: https://ojs.upv.es/index.php/INRED
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.4995/INRED2025.2025.20651"}
+
+    - title: "La integración de la IA en la educación superior: oportunidades, retos y recomendaciones"
+      url: https://doi.org/10.4995/INRED2025.2025.20652
+      authors: Yael Moros Daval, Daniel Romero Alvarado, Behzad Mehrbakhsh, Fernando Martínez-Plumed
+      venue: Congreso Nacional de Innovación Educativa y Docencia en Red (IN-RED 2025)
+      venue_url: https://ojs.upv.es/index.php/INRED
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.4995/INRED2025.2025.20652"}
+
+    - title: "PredictaBoard: Benchmarking LLM Score Predictability"
+      url: https://arxiv.org/abs/2502.14445
+      authors: Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, Fernando Martínez-Plumed, José Hernández-Orallo, Lexin Zhou, Wout Schellaert
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "arXiv:2502.14445"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/2502.14445"}
+
+    - title: What should an AI assessor optimise for?
+      url: https://arxiv.org/abs/2502.00365
+      authors: Daniel Romero-Alvarado, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "arXiv:2502.00365"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/2502.00365"}
+
+    - title: General Scales Unlock AI Evaluation with Explanatory and Predictive Power
+      url: https://arxiv.org/abs/2503.06378
+      authors: Lexin Zhou, Lorenzo Pacchiardi, Fernando Martínez-Plumed, Katherine M. Collins, Yael Moros-Daval, Seraphina Zhang, Qinlin Zhao, Yitian Huang, Luning Sun, Jonathan E. Prunty, Zongqian Li, Pablo Sánchez-García, Kexin Jiang Chen, Pablo A. M. Casares, Jiyun Zu, John Burden, Behzad Mehrbakhsh, David Stillwell, Manuel Cebrian, Jindong Wang, Peter Henderson, Sherry Tongshuang Wu, Patrick C. Kyllonen, Lucy Cheke, Xing Xie, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "arXiv:2503.06378"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/2503.06378"}
+
+- year: 2024
+  entries:
+
+    - title: Larger and more instructable language models become less reliable
+      url: https://doi.org/10.1038/s41586-024-07930-y
+      authors: Lexin Zhou, Wout Schellaert, Fernando Martínez-Plumed, Yael Moros-Daval, Cèsar Ferri, José Hernández-Orallo
+      venue: Nature
+      venue_url: https://www.nature.com/nature/
+      details: Vol. 634, pp. 61–68
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1038/s41586-024-07930-y"}
+
+    - title: A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference
+      url: https://doi.org/10.1007/s40747-024-01599-6
+      authors: Fernando Martínez-Plumed, Gonzalo Jaimovitch-López, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Complex & Intelligent Systems
+      venue_url: https://link.springer.com/journal/40747
+      details: Springer
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/s40747-024-01599-6"}
+
+    - title: Unveiling the Robustness of Machine Learning Families
+      url: https://doi.org/10.1088/2632-2153/ad62ab
+      authors: Raül Fabra-Boluda, Cèsar Ferri, María José Ramírez-Quintana, Fernando Martínez-Plumed
+      venue: "Machine Learning: Science and Technology (MLST)"
+      venue_url: https://iopscience.iop.org/journal/2632-2153
+      details: IOP Publishing, pp. 1–21
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1088/2632-2153/ad62ab"}
+
+    - title: "Cracking black-box models: Revealing hidden machine learning techniques behind their predictions"
+      url: https://doi.org/10.3233/IDA-230707
+      authors: Raül Fabra-Boluda, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana, Fernando Martínez-Plumed
+      venue: Intelligent Data Analysis (IDA)
+      venue_url: https://www.iospress.com/catalog/journals/intelligent-data-analysis
+      details: IOS Press, Vol. 29(1), pp. 28–44
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.3233/IDA-230707"}
+
+    - title: Distilling the Effects of Language Model Contamination
+      url: https://doi.org/10.3233/FAIA240753
+      authors: Behzad Mehrbakhsh, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: European Conference on Artificial Intelligence (ECAI 2024)
+      venue_url: https://www.eurai.org/activities/ECAI_conferences
+      details: IOS Press
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.3233/FAIA240753"}
+
+    - title: Language Task Difficulty Prediction through LLM-Annotated Meta-Features
+      url: https://doi.org/10.3233/FAIA240770
+      authors: Yael Moros-Daval, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: European Conference on Artificial Intelligence (ECAI 2024)
+      venue_url: https://www.eurai.org/activities/ECAI_conferences
+      details: IOS Press
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.3233/FAIA240770"}
+
+    - title: "Your Prompt Is My Command: On Assessing the Human-Centred Generality of Multimodal Models (Abstract Reprint)"
+      url: https://doi.org/10.1609/aaai.v38i20.30612
+      authors: Wout Schellaert, Fernando Martínez-Plumed, Karina Vold, John Burden, Pablo A. M. Casares, Bao Sheng Loe, Roi Reichart, Seán Ó hÉigeartaigh, Anna Korhonen, José Hernández-Orallo
+      venue: AAAI Conference on Artificial Intelligence (AAAI 2024)
+      venue_url: https://aaai.org/conference/aaai/
+      details: p. 22712
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1609/aaai.v38i20.30612"}
+
+    - title: How Resilient are Language Models to Text Perturbations?
+      url: https://doi.org/10.1007/978-3-031-77731-8_8
+      authors: Daniel Romero, José Hernández-Orallo, Fernando Martínez-Plumed
+      venue: International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2024)
+      venue_url: https://dblp.org/db/conf/ideal/index.html
+      details: Springer, LNCS 15346
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-031-77731-8_8"}
+
+    - title: Noise tolerance and robustness ranking in Machine Learning models
+      url: https://doi.org/10.1007/978-3-031-77738-7_9
+      authors: Cristina Padró-Ferragut, María José Ramírez-Quintana, Fernando Martínez-Plumed
+      venue: International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2024)
+      venue_url: https://dblp.org/db/conf/ideal/index.html
+      details: Springer, LNCS 15346
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-031-77738-7_9"}
+
+    - title: Automatic PDF Document Classification with Machine Learning
+      url: https://doi.org/10.1007/978-3-031-77731-8_40
+      authors: Sócrates Llácer Luna, Dario Garigliotti, Fernando Martínez-Plumed, Cèsar Ferri
+      venue: International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2024)
+      venue_url: https://dblp.org/db/conf/ideal/index.html
+      details: Springer, LNCS 15346
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-031-77731-8_40"}
+
+    - title: A Proposal for Scaling the Scaling Laws
+      url: https://aclanthology.org/2024.scalellm-1.1.pdf
+      authors: Wout Schellaert, Ronan Hamon, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: Workshop on the Scaling Behavior of Large Language Models (SCALE-LLM 2024) @ EACL
+      venue_url: https://scale-llm-24.pages.dev/
+      details: Association for Computational Linguistics
+      type: workshop
+      links:
+        - {label: PDF, url: "https://aclanthology.org/2024.scalellm-1.1.pdf"}
+
+    - title: Confounders in Instance Variation for the Analysis of Data Contamination
+      url: https://xai.w.uib.no/files/2024/07/ACL_2024_CONDA-Confounders.pdf
+      authors: Behzad Mehrbakhsh, Dario Garigliotti, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: Workshop on Data Contamination (CONDA 2024) @ ACL
+      venue_url: https://conda-workshop.github.io/
+      type: workshop
+      links:
+        - {label: PDF, url: "https://xai.w.uib.no/files/2024/07/ACL_2024_CONDA-Confounders.pdf"}
+
+- year: 2023
+  entries:
+
+    - title: Rethink reporting of evaluation results in AI
+      url: https://doi.org/10.1126/science.adf6369
+      authors: Ryan Burnell, Wout Schellaert, John Burden, Tomer D. Ullman, Fernando Martínez-Plumed, Joshua B. Tenenbaum, Danaja Rutar, Lucy G. Cheke, Jascha Sohl-Dickstein, Melanie Mitchell, Douwe Kiela, Murray Shanahan, Ellen M. Voorhees, Anthony G. Cohn, Joel Z. Leibo, José Hernández-Orallo
+      venue: Science
+      venue_url: https://www.science.org/journal/science
+      details: Vol. 380(6641), pp. 136–138
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1126/science.adf6369"}
+
+    - title: "Trends in AI Inference Energy Consumption: Beyond the Performance-vs-Parameter Laws of Deep Learning"
+      url: https://doi.org/10.1016/j.suscom.2023.100857
+      authors: Radosvet Desislavov, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: "Sustainable Computing: Informatics and Systems"
+      venue_url: https://www.sciencedirect.com/journal/sustainable-computing-informatics-and-systems
+      details: Elsevier, Vol. 38
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1016/j.suscom.2023.100857"}
+
+    - title: Can language models automate data wrangling?
+      url: https://doi.org/10.1007/s10994-022-06259-9
+      authors: Gonzalo Jaimovitch-López, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: Machine Learning Journal
+      venue_url: https://link.springer.com/journal/10994
+      details: Springer, Vol. 112, pp. 2053–2082
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/s10994-022-06259-9"}
+
+    - title: "Your Prompt is My Command: On Assessing the Human-Centred Generality of Multimodal Models"
+      url: https://doi.org/10.1613/jair.1.14157
+      authors: Wout Schellaert, Fernando Martínez-Plumed, Karina Vold, John Burden, Pablo A. M. Casares, Bao Sheng Loe, Roi Reichart, Seán Ó hÉigeartaigh, Anna Korhonen, José Hernández-Orallo
+      venue: Journal of Artificial Intelligence Research (JAIR)
+      venue_url: https://www.jair.org/index.php/jair
+      details: Vol. 77, pp. 377–394
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1613/jair.1.14157"}
+
+    - title: "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models"
+      url: https://openreview.net/pdf?id=uyTL5Bvosj
+      authors: Aarohi Srivastava, …, Fernando Martínez-Plumed, …, Ziyi Wu
+      venue: Transactions on Machine Learning Research (TMLR)
+      venue_url: https://jmlr.org/tmlr/
+      details: "ISSN 2835-8856"
+      type: journal
+      links:
+        - {label: PDF, url: "https://openreview.net/pdf?id=uyTL5Bvosj"}
+
+    - title: Adversarial Benchmark Evaluation Rectified by Controlling for Difficulty
+      url: https://doi.org/10.3233/FAIA230454
+      authors: Behzad Mehrbakhsh, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: European Conference on Artificial Intelligence (ECAI 2023)
+      venue_url: https://www.eurai.org/activities/ECAI_conferences
+      details: IOS Press
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.3233/FAIA230454"}
+        - {label: Appendix, url: "https://riunet.upv.es/handle/10251/195689"}
+
+    - title: Training Data Scientists through Project-based Learning
+      url: https://doi.org/10.1109/RITA.2023.3302954
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: IEEE Latin-American Journal of Learning Technologies (IEEE RITA)
+      venue_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245520
+      details: Vol. 18(3)
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1109/RITA.2023.3302954"}
+
+    - title: Assessing AI capabilities with education tests
+      url: https://www.oecd-ilibrary.org/education/ai-and-the-future-of-skills-volume-2_bbdeb1e0-en
+      authors: Mila Staneva, …, Fernando Martínez-Plumed, …, Michael Wooldridge
+      venue: "AI and the Future of Skills, Volume 2: Methods for Evaluating AI Capabilities"
+      venue_url: https://www.oecd-ilibrary.org/
+      details: OECD Publishing
+      type: chapter
+      links:
+        - {label: Paper, url: "https://www.oecd-ilibrary.org/education/ai-and-the-future-of-skills-volume-2_bbdeb1e0-en"}
+
+    - title: Predictable Artificial Intelligence
+      url: https://arxiv.org/abs/2310.06167
+      authors: Lexin Zhou, Pablo A. Moreno-Casares, Fernando Martínez-Plumed, John Burden, Ryan Burnell, Lucy Cheke, Cèsar Ferri, Alexandru Marcoci, Behzad Mehrbakhsh, Yael Moros-Daval, Seán Ó hÉigeartaigh, Danaja Rutar, Wout Schellaert, Konstantinos Voudouris, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "arXiv:2310.06167"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/2310.06167"}
+
+- year: 2022
+  entries:
+
+    - title: "When AI Difficulty is Easy: The Explanatory Power of Predicting IRT Difficulty"
+      url: https://doi.org/10.1609/aaai.v36i7.20739
+      authors: Fernando Martínez-Plumed, David Castellano-Falcón, Carlos Monserrat, José Hernández-Orallo
+      venue: AAAI Conference on Artificial Intelligence (AAAI 2022)
+      venue_url: https://aaai.org/conference/aaai/
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1609/aaai.v36i7.20739"}
+
+    - title: "Training on the Test Set: Mapping the System-Problem Space in AI"
+      url: https://doi.org/10.1609/aaai.v36i11.21487
+      authors: José Hernández-Orallo, Wout Schellaert, Fernando Martínez-Plumed
+      venue: AAAI Conference on Artificial Intelligence (AAAI 2022)
+      venue_url: https://aaai.org/conference/aaai/
+      type: conference
+      award: Blue Sky Idea Runner-Up Award
+      links:
+        - {label: DOI, url: "https://doi.org/10.1609/aaai.v36i11.21487"}
+
+    - title: "Measuring the Occupational Impact of AI: Tasks, Cognitive Abilities and AI Benchmarks (Extended Abstract)"
+      url: https://doi.org/10.24963/ijcai.2022/809
+      authors: Songül Tolan, Annarosa Pesole, Fernando Martínez-Plumed, Enrique Fernández-Macías, José Hernández-Orallo, Emilia Gómez
+      venue: International Joint Conference on Artificial Intelligence (IJCAI 2022)
+      venue_url: https://www.ijcai.org/
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.24963/ijcai.2022/809"}
+
+    - title: "Reject Before You Run: Small Assessors Anticipate Big"
+      url: https://ceur-ws.org/Vol-3169/paper4.pdf
+      authors: Lexin Zhou, Fernando Martínez-Plumed, José Hernández-Orallo, Cèsar Ferri, Wout Schellaert
+      venue: International Workshop on AI Evaluation Beyond Metrics (EBeM 2022) @ IJCAI
+      venue_url: https://sites.google.com/view/ebem2022
+      details: "CEUR-WS, Vol. 3169"
+      type: workshop
+      links:
+        - {label: PDF, url: "https://ceur-ws.org/Vol-3169/paper4.pdf"}
+
+    - title: Robustness Testing of Machine Learning Families using Instance-Level IRT-Difficulty
+      url: https://ceur-ws.org/Vol-3169/paper6.pdf
+      authors: Raül Fabra-Boluda, Cèsar Ferri, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: International Workshop on AI Evaluation Beyond Metrics (EBeM 2022) @ IJCAI
+      venue_url: https://sites.google.com/view/ebem2022
+      details: "CEUR-WS, Vol. 3169"
+      type: workshop
+      links:
+        - {label: PDF, url: "https://ceur-ws.org/Vol-3169/paper6.pdf"}
+
+    - title: "AI Watch: Revisiting Technology Readiness Levels for relevant Artificial Intelligence technologies"
+      url: https://dx.doi.org/10.2760/495140
+      authors: Fernando Martínez-Plumed, Fernando Caballero Benítez, David Castellano Falcón, David Fernández-Llorca, Emilia Gómez, Isabelle Hupont Torres, Luis Merino, Carlos Monserrat, José Hernández-Orallo
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, ISBN 978-92-76-52328-4
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/495140"}
+
+    - title: Glossary of human-centric artificial intelligence
+      url: https://dx.doi.org/10.2760/860665
+      authors: Marina Estevez Almenzar, David Fernández-Llorca, Emilia Gómez, Fernando Martínez-Plumed
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, ISBN 978-92-76-53432-7, JRC129614
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/860665"}
+
+    - title: "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models"
+      url: https://arxiv.org/abs/2206.04615
+      authors: Aarohi Srivastava, …, Fernando Martínez-Plumed, …, Ziyi Wu
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "arXiv:2206.04615"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/2206.04615"}
+
+    - title: "Between Progress and Potential Impact of AI: the Neglected Dimensions"
+      url: http://dmip.webs.upv.es/papers/1806.00610.pdf
+      authors: Fernando Martínez-Plumed, Shahar Avin, Miles Brundage, Allan Dafoe, Seán Ó hÉigeartaigh, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "CoRR abs/1806.00610"
+      type: preprint
+      links:
+        - {label: PDF, url: "http://dmip.webs.upv.es/papers/1806.00610.pdf"}
+
+    - title: Trabajos Finales de Grado y Máster orientados a investigación como caso de éxito
+      url: http://hdl.handle.net/10045/128967
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: Jornadas sobre la Enseñanza Universitaria de la Informática (JENUI 2022)
+      venue_url: https://www.aenui.org/
+      type: conference
+      links:
+        - {label: Paper, url: "http://hdl.handle.net/10045/128967"}
+
+- year: 2021
+  entries:
+
+    - title: Research community dynamics behind popular AI benchmarks
+      url: https://rdcu.be/ckK8X
+      authors: Fernando Martínez-Plumed, Pablo Barredo, Seán Ó hÉigeartaigh, José Hernández-Orallo
+      venue: Nature Machine Intelligence
+      venue_url: https://www.nature.com/natmachintell/
+      details: Vol. 3, pp. 581–589
+      type: journal
+      links:
+        - {label: Paper, url: "https://rdcu.be/ckK8X"}
+
+    - title: General intelligence disentangled via a generality metric for natural and artificial intelligence
+      url: https://www.nature.com/articles/s41598-021-01997-7
+      authors: José Hernández-Orallo, Bao Sheng Loe, Lucy Cheke, Fernando Martínez-Plumed, Seán Ó hÉigeartaigh
+      venue: Nature Scientific Reports
+      venue_url: https://www.nature.com/srep/
+      type: journal
+      links:
+        - {label: Paper, url: "https://www.nature.com/articles/s41598-021-01997-7"}
+
+    - title: "Missing the missing values: The ugly duckling of fairness in machine learning"
+      url: https://doi.org/10.1002/int.22415
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, David Nieves, José Hernández-Orallo
+      venue: International Journal of Intelligent Systems
+      venue_url: https://onlinelibrary.wiley.com/journal/1098111x
+      details: Wiley
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1002/int.22415"}
+
+    - title: "Measuring the Occupational Impact of AI: Tasks, Cognitive Abilities and AI Benchmarks"
+      url: https://doi.org/10.1613/jair.1.12647
+      authors: Songül Tolan, Annarosa Pesole, Fernando Martínez-Plumed, Enrique Fernández-Macías, José Hernández-Orallo, Emilia Gómez
+      venue: Journal of Artificial Intelligence Research (JAIR)
+      venue_url: https://www.jair.org/index.php/jair
+      details: Vol. 71, pp. 191–236
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1613/jair.1.12647"}
+
+    - title: Futures of Artificial Intelligence through Technology Readiness Levels
+      url: https://doi.org/10.1016/j.tele.2020.101525
+      authors: Fernando Martínez-Plumed, Emilia Gómez, José Hernández-Orallo
+      venue: Telematics and Informatics
+      venue_url: https://www.sciencedirect.com/journal/telematics-and-informatics
+      details: Elsevier, Vol. 58
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1016/j.tele.2020.101525"}
+
+    - title: "Project-Based Learning for Scaffolding Data Scientists' Skills"
+      url: https://ieeexplore.ieee.org/document/9569289
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: IEEE International Conference on Computer Science & Education (ICCSE 2021)
+      venue_url: http://ieee-iccse.org/
+      type: conference
+      award: Best Poster Award
+      links:
+        - {label: Paper, url: "https://ieeexplore.ieee.org/document/9569289"}
+
+    - title: "Healthcare and long-term care workforce: demographic challenges and potential contribution of migration and digital technology"
+      url: https://dx.doi.org/10.2760/33427
+      authors: Sara Grubanov-Boskovic, Daniela Ghio, Anne Goujon, Sona Kalantaryan, Marco Belmonte, Marco Scipioni, Alessandra Conte, Emilio Gómez-González, Emilia Gómez, Songül Tolan, Fernando Martínez-Plumed, Annarosa Pesole, Enrique Fernández-Macías, José Hernández-Orallo
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, ISBN 978-92-76-30233-9
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/33427"}
+
+    - title: "HUMAINT: Understanding the impact of Artificial Intelligence on human behaviour"
+      url: https://publications.jrc.ec.europa.eu/repository/bitstream/JRC122667/humaint-brochure_online-version.pdf
+      authors: Emilia Gómez, Vicky Charisi, Songül Tolan, Marius Miron, Fernando Martínez-Plumed, Marina Escobar Planas
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, ISBN 978-92-76-28212-9
+      type: report
+      links:
+        - {label: PDF, url: "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC122667/humaint-brochure_online-version.pdf"}
+
+    - title: "Defining Artificial Intelligence 2.0. Towards an operational definition and taxonomy of AI for the AI landscape"
+      url: https://dx.doi.org/10.2760/019901
+      authors: Sofia Samoili, Montserrat López Cobo, Blagoj Delipetrev, Fernando Martínez-Plumed, Emilia Gómez, Giuditta De Prato
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, ISBN 978-92-76-42648-6, JRC126426
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/019901"}
+
+    - title: Can language models automate data wrangling?
+      url: http://www.dmip.webs.upv.es/papers/autods2021_paper_9.pdf
+      authors: Gonzalo Jaimovitch-López, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: Workshop on Automating Data Science (ADS 2021) @ ECML-PKDD
+      venue_url: https://sites.google.com/view/autods
+      type: workshop
+      links:
+        - {label: PDF, url: "http://www.dmip.webs.upv.es/papers/autods2021_paper_9.pdf"}
+
+    - title: Aprender haciendo para los futuros científicos de datos
+      url: http://jidinf.webs.upv.es/wp-content/uploads/2021/11/Actas_JIDINF2021.pdf
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: Jornadas de Innovación Docente en Ingeniería Informática (JIDINF 2021)
+      venue_url: http://jidinf.webs.upv.es/
+      type: conference
+      links:
+        - {label: PDF, url: "http://jidinf.webs.upv.es/wp-content/uploads/2021/11/Actas_JIDINF2021.pdf"}
+
+- year: 2020
+  entries:
+
+    - title: "CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science Trajectories"
+      url: https://doi.org/10.1109/TKDE.2019.2962680
+      authors: Fernando Martínez-Plumed, Lidia Contreras-Ochando, Cèsar Ferri, José Hernández-Orallo, Meelis Kull, Nicolas Lachiche, María José Ramírez-Quintana, Peter Flach
+      venue: IEEE Transactions on Knowledge and Data Engineering (TKDE)
+      venue_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1109/TKDE.2019.2962680"}
+
+    - title: "Dual Indicators to Analyse AI Benchmarks: Difficulty, Discrimination, Ability and Generality"
+      url: https://doi.org/10.1109/TG.2018.2883773
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: IEEE Transactions on Games
+      venue_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7782673
+      details: Vol. 12(2), pp. 121–131
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1109/TG.2018.2883773"}
+
+    - title: "Tracking AI: The Capability is (Not) Near"
+      url: https://ecai2020.eu/papers/1009_paper.pdf
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo, Emilia Gómez
+      venue: European Conference on Artificial Intelligence (ECAI 2020)
+      venue_url: https://www.eurai.org/activities/ECAI_conferences
+      details: IOS Press
+      type: conference
+      links:
+        - {label: PDF, url: "https://ecai2020.eu/papers/1009_paper.pdf"}
+
+    - title: "AI Paradigms and AI Safety: Mapping Artefacts and Techniques to Safety Issues"
+      url: https://ecai2020.eu/papers/1364_paper.pdf
+      authors: José Hernández-Orallo, Fernando Martínez-Plumed, Shahar Avin, Jess Whittlestone, Seán Ó hÉigeartaigh
+      venue: European Conference on Artificial Intelligence (ECAI 2020)
+      venue_url: https://www.eurai.org/activities/ECAI_conferences
+      details: IOS Press
+      type: conference
+      links:
+        - {label: PDF, url: "https://ecai2020.eu/papers/1364_paper.pdf"}
+
+    - title: "Family and Prejudice: A Behavioural Taxonomy of Machine Learning Techniques"
+      url: https://ecai2020.eu/papers/1285_paper.pdf
+      authors: Raül Fabra-Boluda, Cèsar Ferri, Fernando Martínez-Plumed, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: European Conference on Artificial Intelligence (ECAI 2020)
+      venue_url: https://www.eurai.org/activities/ECAI_conferences
+      details: IOS Press
+      type: conference
+      links:
+        - {label: PDF, url: "https://ecai2020.eu/papers/1285_paper.pdf"}
+
+    - title: "Does AI Qualify for the Job? A Bidirectional Model Mapping Labour and AI Intensities"
+      url: https://doi.org/10.1145/3375627.3375831
+      authors: Fernando Martínez-Plumed, Songül Tolan, Annarosa Pesole, José Hernández-Orallo, Enrique Fernández-Macías, Emilia Gómez
+      venue: AAAI/ACM Conference on Artificial Intelligence, Ethics and Society (AIES 2020)
+      venue_url: https://www.aies-conference.com/
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1145/3375627.3375831"}
+
+    - title: "Measuring the Occupational Impact of AI: Tasks, Cognitive Abilities and AI Benchmarks"
+      url: https://EconPapers.repec.org/RePEc:ipt:laedte:202002
+      authors: Songül Tolan, Annarosa Pesole, Fernando Martínez-Plumed, Enrique Fernández-Macías, José Hernández-Orallo, Emilia Gómez
+      venue: JRC Working Papers on Labour, Education and Technology
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, 2020-02
+      type: report
+      links:
+        - {label: Paper, url: "https://EconPapers.repec.org/RePEc:ipt:laedte:202002"}
+
+    - title: "AI Watch: Assessing Technology Readiness Levels for Artificial Intelligence"
+      url: https://dx.doi.org/10.2760/15025
+      authors: Fernando Martínez-Plumed, Emilia Gómez, José Hernández-Orallo
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, EUR 30401 EN, JRC122014
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/15025"}
+
+    - title: "AI Watch: Defining Artificial Intelligence"
+      url: https://dx.doi.org/10.2760/382730
+      authors: Sofia Samoili, Montserrat López Cobo, Emilia Gómez, Giuditta De Prato, Fernando Martínez-Plumed, Blagoj Delipetrev
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, ISBN 978-92-76-17045-7, JRC118163
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/382730"}
+
+    - title: "AI Watch: Methodology to Monitor the Evolution of AI Technologies"
+      url: https://dx.doi.org/10.2760/643950
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo, Emilia Gómez
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, ISBN 978-92-76-17153-9, JRC120090
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/643950"}
+
+    - title: AI Watch 2019 Activity Report
+      url: https://dx.doi.org/10.2760/007745
+      authors: Blagoj Delipetrev, Chrisa Tsinaraki, Daniel Nepelski, Emilia Gómez, Fernando Martínez-Plumed, Gianluca Misuraca, Giuditta De Prato, Kathleen Fullerton, Massimo Craglia, Néstor Duch Brown, Stefano Nativi, Vincent Van Roy
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, EUR 30254 EN, ISBN 978-92-76-19515-3
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/007745"}
+
+    - title: Artificial Intelligence at the JRC
+      url: https://dx.doi.org/10.2760/511755
+      authors: Stefano Nativi, …, Fernando Martínez-Plumed, …, Momchil Yordanov
+      venue: Publications Office of the European Union
+      venue_url: https://publications.jrc.ec.europa.eu/
+      details: European Commission, ISBN 978-92-76-18943-5, JRC120539
+      type: report
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.2760/511755"}
+
+    - title: "Tracking the Impact and Evolution of AI: The AIcollaboratory"
+      url: http://dmip.webs.upv.es/EPAI2020/papers/EPAI_2020_paper_3.pdf
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo, Emilia Gómez
+      venue: International Workshop on Evaluating Progress in Artificial Intelligence (EPAI 2020) @ ECAI
+      venue_url: http://dmip.webs.upv.es/EPAI2020/
+      type: workshop
+      links:
+        - {label: PDF, url: "http://dmip.webs.upv.es/EPAI2020/papers/EPAI_2020_paper_3.pdf"}
+
+    - title: "The Scientometrics of AI Benchmarks: Unveiling the Underlying Mechanics of AI Research"
+      url: http://dmip.webs.upv.es/EPAI2020/papers/EPAI_2020_paper_12.pdf
+      authors: Pablo Barredo, José Hernández-Orallo, Fernando Martínez-Plumed, Seán Ó hÉigeartaigh
+      venue: International Workshop on Evaluating Progress in Artificial Intelligence (EPAI 2020) @ ECAI
+      venue_url: http://dmip.webs.upv.es/EPAI2020/
+      type: workshop
+      links:
+        - {label: PDF, url: "http://dmip.webs.upv.es/EPAI2020/papers/EPAI_2020_paper_12.pdf"}
+
+    - title: "Setting the Boundaries of the AI Landscape: An Operational Definition for the European Commission's AI Watch"
+      url: http://dmip.webs.upv.es/EPAI2020/papers/EPAI_2020_paper_16.pdf
+      authors: Sofia Samoili, Montserrat López Cobo, Emilia Gómez, Giuditta De Prato, Fernando Martínez-Plumed, Blagoj Delipetrev
+      venue: International Workshop on Evaluating Progress in Artificial Intelligence (EPAI 2020) @ ECAI
+      venue_url: http://dmip.webs.upv.es/EPAI2020/
+      type: workshop
+      links:
+        - {label: PDF, url: "http://dmip.webs.upv.es/EPAI2020/papers/EPAI_2020_paper_16.pdf"}
+
+- year: 2019
+  entries:
+
+    - title: "Item Response Theory in AI: Analysing Machine Learning Classifiers at the Instance Level"
+      url: https://doi.org/10.1016/j.artint.2018.09.004
+      authors: Fernando Martínez-Plumed, Ricardo B. C. Prudêncio, Adolfo Martínez-Usó, José Hernández-Orallo
+      venue: Artificial Intelligence Journal (AIJ)
+      venue_url: https://www.sciencedirect.com/journal/artificial-intelligence
+      details: Elsevier, Vol. 271, pp. 18–42
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1016/j.artint.2018.09.004"}
+
+    - title: Automated Data Transformation with Inductive Programming and Dynamic Background Knowledge
+      url: https://doi.org/10.1007/978-3-030-46133-1_44
+      authors: Lidia Contreras-Ochando, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2019)
+      venue_url: https://ecmlpkdd.org/
+      details: Springer
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-030-46133-1_44"}
+
+    - title: "ABK-ADAPT: Dynamic Background Knowledge for Automating Data Transformation"
+      url: https://doi.org/10.1007/978-3-030-46133-1_45
+      authors: Lidia Contreras-Ochando, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2019)
+      venue_url: https://ecmlpkdd.org/
+      details: Springer
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-030-46133-1_45"}
+
+    - title: Surveying Safety-relevant AI Characteristics
+      url: http://ceur-ws.org/Vol-2301/paper_22.pdf
+      authors: José Hernández-Orallo, Fernando Martínez-Plumed, Shahar Avin, Seán Ó hÉigeartaigh
+      venue: AAAI Workshop on Artificial Intelligence Safety (SafeAI 2019)
+      venue_url: https://safeai.webs.upv.es/
+      details: "CEUR-WS, Vol. 2301"
+      type: workshop
+      award: Best Paper Award Runner-up
+      award_url: https://www.cser.ac.uk/news/safeai-workshop/
+      links:
+        - {label: PDF, url: "http://ceur-ws.org/Vol-2301/paper_22.pdf"}
+
+    - title: "Artificial Intelligence and Jobs: From Tasks to Cognitive Abilities"
+      url: https://renir.carloalberto.org/news/3rd-renir-workshop/
+      authors: Songül Tolan, Annarosa Pesole, Fernando Martínez-Plumed, Enrique Fernández-Macías, José Hernández-Orallo, Emilia Gómez
+      venue: RENIR Workshop on the Impact of Automation and AI in Regional Economies
+      venue_url: https://renir.carloalberto.org/workshop/
+      type: workshop
+      links:
+        - {label: Paper, url: "https://renir.carloalberto.org/news/3rd-renir-workshop/"}
+
+    - title: Fairness and Missing Values
+      url: https://arxiv.org/abs/1905.12728
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, David Nieves, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "CoRR abs/1905.12728"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/1905.12728"}
+
+- year: 2018
+  entries:
+
+    - title: "The Facets of Artificial Intelligence: A Framework to Track the Evolution of AI"
+      url: https://www.ijcai.org/proceedings/2018/718
+      authors: Fernando Martínez-Plumed, Bao Sheng Loe, Peter Flach, Seán Ó hÉigeartaigh, Karina Vold, José Hernández-Orallo
+      venue: International Joint Conference on Artificial Intelligence (IJCAI 2018)
+      venue_url: https://www.ijcai.org/
+      details: pp. 5180–5187
+      type: conference
+      links:
+        - {label: Paper, url: "https://www.ijcai.org/proceedings/2018/718"}
+
+    - title: "Mapping Intelligence: Requirements and Possibilities"
+      url: https://doi.org/10.1007/978-3-319-96448-5_13
+      authors: Sankalp Bhatnagar, Anna Alexandrova, Shahar Avin, Stephen Cave, Lucy Cheke, Matthew Crosby, Jan Feyereis, Marta Halina, Bao Sheng Loe, Seán Ó hÉigeartaigh, Fernando Martínez-Plumed, Huw Price, Henry Shevlin, Adrian Weller, Alan Winfield, José Hernández-Orallo
+      venue: Philosophy and Theory of Artificial Intelligence 2017 (SAPERE, Vol. 44)
+      venue_url: https://www.springer.com/gb/book/9783319964478
+      details: Springer, ISBN 978-3-319-96447-8
+      type: chapter
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-319-96448-5_13"}
+
+    - title: Modelling Machine Learning Models
+      url: https://doi.org/10.1007/978-3-319-96448-5_16
+      authors: Raül Fabra-Boluda, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: Philosophy and Theory of Artificial Intelligence 2017 (SAPERE, Vol. 44)
+      venue_url: https://www.springer.com/gb/book/9783319964478
+      details: Springer, ISBN 978-3-319-96447-8
+      type: chapter
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-319-96448-5_16"}
+
+    - title: Identifying the Machine Learning Family from Black-Box Models
+      url: https://doi.org/10.1007/978-3-030-00374-6_6
+      authors: Raül Fabra-Boluda, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: Conference of the Spanish Association for Artificial Intelligence (CAEPIA 2018)
+      venue_url: https://dblp.org/db/conf/caepia/index.html
+      details: Springer, LNAI 11160, pp. 55–65
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-030-00374-6_6"}
+
+    - title: "SALER: a Data Science solution to detect and prevent corruption in public administration"
+      url: https://doi.org/10.1007/978-3-030-13453-2_9
+      authors: Fernando Martínez-Plumed, Juan Carlos Casamayor, Cèsar Ferri, Jon Ander Gómez, Eduardo Vendrell
+      venue: Workshop on Data Science for Social Good (SoGood 2018) @ ECML-PKDD
+      venue_url: https://sites.google.com/site/ecmlpkddsogood2018/
+      details: Springer, LNAI 11329, pp. 1–15
+      type: workshop
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-030-13453-2_9"}
+
+    - title: A multidisciplinary task-based perspective for evaluating the impact of AI autonomy and generality on the future of work
+      url: http://cadia.ru.is/workshops/aegap2018/papers/AEGAP_2018_Fernandez-Macias_et_al.pdf
+      authors: Enrique Fernández-Macías, Emilia Gómez, José Hernández-Orallo, Bao Sheng Loe, Bertin Martens, Fernando Martínez-Plumed, Songül Tolan
+      venue: International Workshop on Architectures and Evaluation for Generality, Autonomy & Progress in AI (AEGAP 2018) @ IJCAI
+      venue_url: http://cadia.ru.is/workshops/aegap2018/
+      type: workshop
+      links:
+        - {label: PDF, url: "http://cadia.ru.is/workshops/aegap2018/papers/AEGAP_2018_Fernandez-Macias_et_al.pdf"}
+        - {label: arXiv, url: "https://arxiv.org/abs/1807.02416"}
+
+    - title: How Data Science helps build Smart Cities. Valencia as a use case
+      url: http://hdl.handle.net/10251/104672
+      authors: Lidia Contreras-Ochando, Cristina I. Font-Julián, David Nieves, Fernando Martínez-Plumed
+      venue: Congress on Small and Medium Smart Cities
+      venue_url: http://www.smartcitiesalcoy.es
+      details: ISBN 978-84-09-02970-9, pp. 3–11
+      type: conference
+      links:
+        - {label: Paper, url: "http://hdl.handle.net/10251/104672"}
+
+    - title: "El uso de las herramientas big data en la lucha contra la corrupción — Sistema de Alertas Tempranas de la Generalitat Valenciana"
+      url: https://pti.clad.org/web/congreso.php/paneles-aprobados-detalle/2887
+      authors: Fernando Martínez-Plumed, Jon Ander Gómez, Cèsar Ferri
+      venue: Congreso Internacional del CLAD sobre la Reforma del Estado y de la Administración Pública
+      venue_url: https://www.clad.org/congresos/
+      type: conference
+      links:
+        - {label: Paper, url: "https://pti.clad.org/web/congreso.php/paneles-aprobados-detalle/2887"}
+
+    - title: "Applying Data Science to Fraud Prevention and Detection: SALER Analytics"
+      url: https://pti.clad.org/web/congreso.php/paneles-aprobados-detalle/2887
+      authors: Fernando Martínez-Plumed
+      venue: Jornadas de Usuarios de R (XJUR 2018)
+      venue_url: http://r-es.org/
+      type: conference
+      links:
+        - {label: Paper, url: "https://pti.clad.org/web/congreso.php/paneles-aprobados-detalle/2887"}
+
+    - title: Accounting for the Neglected Dimensions of AI Progress
+      url: https://arxiv.org/abs/1806.00610
+      authors: Fernando Martínez-Plumed, Shahar Avin, Miles Brundage, Allan Dafoe, Seán Ó hÉigeartaigh, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "CoRR abs/1806.00610"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/1806.00610"}
+
+    - title: "Analysing Results from AI Benchmarks: Key Indicators and How to Obtain Them"
+      url: https://arxiv.org/abs/1811.08186
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "CoRR abs/1811.08186"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/1811.08186"}
+
+    - title: A multidisciplinary task-based perspective for evaluating the impact of AI autonomy and generality on the future of work
+      url: https://arxiv.org/abs/1807.02416
+      authors: Enrique Fernández-Macías, Emilia Gómez, José Hernández-Orallo, Bao Sheng Loe, Bertin Martens, Fernando Martínez-Plumed, Songül Tolan
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "CoRR abs/1807.02416"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/1807.02416"}
+
+    - title: General-purpose Declarative Inductive Programming with Domain-Specific Background Knowledge for Data Wrangling Automation
+      url: https://arxiv.org/abs/1809.10054
+      authors: Lidia Contreras-Ochando, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "CoRR abs/1809.10054"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/1809.10054"}
+
+    - title: A First Survey on an Atlas of Intelligence
+      url: http://users.dsic.upv.es/~flip/papers/Bhatnagar18_SurveyAtlas.pdf
+      authors: Sankalp Bhatnagar, Anna Alexandrova, Shahar Avin, Stephen Cave, Lucy Cheke, Matthew Crosby, Jan Feyereis, Marta Halina, Bao Sheng Loe, Seán Ó hÉigeartaigh, Fernando Martínez-Plumed, Huw Price, Henry Shevlin, Adrian Weller, Alan Winfield, José Hernández-Orallo
+      venue: Technical Report, Universitat Politècnica de València
+      venue_url: https://www.upv.es/
+      type: report
+      links:
+        - {label: PDF, url: "http://users.dsic.upv.es/~flip/papers/Bhatnagar18_SurveyAtlas.pdf"}
+
+- year: 2017
+  entries:
+
+    - title: "A New AI Evaluation Cosmos: Ready to Play the Game?"
+      url: https://doi.org/10.1609/aimag.v38i3.2748
+      authors: José Hernández-Orallo, Marco Baroni, Jordi Bieger, Nader Chmait, David L. Dowe, Katja Hofmann, Fernando Martínez-Plumed, Claes Strannegård, Kristinn R. Thórisson
+      venue: AI Magazine
+      venue_url: http://www.aaai.org/Magazine/magazine.php
+      details: AAAI, Vol. 38(3)
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1609/aimag.v38i3.2748"}
+
+    - title: A Computational Analysis of General Intelligence Tests for Evaluating Cognitive Development
+      url: https://doi.org/10.1016/j.cogsys.2017.01.006
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Cognitive Systems Research
+      venue_url: https://www.sciencedirect.com/journal/cognitive-systems-research
+      details: Elsevier, Vol. 43, pp. 100–118
+      type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1016/j.cogsys.2017.01.006"}
+
+    - title: Incremental and developmental perspectives for general-purpose learning systems
+      url: https://dx.doi.org/10.4114/intartif.vol20iss60pp24-27
+      authors: Fernando Martínez-Plumed
+      venue: Inteligencia Artificial
+      venue_url: http://journal.iberamia.org
+      details: IBERAMIA, Vol. 20(60), pp. 24–27
+      type: journal
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.4114/intartif.vol20iss60pp24-27"}
+
+    - title: "Computer models solving intelligence test problems: progress and implications (Extended Abstract)"
+      url: https://doi.org/10.24963/ijcai.2017/711
+      authors: José Hernández-Orallo, Fernando Martínez-Plumed, Ute Schmid, Michael Siebers, David L. Dowe
+      venue: International Joint Conference on Artificial Intelligence (IJCAI 2017)
+      venue_url: https://www.ijcai.org/
+      details: pp. 5005–5009
+      type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.24963/ijcai.2017/711"}
+
+    - title: Modelling machine learning models
+      authors: José Hernández-Orallo, Raül Fabra-Boluda, Cèsar Ferri, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: Conference on Philosophy & Theory of Artificial Intelligence (PT-AI 2017)
+      venue_url: https://www.pt-ai.org/2017
+      type: conference
+
+    - title: Incremental and developmental perspectives for general-purpose learning systems (Dissertation Briefing)
+      url: https://dx.doi.org/10.1145/3098888.3098898
+      authors: Fernando Martínez-Plumed
+      venue: AI Matters
+      venue_url: https://sigai.acm.org/aimatters/
+      details: ACM SIGAI, Vol. 3(2), pp. 24–25
+      type: journal
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.1145/3098888.3098898"}
+
+    - title: Incremental and developmental perspectives for general-purpose learning systems (Selected Ph.D. Thesis Abstracts)
+      url: http://www.comp.hkbu.edu.hk/~iib/2017/Aug/abstract/iib_vol18no1_abstract.pdf
+      authors: Fernando Martínez-Plumed
+      venue: IEEE Intelligent Informatics Bulletin
+      venue_url: http://www.comp.hkbu.edu.hk/~cib/issues.html
+      details: IEEE Computer Society, Vol. 18(1), pp. 26–27
+      type: journal
+      links:
+        - {label: PDF, url: "http://www.comp.hkbu.edu.hk/~iib/2017/Aug/abstract/iib_vol18no1_abstract.pdf"}
+
+    - title: "AI results for the Atari 2600 games: difficulty and discrimination using IRT"
+      url: http://users.dsic.upv.es/~flip/EGPAI2017/Papers/EGPAI_2017_paper_7_FMartinez-Plumed.pdf
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: International Workshop on Evaluating General-Purpose AI (EGPAI 2017) @ IJCAI
+      venue_url: http://users.dsic.upv.es/~flip/EGPAI2017/
+      type: workshop
+      links:
+        - {label: PDF, url: "http://users.dsic.upv.es/~flip/EGPAI2017/Papers/EGPAI_2017_paper_7_FMartinez-Plumed.pdf"}
+
+    - title: Domain specific induction for data wrangling automation (Demo)
+      url: http://users.dsic.upv.es/~flip/papers/AutoML_ICML2017.pdf
+      authors: Lidia Contreras-Ochando, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed, María José Ramírez-Quintana, Susumu Katayama
+      venue: Automatic Machine Learning Workshop (AutoML 2017) @ ICML
+      venue_url: https://sites.google.com/site/automl2017icml/
+      type: workshop
+      links:
+        - {label: PDF, url: "http://users.dsic.upv.es/~flip/papers/AutoML_ICML2017.pdf"}
+
+    - title: "CASP-DM: Context Aware Standard Process for Data Mining"
+      url: https://arxiv.org/abs/1709.09003
+      authors: Fernando Martínez-Plumed, Lidia Contreras-Ochando, Cèsar Ferri, Peter Flach, José Hernández-Orallo, Meelis Kull, Nicolas Lachiche, María José Ramírez-Quintana
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "CoRR abs/1709.09003"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/1709.09003"}
+        - {label: Project, url: "http://www.casp-dm.org/"}
+
+- year: 2016
+  entries:
+
+    - title: Incremental and developmental perspectives for general-purpose learning systems
+      url: https://dx.doi.org/10.4995/Thesis/10251/67269
+      authors: Fernando Martínez-Plumed
+      venue: Ph.D. Thesis, Universitat Politècnica de València
+      venue_url: https://riunet.upv.es/
+      type: thesis
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.4995/Thesis/10251/67269"}
+        - {label: Slides, url: "/papers/Thesis_slides.pdf"}
+        - {label: BibTeX, url: "/papers/PhDThesis.bib"}
+
+    - title: "Computer models solving intelligence test problems: progress and implications"
+      url: https://dx.doi.org/10.1016/j.artint.2015.09.011
+      authors: José Hernández-Orallo, Fernando Martínez-Plumed, Ute Schmid, Michael Siebers, David L. Dowe
+      venue: Artificial Intelligence Journal (AIJ)
+      venue_url: https://www.sciencedirect.com/journal/artificial-intelligence
+      details: Elsevier, Vol. 230, pp. 74–107
+      type: journal
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.1016/j.artint.2015.09.011"}
+        - {label: BibTeX, url: "/papers/AIJ15.bib"}
+
+    - title: Making sense of item response theory in machine learning
+      url: https://doi.org/10.3233/978-1-61499-672-9-1140
+      authors: Fernando Martínez-Plumed, Ricardo B. C. Prudêncio, Adolfo Martínez-Usó, José Hernández-Orallo
+      venue: European Conference on Artificial Intelligence (ECAI 2016)
+      venue_url: https://www.eurai.org/activities/ECAI_conferences
+      details: IOS Press, pp. 1140–1148
+      type: conference
+      award: Best Paper Award
+      links:
+        - {label: DOI, url: "https://doi.org/10.3233/978-1-61499-672-9-1140"}
+        - {label: PDF, url: "/papers/ECAI2016.pdf"}
+        - {label: BibTeX, url: "/papers/ECAI2016.bib"}
+
+    - title: Historical account of computer models solving IQ test problems
+      url: http://www.ecai2016.org/content/uploads/2016/08/W14-EGPAI-2016.pdf
+      authors: Fernando Martínez-Plumed, José Hernández-Orallo, Ute Schmid, Michael Siebers, David L. Dowe
+      venue: International Workshop on Evaluating General-Purpose AI (EGPAI 2016) @ ECAI
+      venue_url: http://users.dsic.upv.es/~flip/EGPAI2016/
+      details: pp. 20–21
+      type: workshop
+      links:
+        - {label: PDF, url: "http://www.ecai2016.org/content/uploads/2016/08/W14-EGPAI-2016.pdf"}
+
+    - title: "Cycling network projects: a decision-making aid approach"
+      url: http://ceur-ws.org/Vol-1831/paper_8.pdf
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, Lidia Contreras-Ochando
+      venue: Workshop on Data Science for Social Good (SoGood 2016) @ ECML-PKDD
+      venue_url: https://sites.google.com/site/ecmlpkdd2016sogood/
+      details: "CEUR-WS, Vol. 1831, pp. 96–109"
+      type: workshop
+      links:
+        - {label: PDF, url: "http://ceur-ws.org/Vol-1831/paper_8.pdf"}
+
+    - title: "CASP-DM: Bringing a Context-Aware Standard Process for Data Mining to Data Science"
+      authors: Hana Alouaoui, Lidia Contreras-Ochando, Cèsar Ferri, Peter Flach, José Hernández-Orallo, Meelis Kull, Nicolas Lachiche, Fernando Martínez-Plumed, María José Ramírez-Quintana
+      venue: European Data Science Conference (EDSC 2016)
+      venue_url: https://euads.org/
+      type: conference
+      links:
+        - {label: Project, url: "http://www.casp-dm.org/"}
+
+    - title: General-Purpose Inductive Programming for Data Wrangling Automation
+      url: http://workshops.inf.ed.ac.uk/nips2016-ai4datasci/papers/NIPS2016-AI4DataSci_paper_5.pdf
+      authors: Lidia Contreras-Ochando, Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Workshop on Artificial Intelligence for Data Science (AI4DataSci 2016) @ NIPS
+      venue_url: http://workshops.inf.ed.ac.uk/nips2016-ai4datasci/
+      type: workshop
+      links:
+        - {label: PDF, url: "http://workshops.inf.ed.ac.uk/nips2016-ai4datasci/papers/NIPS2016-AI4DataSci_paper_5.pdf"}
+        - {label: Poster, url: "/papers/AI4Data-IP-poster.pdf"}
+
+    - title: "Logging Data Scientists: Collecting Evidence for Data Science Automation"
+      url: http://workshops.inf.ed.ac.uk/nips2016-ai4datasci/papers/NIPS2016-AI4DataSci_paper_6.pdf
+      authors: Lidia Contreras-Ochando, Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Workshop on Artificial Intelligence for Data Science (AI4DataSci 2016) @ NIPS
+      venue_url: http://workshops.inf.ed.ac.uk/nips2016-ai4datasci/
+      type: workshop
+      links:
+        - {label: PDF, url: "http://workshops.inf.ed.ac.uk/nips2016-ai4datasci/papers/NIPS2016-AI4DataSci_paper_6.pdf"}
+
+- year: 2015
+  entries:
+
+    - title: "Knowledge acquisition with forgetting: an incremental and developmental setting"
+      url: https://dx.doi.org/10.1177/1059712315608675
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Adaptive Behavior
+      venue_url: https://journals.sagepub.com/home/adb
+      details: SAGE, Vol. 23(5), pp. 283–299
+      type: journal
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.1177/1059712315608675"}
+        - {label: BibTeX, url: "/papers/Adaptive15.bib"}
+
+    - title: Knowledge Acquisition & Forgetting in Rule-based systems
+      url: https://dx.doi.org/10.4230/DagRep.5.10.89
+      authors: Fernando Martínez-Plumed
+      venue: Approaches and Applications of Inductive Programming (AAIP 2015), Dagstuhl Seminar 15442
+      venue_url: https://www.dagstuhl.de/
+      type: workshop
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.4230/DagRep.5.10.89"}
+        - {label: Slides, url: "https://prezi.com/xpq5cmmw3m83/knowledge-acquisition-forgetting/"}
+        - {label: BibTeX, url: "/papers/dagstuhl15.bib"}
+
+    - title: "Pentaho + R: An integral view for multidimensional prediction models"
+      url: https://dx.doi.org/10.1007/978-3-319-24598-0_21
+      authors: Adolfo Martínez-Usó, José Hernández-Orallo, María José Ramírez-Quintana, Fernando Martínez-Plumed
+      venue: Conference of the Spanish Association for Artificial Intelligence (CAEPIA 2015)
+      venue_url: https://dblp.org/db/conf/caepia/index.html
+      details: Springer, LNAI 9422, pp. 234–244
+      type: conference
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.1007/978-3-319-24598-0_21"}
+        - {label: BibTeX, url: "/papers/CAEPIA15.bib"}
+
+    - title: Forgetting and consolidation for incremental and cumulative knowledge acquisition systems
+      url: http://arxiv.org/abs/1502.05615
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "CoRR abs/1502.05615"
+      type: preprint
+      links:
+        - {label: arXiv, url: "http://arxiv.org/abs/1502.05615"}
+        - {label: BibTeX, url: "/papers/CorrForgetting.bib"}
+
+- year: 2014
+  entries:
+
+    - title: "Knowledge acquisition with forgetting: an incremental and developmental setting"
+      url: https://dx.doi.org/10.1109/ICMLA.2014.23
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: IEEE International Conference on Machine Learning and Applications (ICMLA 2014)
+      venue_url: https://www.icmla-conference.org/
+      details: pp. 111–116
+      type: conference
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.1109/ICMLA.2014.23"}
+        - {label: Slides, url: "/papers/ICMLA14_slides.pdf"}
+        - {label: BibTeX, url: "/papers/ICMLA14.bib"}
+
+- year: 2013
+  entries:
+
+    - title: "gErl: an Inductive Programming System with user-defined operators"
+      url: https://dx.doi.org/10.4230/DagRep.3.12.43
+      authors: Fernando Martínez-Plumed
+      venue: Approaches and Applications of Inductive Programming (AAIP 2013), Dagstuhl Seminar 13502
+      venue_url: https://www.dagstuhl.de/
+      type: workshop
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.4230/DagRep.3.12.43"}
+        - {label: Slides, url: "https://prezi.com/ta5vm2zbxlus/gerl/"}
+        - {label: BibTeX, url: "/papers/dagstuhl13.bib"}
+
+    - title: Policy Reuse in a General Learning Framework
+      url: /papers/CAEPIA2013.pdf
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Conference of the Spanish Association for Artificial Intelligence (CAEPIA 2013)
+      venue_url: https://dblp.org/db/conf/caepia/index.html
+      details: ISBN 978-84-695-8348-7, pp. 183–190
+      type: conference
+      links:
+        - {label: PDF, url: "/papers/CAEPIA2013.pdf"}
+        - {label: Slides, url: "/papers/CAEPIA2013_slides.pdf"}
+        - {label: BibTeX, url: "/papers/CAEPIA13.bib"}
+
+    - title: Incremental learning with state features in gErl
+      url: /papers/TAMIDA2013.pdf
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Symposium on Theory and Applications of Data Mining (TAMIDA 2013), CEDI
+      venue_url: https://www.congresocedi.es/
+      details: ISBN 978-84-695-8348-7, pp. 1383–1392
+      type: conference
+      links:
+        - {label: PDF, url: "/papers/TAMIDA2013.pdf"}
+        - {label: Slides, url: "/papers/TAMIDA2013_slides.pdf"}
+        - {label: BibTeX, url: "/papers/TAMIDA13.bib"}
+
+    - title: On the definition of a general learning system with user-defined operators
+      url: http://arxiv.org/abs/1311.4235
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "CoRR abs/1311.4235"
+      type: preprint
+      links:
+        - {label: arXiv, url: "http://arxiv.org/abs/1311.4235"}
+        - {label: BibTeX, url: "/papers/CorrGERL2013.bib"}
+
+- year: 2012
+  entries:
+
+    - title: Learning with configurable operators and rl-based heuristics
+      url: https://dx.doi.org/10.1007/978-3-642-37382-4_1
+      authors: Fernando Martínez-Plumed, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: International Workshop on New Frontiers in Mining Complex Patterns (NFMCP 2012) @ ECML-PKDD
+      venue_url: https://dblp.org/db/conf/pkdd/nfmcp2012.html
+      details: Springer, LNCS 7765, pp. 1–16
+      type: workshop
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.1007/978-3-642-37382-4_1"}
+        - {label: Slides, url: "/papers/NFMCP12_slides.pdf"}
+        - {label: BibTeX, url: "/papers/NFCMP2012_LNCS.bib"}
+
+- year: 2011
+  entries:
+
+    - title: Newton Trees
+      url: https://dx.doi.org/10.1007/978-3-642-17432-2_18
+      authors: Fernando Martínez-Plumed, Vicent Estruch, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Australasian Joint Conference on Artificial Intelligence (AI 2010)
+      venue_url: https://dblp.org/db/conf/ausai/index.html
+      details: Springer, LNCS 6464, pp. 174–183
+      type: conference
+      links:
+        - {label: DOI, url: "https://dx.doi.org/10.1007/978-3-642-17432-2_18"}
+        - {label: Slides, url: "/papers/AI_2010_MEFHRpres.pdf"}
+        - {label: BibTeX, url: "/papers/AI_2010_MEFHR.bib"}
+
+- year: 2010
+  entries:
+
+    - title: "Árboles de estimación estocástica de probabilidades: Newton Trees"
+      url: /papers/MasterThesis_Nando.pdf
+      authors: Fernando Martínez-Plumed, Vicent Estruch, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Master's Thesis, Universitat Politècnica de València
+      venue_url: https://riunet.upv.es/
+      type: thesis
+      links:
+        - {label: PDF, url: "/papers/MasterThesis_Nando.pdf"}
+        - {label: Slides, url: "/papers/MasterThesis_NandoPress.pdf"}
+
+    - title: Valores Faltantes en Newton Trees
+      url: /papers/Tamida_2010.pdf
+      authors: Fernando Martínez-Plumed, Vicent Estruch, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Symposium on Theory and Applications of Data Mining (TAMIDA 2010), CEDI
+      venue_url: https://www.congresocedi.es/
+      details: Garceta, ISBN 978-84-92812-60-8, pp. 183–190
+      type: conference
+      links:
+        - {label: PDF, url: "/papers/Tamida_2010.pdf"}
+        - {label: Slides, url: "/papers/Tamida_2010pres.pdf"}
+        - {label: BibTeX, url: "/papers/Tamida_2010.bib"}
+
+    - title: "Newton Trees: Extended Report"
+      url: /papers/NewtonTR.pdf
+      authors: Fernando Martínez-Plumed, Vicent Estruch, Cèsar Ferri, José Hernández-Orallo, María José Ramírez-Quintana
+      venue: Technical Report DSIC-II/09/10, Universitat Politècnica de València
+      venue_url: https://www.upv.es/
+      type: report
+      links:
+        - {label: PDF, url: "/papers/NewtonTR.pdf"}

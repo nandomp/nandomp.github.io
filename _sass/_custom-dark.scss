@@ -104,9 +104,3 @@ textarea {
 html[data-theme="dark"] {
   @include custom-dark-fixes;
 }
-
-@media (prefers-color-scheme: dark) {
-  html:not([data-theme="light"]) {
-    @include custom-dark-fixes;
-  }
-}
