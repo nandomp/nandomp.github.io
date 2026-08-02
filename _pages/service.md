@@ -147,6 +147,14 @@ Programme and organising committees, editorial boards, and awards.
 
 <ul class="svc-list">
   <li class="svc-item">
+    <span class="svc-item__title"><a href="https://ijclr2026.webs.upv.es/">IJCLR 2026</a></span>
+    <span class="svc-item__meta">Organising Committee</span>
+  </li>
+  <li class="svc-item">
+    <span class="svc-item__title"><a href="https://ecai2025.org/">ECAI 2025</a></span>
+    <span class="svc-item__meta">Tutorial Chair</span>
+  </li>
+  <li class="svc-item">
     <span class="svc-item__title"><a href="https://www.predictable-ai.org/march2023event">Predictable AI</a></span>
     <span class="svc-item__meta">Workshop</span>
   </li>
