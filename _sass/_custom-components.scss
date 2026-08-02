@@ -973,20 +973,32 @@ a.card:hover .card__title {
   font-size: 0.75em;
 }
 
-/* Years served as Senior PC member or Area Chair, in Light Coral so they are
-   distinguishable from regular PC years at a glance rather than only by the
-   +/* marker. Same fill in both themes. */
-.venue-card__years .badge--senior {
+/* Role is carried by colour alone now, so each role gets its own fill and the
+   role name is kept in screen-reader text on every chip. */
+.venue-card__years .badge--senior-pc {
   background: var(--senior-bg);
   border-color: var(--senior-bg);
   color: var(--senior-fg);
   font-weight: 600;
 }
 
-.archive a.badge--senior:hover {
+.archive a.badge--senior-pc:hover {
   background: var(--senior-bg-hover);
   border-color: var(--senior-bg-hover);
   color: var(--senior-fg-hover);
+}
+
+.venue-card__years .badge--area-chair {
+  background: var(--chair-bg);
+  border-color: var(--chair-bg);
+  color: var(--chair-fg);
+  font-weight: 600;
+}
+
+.archive a.badge--area-chair:hover {
+  background: var(--chair-bg-hover);
+  border-color: var(--chair-bg-hover);
+  color: var(--chair-fg-hover);
 }
 
 .legend {
@@ -1006,9 +1018,14 @@ a.card:hover .card__title {
   border-radius: 2px;
 }
 
-.legend__key--senior {
+.legend__key--senior-pc {
   background: var(--senior-bg);
   border-color: var(--senior-bg);
+}
+
+.legend__key--area-chair {
+  background: var(--chair-bg);
+  border-color: var(--chair-bg);
 }
 
 

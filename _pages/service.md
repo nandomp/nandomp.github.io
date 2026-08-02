@@ -29,11 +29,11 @@ Programme and organising committees, editorial boards, and awards.
     <p class="venue-card__years">
       <a class="badge" href="https://aaai.org/Conferences/AAAI-20/">2020</a>
       <a class="badge" href="https://aaai.org/Conferences/AAAI-21/">2021</a>
-      <a class="badge badge--senior" href="https://aaai.org/Conferences/AAAI-22/">2022<sup>+</sup></a>
-      <a class="badge badge--senior" href="https://aaai.org/Conferences/AAAI-23/">2023<sup>+</sup></a>
-      <a class="badge badge--senior" href="https://aaai.org/aaai-conference/">2024<sup>+</sup></a>
-      <a class="badge badge--senior" href="https://aaai.org/conference/aaai/aaai-25/">2025<sup>+</sup></a>
-      <a class="badge badge--senior" href="https://aaai.org/conference/aaai/aaai-26/">2026<sup>+</sup></a>
+      <a class="badge badge--senior-pc" href="https://aaai.org/Conferences/AAAI-22/">2022<span class="screen-reader-text"> (Senior PC member)</span></a>
+      <a class="badge badge--senior-pc" href="https://aaai.org/Conferences/AAAI-23/">2023<span class="screen-reader-text"> (Senior PC member)</span></a>
+      <a class="badge badge--senior-pc" href="https://aaai.org/aaai-conference/">2024<span class="screen-reader-text"> (Senior PC member)</span></a>
+      <a class="badge badge--senior-pc" href="https://aaai.org/conference/aaai/aaai-25/">2025<span class="screen-reader-text"> (Senior PC member)</span></a>
+      <a class="badge badge--senior-pc" href="https://aaai.org/conference/aaai/aaai-26/">2026<span class="screen-reader-text"> (Senior PC member)</span></a>
     </p>
   </div>
 
@@ -71,7 +71,7 @@ Programme and organising committees, editorial boards, and awards.
     <h3 class="venue-card__name">ECAI</h3>
     <p class="venue-card__years">
       <a class="badge" href="http://ecai2020.eu/">2020</a>
-      <a class="badge badge--senior" href="https://www.ecai2024.eu/">2024<sup>*</sup></a>
+      <a class="badge badge--area-chair" href="https://www.ecai2024.eu/">2024<span class="screen-reader-text"> (Area Chair)</span></a>
     </p>
   </div>
 
@@ -141,7 +141,7 @@ Programme and organising committees, editorial boards, and awards.
 
 </div>
 
-<p class="legend"><span class="legend__key legend__key--senior"></span> Senior PC member (<sup>+</sup>) or Area Chair (<sup>*</sup>) &nbsp;·&nbsp; <span class="legend__key"></span> PC member</p>
+<p class="legend"><span class="legend__key legend__key--senior-pc"></span> Senior PC member &nbsp;·&nbsp; <span class="legend__key legend__key--area-chair"></span> Area Chair &nbsp;·&nbsp; <span class="legend__key"></span> PC member</p>
 
 ## Organising Committees
 
@@ -188,6 +188,10 @@ Programme and organising committees, editorial boards, and awards.
 ## Awards
 
 <ul class="svc-list">
+  <li class="svc-item">
+    <span class="svc-item__title">Excellent Research Publication Award Runner-up</span>
+    <span class="svc-item__meta"><em>UPV Research Awards 2025</em></span>
+  </li>
   <li class="svc-item">
     <span class="svc-item__title"><a href="https://cccblog.org/2022/03/03/blue-sky-at-aaai-2022/">Blue Sky Idea Runner-Up Award</a></span>
     <span class="svc-item__meta"><em>AAAI 2022</em></span>
