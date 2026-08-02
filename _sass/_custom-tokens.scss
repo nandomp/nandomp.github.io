@@ -148,6 +148,13 @@
   --type-grant-bg:      #57496b;  /* deep plum-blue */
   --type-grant-fg:      #ffffff;  /* 8.2:1 */
 
+  /* Senior PC / Area Chair year chips. A solid fill with dark text reads the
+     same on a light or a dark page, so these need no dark-mode override. */
+  --senior-bg:       #e56b6f;  /* Light Coral */
+  --senior-fg:       #331416;  /* 5.3:1 on the fill */
+  --senior-bg-hover: #b8484c;
+  --senior-fg-hover: #ffffff;  /* 5.2:1 on the hover fill */
+
   /* Shape + motion */
   --radius-sm: 6px;
   --radius:    10px;

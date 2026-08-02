@@ -973,10 +973,42 @@ a.card:hover .card__title {
   font-size: 0.75em;
 }
 
+/* Years served as Senior PC member or Area Chair, in Light Coral so they are
+   distinguishable from regular PC years at a glance rather than only by the
+   +/* marker. Same fill in both themes. */
+.venue-card__years .badge--senior {
+  background: var(--senior-bg);
+  border-color: var(--senior-bg);
+  color: var(--senior-fg);
+  font-weight: 600;
+}
+
+.archive a.badge--senior:hover {
+  background: var(--senior-bg-hover);
+  border-color: var(--senior-bg-hover);
+  color: var(--senior-fg-hover);
+}
+
 .legend {
   color: var(--text-faint);
   font-size: 0.8em;
   margin-top: 1em;
+}
+
+/* Colour keys in the legend, mirroring the two chip styles above. */
+.legend__key {
+  display: inline-block;
+  width: 0.62em;
+  height: 0.62em;
+  margin-right: 0.3em;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+
+.legend__key--senior {
+  background: var(--senior-bg);
+  border-color: var(--senior-bg);
 }
 
 

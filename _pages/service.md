@@ -29,9 +29,11 @@ Programme and organising committees, editorial boards, and awards.
     <p class="venue-card__years">
       <a class="badge" href="https://aaai.org/Conferences/AAAI-20/">2020</a>
       <a class="badge" href="https://aaai.org/Conferences/AAAI-21/">2021</a>
-      <a class="badge" href="https://aaai.org/Conferences/AAAI-22/">2022<sup>+</sup></a>
-      <a class="badge" href="https://aaai.org/Conferences/AAAI-23/">2023<sup>+</sup></a>
-      <a class="badge" href="https://aaai.org/aaai-conference/">2024<sup>+</sup></a>
+      <a class="badge badge--senior" href="https://aaai.org/Conferences/AAAI-22/">2022<sup>+</sup></a>
+      <a class="badge badge--senior" href="https://aaai.org/Conferences/AAAI-23/">2023<sup>+</sup></a>
+      <a class="badge badge--senior" href="https://aaai.org/aaai-conference/">2024<sup>+</sup></a>
+      <a class="badge badge--senior" href="https://aaai.org/conference/aaai/aaai-25/">2025<sup>+</sup></a>
+      <a class="badge badge--senior" href="https://aaai.org/conference/aaai/aaai-26/">2026<sup>+</sup></a>
     </p>
   </div>
 
@@ -69,7 +71,7 @@ Programme and organising committees, editorial boards, and awards.
     <h3 class="venue-card__name">ECAI</h3>
     <p class="venue-card__years">
       <a class="badge" href="http://ecai2020.eu/">2020</a>
-      <a class="badge" href="https://www.ecai2024.eu/">2024<sup>*</sup></a>
+      <a class="badge badge--senior" href="https://www.ecai2024.eu/">2024<sup>*</sup></a>
     </p>
   </div>
 
@@ -139,7 +141,7 @@ Programme and organising committees, editorial boards, and awards.
 
 </div>
 
-<p class="legend"><sup>+</sup> Senior PC member &nbsp;·&nbsp; <sup>*</sup> Area Chair</p>
+<p class="legend"><span class="legend__key legend__key--senior"></span> Senior PC member (<sup>+</sup>) or Area Chair (<sup>*</sup>) &nbsp;·&nbsp; <span class="legend__key"></span> PC member</p>
 
 ## Organising Committees
 
