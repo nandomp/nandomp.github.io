@@ -140,9 +140,8 @@ a.badge:hover {
    Timeline (homepage: recent highlights)
    -------------------------------------------------------------------------- */
 
-/* Items are grouped by year; the year is printed once per group. Every item
-   uses exactly these rules, whether it sits in the current-year list on the
-   homepage or in the earlier-years archive at /highlights/. */
+/* One continuous list on the homepage: every item, newest year first, with
+   the year printed once per group and identical rules for every entry. */
 
 .timeline {
   margin: 1.4em 0 0;
@@ -262,30 +261,6 @@ a.badge:hover {
   line-height: 1;
 }
 
-/* Discreet "Earlier highlights" line closing the section. */
-.timeline__more {
-  margin: 1.4em 0 0;
-  font-size: 0.84em;
-}
-
-.page__content .timeline__more a,
-.archive .timeline__more a {
-  color: var(--text-muted);
-  text-decoration: none;
-}
-
-.page__content .timeline__more a:hover,
-.archive .timeline__more a:hover {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-@media screen and (min-width: 700px) {
-  /* Line up with the items column, clear of the year rail. */
-  .timeline__more {
-    padding-left: 6.6rem;
-  }
-}
 
 @media screen and (min-width: 700px) {
   /* Year moves into its own left-hand column, aligned with the first item. */
@@ -721,31 +696,35 @@ a.card:hover .card__title {
    Teaching :: course cards
    -------------------------------------------------------------------------- */
 
+/* Same flat treatment as the publication and service lists. */
 .course-card {
-  margin: 0 0 1rem;
-  padding: 1.05em 1.2em;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease);
+  margin: 0 0 1.9em;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
 }
 
-.course-card:hover {
-  border-color: var(--accent-line);
-  box-shadow: var(--shadow-md);
-}
-
-.course-card > h3 {
+.archive .course-card > h3 {
   margin: 0 0 0.15em;
-  font-size: 1.02em;
-}
-
-.course-card > h3 a {
-  color: var(--text-strong);
-}
-
-.course-card > h3 a:hover {
   color: var(--accent);
+  font-family: var(--font-sans);
+  font-size: 1.03em;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.archive .course-card > h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.archive .course-card > h3 a:hover,
+.archive .course-card > h3 a:focus-visible {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 }
 
 .course-card__meta {
@@ -800,75 +779,87 @@ a.card:hover .card__title {
    Service :: venue grid + list cards
    -------------------------------------------------------------------------- */
 
-.venue-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.75rem;
-  margin: 1.4em 0;
-}
+/* Service entries use exactly the publication-list treatment: no cards, a
+   hairline divider, an accent title line and a muted meta line with the
+   event/venue in italics. Metrics are deliberately identical to .pub-item /
+   .pub-item__title / .pub-item__meta so the two pages read as one system. */
 
-@media screen and (min-width: 620px) {
-  .venue-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.venue-card {
-  padding: 0.85em 1em;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease);
-}
-
-.venue-card:hover {
-  border-color: var(--accent-line);
-  box-shadow: var(--shadow-sm);
-}
-
-.venue-card__name {
-  margin: 0 0 0.5em;
-  color: var(--text-strong);
-  font-family: var(--font-sans);
-  font-size: 0.82em;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.venue-card__years {
-  margin: 0;
-  line-height: 1;
-}
-
-.legend {
-  color: var(--text-muted);
-  font-size: 0.8em;
-  margin-top: 0.8em;
-}
-
-.service-list {
+.svc-list {
   margin: 1.4em 0;
   padding: 0;
   list-style: none;
 }
 
-.service-list > li {
-  margin: 0 0 0.7rem;
-  padding: 0.8em 1em;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--accent-line);
-  border-radius: var(--radius);
-  font-size: 0.9em;
-  line-height: 1.55;
+.svc-item {
+  margin: 0;
+  padding: 0.95em 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
   list-style: none;
-  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease);
 }
 
-.service-list > li:hover {
-  border-left-color: var(--accent);
-  box-shadow: var(--shadow-sm);
+.svc-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0.3em;
+}
+
+.archive .svc-item__title {
+  display: block;
+  margin: 0 0 0.28em;
+  color: var(--accent);
+  font-family: var(--font-sans);
+  font-size: 1.03em;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: 1.4;
+}
+
+.archive .svc-item__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.archive .svc-item__title a:hover,
+.archive .svc-item__title a:focus-visible {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.archive .svc-item__meta {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.84em;
+  line-height: 1.5;
+}
+
+.svc-item__meta em {
+  font-style: italic;
+}
+
+.archive .svc-item__meta a {
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--border-strong);
+}
+
+.archive .svc-item__meta a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  text-decoration: none;
+}
+
+.svc-item__meta sup {
+  font-size: 0.75em;
+}
+
+.legend {
+  color: var(--text-faint);
+  font-size: 0.8em;
+  margin-top: 1em;
 }
 
 
@@ -883,16 +874,11 @@ a.card:hover .card__title {
   }
 
   .pub-item,
+  .svc-item,
   .card,
-  .course-card,
-  .venue-card,
-  .service-list > li {
+  .course-card {
     border: 0;
     box-shadow: none;
     padding-left: 0;
-  }
-
-  .collapsible__body {
-    display: block !important;
   }
 }

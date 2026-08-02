@@ -17,9 +17,7 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 
 ## Recent highlights
 
-{% include highlights.html groups=1 %}
-
-<p class="timeline__more"><a href="{{ site.baseurl }}/highlights/">Earlier highlights &rarr;</a></p>
+{% include highlights.html %}
 
 ## Elsewhere on this site
 
