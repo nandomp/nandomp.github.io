@@ -114,6 +114,16 @@ Programme and organising committees, editorial boards, and awards.
   </div>
 
   <div class="venue-card">
+    <h3 class="venue-card__name">IJCLR</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://ijclr2023.di.uniba.it/">2023</a>
+      <a class="badge" href="https://www.lamda.nju.edu.cn/ijclr24/">2024</a>
+      <a class="badge" href="https://ijclr2025.pages.surrey.ac.uk/">2025</a>
+      <a class="badge" href="https://ijclr2026.webs.upv.es/">2026</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
     <h3 class="venue-card__name">ACM SIGKDD</h3>
     <p class="venue-card__years">
       <a class="badge" href="https://www.kdd.org/kdd2021/">2021</a>
