@@ -1,25 +1,34 @@
 {% comment %}
-  Renders _data/highlights.yml as a vertical timeline.
-  Usage: {% include highlights.html limit=6 %}
-{% endcomment %}
-{% assign highlight_limit = include.limit | default: 6 %}
+  Renders _data/highlights.yml as a year-grouped timeline.
+  The year is printed once per group, never on the individual items, and the
+  markup is identical for every entry — so the short homepage list and the
+  full archive below it look exactly the same.
 
-<ol class="timeline">
-  {% for item in site.data.highlights limit: highlight_limit %}
-  <li class="timeline__item">
-    <div class="timeline__date">{{ item.date }}</div>
-    <h3 class="timeline__title">
-      {% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-    </h3>
-    {% if item.note %}<div class="timeline__note">{{ item.note | markdownify }}</div>{% endif %}
-    {% if item.venue or item.links %}
-    <p class="timeline__links">
-      {% if item.venue %}
-        {% if item.venue_url %}<a class="badge badge--venue" href="{{ item.venue_url }}">{{ item.venue }}</a>{% else %}<span class="badge badge--venue">{{ item.venue }}</span>{% endif %}
-      {% endif %}
-      {% for link in item.links %}<a class="badge" href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
-    </p>
-    {% endif %}
-  </li>
-  {% endfor %}
+  Usage:
+    {% include highlights.html limit=6 %}   -> the 6 most recent
+    {% include highlights.html %}           -> everything
+{% endcomment %}
+{% assign highlight_items = site.data.highlights %}
+{% if include.limit %}{% assign highlight_items = highlight_items | slice: 0, include.limit %}{% endif %}
+{% assign highlight_groups = highlight_items | group_by: "year" %}
+
+<div class="timeline">
+{%- for group in highlight_groups %}
+<div class="timeline__group">
+<h3 class="timeline__year">{{ group.name }}</h3>
+<ol class="timeline__items">
+{%- for item in group.items %}
+<li class="timeline__item">
+<h4 class="timeline__title">{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h4>
+{%- if item.note %}
+<div class="timeline__note">{{ item.note | markdownify }}</div>
+{%- endif %}
+{%- if item.venue or item.links %}
+<p class="timeline__links">{% if item.venue %}{% if item.venue_url %}<a class="badge badge--venue" href="{{ item.venue_url }}">{{ item.venue }}</a>{% else %}<span class="badge badge--venue">{{ item.venue }}</span>{% endif %}{% endif %}{% for link in item.links %}<a class="badge" href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</p>
+{%- endif %}
+</li>
+{%- endfor %}
 </ol>
+</div>
+{%- endfor %}
+</div>

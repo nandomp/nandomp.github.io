@@ -140,41 +140,69 @@ a.badge:hover {
    Timeline (homepage: recent highlights)
    -------------------------------------------------------------------------- */
 
+/* Items are grouped by year; the year is printed once per group. Every item
+   uses exactly these rules, whether it sits in the short "Recent highlights"
+   list or in the full archive inside the <details> below it. */
+
 .timeline {
-  list-style: none;
-  margin: 1.5em 0 0;
-  padding: 0;
-  position: relative;
+  margin: 1.4em 0 0;
 }
 
-.timeline:before {
+.timeline__group {
+  margin: 0 0 1.5em;
+}
+
+.timeline__group:last-child {
+  margin-bottom: 0;
+}
+
+/* Year label — the only place a date appears anywhere in the timeline. */
+.page__content .timeline__year {
+  margin: 0 0 0.6em;
+  color: var(--text-faint);
+  font-family: var(--font-sans);
+  font-size: 0.74em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+}
+
+.timeline__items {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 1.5rem;
+  list-style: none;
+}
+
+/* Vertical rail, one segment per year group. */
+.timeline__items:before {
   content: "";
   position: absolute;
-  left: 0.34rem;
-  top: 0.55rem;
-  bottom: 0.9rem;
+  left: 0.29rem;
+  top: 0.5rem;
+  bottom: 0.55rem;
   width: 2px;
   background: var(--border);
 }
 
 .timeline__item {
   position: relative;
-  margin: 0 0 1.5em;
-  padding-left: 1.9rem;
+  margin: 0 0 1.1em;
+  padding: 0;
   list-style: none;
 }
 
 .timeline__item:last-child {
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
 }
 
 .timeline__item:before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0.45rem;
-  width: 0.78rem;
-  height: 0.78rem;
+  left: -1.5rem;
+  top: 0.42rem;
+  width: 0.7rem;
+  height: 0.7rem;
   background: var(--bg);
   border: 2px solid var(--accent);
   border-radius: 50%;
@@ -186,22 +214,14 @@ a.badge:hover {
   transform: scale(1.15);
 }
 
-.timeline__date {
-  color: var(--text-faint);
+.page__content .timeline__title {
+  margin: 0 0 0.25em;
+  color: var(--text-strong);
   font-family: var(--font-sans);
-  font-size: 0.72em;
+  font-size: 0.98em;
   font-weight: 600;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  margin-bottom: 0.18em;
-}
-
-.timeline__title {
-  font-family: var(--font-sans);
-  font-size: 1.02em;
-  font-weight: 600;
-  line-height: 1.35;
-  margin: 0 0 0.28em;
+  letter-spacing: 0;
+  line-height: 1.4;
 }
 
 .timeline__title a {
@@ -220,47 +240,38 @@ a.badge:hover {
   text-decoration: none;
 }
 
-.timeline__venue {
-  color: var(--text-muted);
-  font-size: 0.84em;
-  margin: 0 0 0.35em;
-}
-
 .timeline__note {
+  margin: 0 0 0.4em;
   color: var(--text-muted);
   font-size: 0.86em;
-  margin: 0 0 0.4em;
+  line-height: 1.55;
 }
 
 .timeline__note p {
   margin: 0 0 0.3em;
 }
 
+.timeline__note p:last-child {
+  margin-bottom: 0;
+}
+
 .timeline__links {
-  margin: 0.35em 0 0;
+  margin: 0.4em 0 0;
   line-height: 1;
 }
 
 @media screen and (min-width: 700px) {
-  /* Wider screens: the dates move out into their own rail on the left.
-     The list is padded by 7.2rem, so each item's box (and therefore its
-     dot, at left: 0) already starts at x = 7.2rem — only the rail, which
-     is positioned against .timeline itself, needs shifting. */
-  .timeline {
-    padding-left: 7.2rem;
+  /* Year moves into its own left-hand column, aligned with the first item. */
+  .timeline__group {
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    column-gap: 1.1rem;
   }
 
-  .timeline:before {
-    left: 7.54rem;
-  }
-
-  .timeline__date {
-    position: absolute;
-    left: -7.2rem;
-    top: 0.42rem;
-    width: 6.4rem;
-    text-align: right;
+  .page__content .timeline__year {
     margin: 0;
+    padding-top: 0.32em;
+    text-align: right;
   }
 }
 
@@ -321,25 +332,14 @@ a.badge:hover {
   border-bottom: 1px solid var(--border);
 }
 
+/* No font-size or list overrides here: the archived highlights must render
+   at exactly the same scale and spacing as the recent ones above. */
 .collapsible__body {
-  padding: 0.4em 1.2em 0.9em;
-  font-size: 0.92em;
+  padding: 0.9em 1.2em 1.2em;
 }
 
-.collapsible__body > *:first-child {
-  margin-top: 0.8em;
-}
-
-.collapsible__body > *:last-child {
-  margin-bottom: 0.4em;
-}
-
-.collapsible__body ul {
-  padding-left: 1.15em;
-}
-
-.collapsible__body li {
-  margin-bottom: 0.65em;
+.collapsible__body > .timeline {
+  margin-top: 0;
 }
 
 
@@ -412,10 +412,10 @@ a.card:hover .card__title {
   align-items: center;
   gap: 0.5rem;
   margin: 0 0 1.6em;
-  padding: 0.85em 1em;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
+  padding: 0 0 0.9em;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--border);
 }
 
 .pub-search {
@@ -511,21 +511,21 @@ a.card:hover .card__title {
 
 /* Publication entries as cards -------------------------------------------- */
 
+/* No cards: entries sit directly on the page background, separated by
+   whitespace and a hairline rule (dropped on the last entry of each year). */
 .pub-item {
   position: relative;
-  margin: 0 0 0.7rem;
-  padding: 0.9em 1.1em 0.9em 1.2em;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--border);
-  border-radius: var(--radius);
-  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease);
+  margin: 0;
+  padding: 0.95em 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
 }
 
-.pub-item:hover {
-  border-color: var(--border-strong);
-  border-left-color: var(--accent);
-  box-shadow: var(--shadow-sm);
+.pub-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0.3em;
 }
 
 /* 1. Authors — regular weight, secondary colour, own name bolded. */
@@ -627,10 +627,12 @@ a.card:hover .card__title {
   color: var(--accent-contrast);
 }
 
+/* The single "Paper" pill — outline only, so it stays light on a
+   borderless list. Reads identically in both themes. */
 .archive .badge--action {
-  background: var(--surface-2);
-  border-color: var(--border);
-  color: var(--text-muted);
+  background: transparent;
+  border-color: var(--accent-line);
+  color: var(--accent);
   font-weight: 600;
   text-decoration: none;
 }
