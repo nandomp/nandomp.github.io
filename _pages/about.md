@@ -17,12 +17,12 @@ Associate Professor at the Technical University of Valencia ([UPV](http://www.up
 
 ## Recent highlights
 
-{% include highlights.html limit=6 %}
+{% include highlights.html groups=1 %}
 
 <details class="collapsible">
-<summary>All news &amp; earlier highlights</summary>
+<summary>Earlier highlights (2025 and before)</summary>
 <div class="collapsible__body">
-{% include highlights.html %}
+{% include highlights.html skip_groups=1 %}
 </div>
 </details>
 

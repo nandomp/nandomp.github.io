@@ -4,13 +4,18 @@
   markup is identical for every entry — so the short homepage list and the
   full archive below it look exactly the same.
 
+  Splitting is done by YEAR GROUP, never by item count, so the two blocks on
+  the homepage can never show the same item twice and no year label is ever
+  split across them. Adding a new item to the current year needs no changes.
+
   Usage:
-    {% include highlights.html limit=6 %}   -> the 6 most recent
-    {% include highlights.html %}           -> everything
+    {% include highlights.html groups=1 %}       -> the most recent year only
+    {% include highlights.html skip_groups=1 %}  -> every earlier year
+    {% include highlights.html %}                -> everything
 {% endcomment %}
-{% assign highlight_items = site.data.highlights %}
-{% if include.limit %}{% assign highlight_items = highlight_items | slice: 0, include.limit %}{% endif %}
-{% assign highlight_groups = highlight_items | group_by: "year" %}
+{% assign highlight_groups = site.data.highlights | group_by: "year" %}
+{% if include.groups %}{% assign highlight_groups = highlight_groups | slice: 0, include.groups %}{% endif %}
+{% if include.skip_groups %}{% assign highlight_groups = highlight_groups | slice: include.skip_groups, 999 %}{% endif %}
 
 <div class="timeline">
 {%- for group in highlight_groups %}

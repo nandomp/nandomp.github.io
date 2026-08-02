@@ -40,6 +40,12 @@
   --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.55);
 
   --code-bg: #161b22;
+
+  /* Award badge — amber, deliberately unlike the accent used by links. */
+  --award-bg:     rgba(251, 191, 36, 0.14);
+  --award-border: rgba(251, 191, 36, 0.40);
+  --award-text:   #fbbf24;  /* 9.6:1 on --bg */
+
   color-scheme: dark;
 }
 
@@ -74,6 +80,11 @@
   --shadow-lg: 0 12px 28px rgba(15, 23, 42, 0.12);
 
   --code-bg: #f5f7fa;
+
+  /* Award badge — amber, deliberately unlike the accent used by links. */
+  --award-bg:     #fffbeb;
+  --award-border: #fcd34d;
+  --award-text:   #92400e;  /* 6.9:1 on --award-bg */
 
   /* Shape + motion */
   --radius-sm: 6px;

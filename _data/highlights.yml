@@ -2,13 +2,25 @@
 # Highlights / news — rendered on the homepage by _includes/highlights.html
 #
 # Every item uses the SAME rendering, whether it appears in the short
-# "Recent highlights" list or in the full archive below it. Items are grouped
-# by year and the year label is printed once per group, so this file MUST
-# stay ordered by year, newest first.
+# "Recent highlights" list or in the earlier-years archive below it. Items are
+# grouped by year and the year label is printed once per group, so this file
+# MUST stay ordered by year, newest first.
+#
+# STYLE RULE for `title`: every entry opens with a short action phrase saying
+# what kind of news it is, then the paper title in curly quotes if there is
+# one. Keep the same pattern and tense for every entry, e.g.
+#   Paper published in <Journal>: “<Title>”
+#   Paper accepted at <Conference>: “<Title>”
+#   Two/Three papers accepted at <Conference>
+#   New preprint: “<Title>”
+#   Report published by <Body>: “<Title>”
+#   Co-organising the <Workshop> at <Conference>
+#   Area Chair for <Conference> / Member of <Body> / Visiting Scholar at <Place>
+#   Awarded the <Award>
 #
 # Fields
 #   year       required. Integer. Groups the item; shown once per group.
-#   title      required. Plain text.
+#   title      required. Plain text, in the style above.
 #   url        optional. If set, the title links here.
 #   venue      optional. Small badge under the title.
 #   venue_url  optional. Makes the venue badge a link.
@@ -19,21 +31,21 @@
 # ---------------------------------------------------------------- 2026 ----
 
 - year: 2026
-  title: Visiting Scholar at the Leverhulme Centre for the Future of Intelligence
+  title: "Visiting Scholar at the Leverhulme Centre for the Future of Intelligence"
   venue: University of Cambridge
 
 - year: 2026
-  title: General Scales Unlock AI Evaluation with Explanatory and Predictive Power
+  title: "Paper published in Nature: “General Scales Unlock AI Evaluation with Explanatory and Predictive Power”"
   url: https://www.nature.com/articles/s41586-026-10303-2
   venue: Nature
 
 - year: 2026
-  title: Predictable Artificial Intelligence
+  title: "Paper published in the Artificial Intelligence Journal: “Predictable Artificial Intelligence”"
   url: https://doi.org/10.1016/j.artint.2026.104491
   venue: Artificial Intelligence Journal
 
 - year: 2026
-  title: Three papers accepted at ECML-PKDD 2026
+  title: "Three papers accepted at ECML-PKDD 2026"
   venue: ECML-PKDD 2026
   venue_url: https://ecmlpkdd.org/2026/
   note: >-
@@ -43,23 +55,23 @@
     Multimodal Soft Clustering with Flexible Size Constraints"* (Demo track).
 
 - year: 2026
-  title: "From Formal to Informal: How Register Shift Confuses LLMs in Spanish Dialect Recognition"
+  title: "Paper published in the International Journal of Data Science and Analytics: “From Formal to Informal: How Register Shift Confuses LLMs in Spanish Dialect Recognition”"
   venue: International Journal of Data Science and Analytics
 
 - year: 2026
-  title: Semi-Supervised Soft Clustering with Flexible Cardinality
+  title: "Paper accepted at ICPR 2026: “Semi-Supervised Soft Clustering with Flexible Cardinality”"
   venue: ICPR 2026
   venue_url: https://icpr2026.org/
 
 - year: 2026
-  title: "Robustness under noise: assessing the impact of perturbed key attributes on machine learning models"
+  title: "Paper published in the International Journal of Data Science and Analytics: “Robustness under noise: assessing the impact of perturbed key attributes on machine learning models”"
   url: https://doi.org/10.1007/s41060-025-01006-4
   venue: International Journal of Data Science and Analytics
 
 # ---------------------------------------------------------------- 2025 ----
 
 - year: 2025
-  title: Two new frameworks for categorising general-purpose AI models under the 🇪🇺 AI Act
+  title: "Two reports published by the European Commission JRC on categorising general-purpose AI models under the 🇪🇺 AI Act"
   venue: European Commission JRC
   note: >-
     [*"A Framework for General-Purpose AI Model
@@ -70,7 +82,7 @@
     advancing GPAI categorisation and regulatory assessment under the AI Act.
 
 - year: 2025
-  title: 🚗🔌 Three papers on electrified and autonomous vehicles
+  title: "Three papers published on electrified and autonomous vehicles 🚗🔌"
   note: >-
     [*"Comparative analysis of public and expert perceptions of electrified
     vehicles in the European
@@ -84,7 +96,7 @@
     (**Taylor & Francis Intelligent Transportation Systems**).
 
 - year: 2025
-  title: A Framework for the Categorisation of General-Purpose AI Models under the EU AI Act
+  title: "Paper accepted at the NeurIPS 2025 Workshop on Regulatable ML: “A Framework for the Categorisation of General-Purpose AI Models under the EU AI Act”"
   url: https://openreview.net/forum?id=uE33aEsyX1
   venue: Workshop on Regulatable ML
   venue_url: https://regulatableml.github.io/#overview
@@ -92,19 +104,19 @@
     - {label: "NeurIPS 2025", url: "https://neurips.cc/"}
 
 - year: 2025
-  title: "Contamination Budget: Trade-offs between Breadth, Depth and Difficulty"
+  title: "Paper accepted at IJCAI 2025: “Contamination Budget: Trade-offs between Breadth, Depth and Difficulty”"
   url: https://doi.org/10.24963/ijcai.2025/911
   venue: IJCAI 2025
   venue_url: https://2025.ijcai.org
 
 - year: 2025
-  title: "🥇 PredictaBoard: Benchmarking LLM Score Predictability"
+  title: "Paper accepted at ACL 2025 Findings: “PredictaBoard: Benchmarking LLM Score Predictability” 🥇"
   url: https://openreview.net/forum?id=yZO97D7dU5#discussion
   venue: ACL 2025 Findings
   venue_url: https://2025.aclweb.org/
 
 - year: 2025
-  title: Papers accepted at MDAI 2025 and DATA 2025
+  title: "Two papers accepted at MDAI 2025 and DATA 2025"
   note: >-
     [*"Refining Community Detection in Social Networks: Agglomerative and
     Divisive Methods with Size
@@ -115,7 +127,7 @@
     [**DATA 2025**](https://data.scitevents.org/?y=2025).
 
 - year: 2025
-  title: New preprints on AI evaluation
+  title: "New preprints on AI evaluation"
   note: >-
     📐 [*General Scales Unlock AI Evaluation with Explanatory and Predictive
     Power*](https://arxiv.org/pdf/2503.06378) (𝕏
@@ -123,7 +135,7 @@
     [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365).
 
 - year: 2025
-  title: Analysing the Predictability of Language Model Performance
+  title: "Paper published in ACM TIST: “Analysing the Predictability of Language Model Performance”"
   url: http://dx.doi.org/10.1145/3706118
   venue: ACM TIST
   venue_url: https://dl.acm.org/journal/TIST
@@ -131,7 +143,7 @@
 # ---------------------------------------------------------------- 2024 ----
 
 - year: 2024
-  title: Scaled-up, Shaped-up, but Letting Down? Reliability Fluctuations of Large Language Model Families
+  title: "Paper published in Nature: “Scaled-up, Shaped-up, but Letting Down? Reliability Fluctuations of Large Language Model Families”"
   url: https://www.nature.com/articles/s41586-024-07930-y
   venue: Nature
   note: >-
@@ -140,13 +152,13 @@
     realize](https://www.nature.com/articles/d41586-024-03137-3).
 
 - year: 2024
-  title: A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference
+  title: "Paper published in Complex & Intelligent Systems: “A General Supply-Inspect Cost Framework to Regulate the Reliability-Usability Trade-Offs for Few-Shot Inference”"
   url: https://link.springer.com/article/10.1007/s40747-024-01599-6
   venue: Complex & Intelligent Systems
   venue_url: https://link.springer.com/journal/40747
 
 - year: 2024
-  title: Two papers accepted at ECAI 2024
+  title: "Two papers accepted at ECAI 2024"
   venue: ECAI 2024
   venue_url: https://www.ecai2024.eu/
   note: >-
@@ -156,23 +168,23 @@
     Meta-Features"*](https://www.ecai2024.eu/programme/accepted-papers).
 
 - year: 2024
-  title: Three papers accepted at IDEAL 2024
+  title: "Three papers accepted at IDEAL 2024"
   venue: IDEAL 2024
   venue_url: https://ideal2024.webs.upv.es/
 
 - year: 2024
-  title: Area Chair for ECAI 2024
+  title: "Area Chair for ECAI 2024"
   venue: ECAI 2024
   venue_url: https://www.ecai2024.eu/
   note: Join us in Santiago de Compostela!
 
 - year: 2024
-  title: "Your Prompt is My Command: On Assessing the Human-Centred Generality of Multimodal Models"
+  title: "Paper presented at AAAI 2024: “Your Prompt is My Command: On Assessing the Human-Centred Generality of Multimodal Models”"
   url: https://ojs.aaai.org/index.php/AAAI/article/view/30612
   venue: AAAI 2024
 
 - year: 2024
-  title: Papers published in MLST and Intelligent Data Analysis
+  title: "Two papers published in MLST and Intelligent Data Analysis"
   note: >-
     [*Unveiling the Robustness of Machine Learning
     Families*](https://doi.org/10.1088/2632-2153/ad62ab) in
@@ -182,29 +194,29 @@
     [**IDA**](https://www.iospress.com/catalog/journals/intelligent-data-analysis).
 
 - year: 2024
-  title: Member of the OECD Expert Group on AI Futures
+  title: "Member of the OECD Expert Group on AI Futures"
   url: https://oecd.ai/en/network-of-experts/working-group/10847
   venue: OECD.AI
 
 # ---------------------------------------------------------------- 2023 ----
 
 - year: 2023
-  title: Adversarial Benchmark Evaluation Rectified by Controlling for Difficulty
+  title: "Paper accepted at ECAI 2023: “Adversarial Benchmark Evaluation Rectified by Controlling for Difficulty”"
   url: https://ebooks.iospress.nl/doi/10.3233/FAIA230454
   venue: ECAI 2023
 
 - year: 2023
-  title: Rethink reporting of evaluation results in AI
+  title: "Paper published in Science: “Rethink reporting of evaluation results in AI”"
   url: https://doi.org/10.1126/science.adf6369
   venue: Science
 
 - year: 2023
-  title: Co-organising a Workshop on Predictable AI
+  title: "Co-organising the Workshop on Predictable AI"
   url: https://www.predictable-ai.org/march2023event
   venue: Predictable AI Workshop
 
 - year: 2023
-  title: Two papers accepted in JAIR and Sustainable Computing
+  title: "Two papers accepted in JAIR and Sustainable Computing"
   note: >-
     [*"Your Prompt is My Command: On Assessing the Human-Centred Generality of
     Multimodal
@@ -214,24 +226,24 @@
     Learning"*](https://doi.org/10.1016/j.suscom.2023.100857) in **SUSCOM**.
 
 - year: 2023
-  title: Can language models automate data wrangling?
+  title: "Paper published in the Machine Learning Journal: “Can language models automate data wrangling?”"
   url: https://doi.org/10.1007/s10994-022-06259-9
   venue: Machine Learning Journal
 
 # ---------------------------------------------------------------- 2022 ----
 
 - year: 2022
-  title: "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models"
+  title: "New preprint: “Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models”"
   url: https://arxiv.org/abs/2206.04615
   venue: BIG-bench
 
 - year: 2022
-  title: Glossary of human-centric artificial intelligence
+  title: "Report published by the European Commission: “Glossary of human-centric artificial intelligence”"
   url: http://dx.doi.org/10.2760/860665
   venue: European Commission
 
 - year: 2022
-  title: Two papers accepted at AAAI 2022
+  title: "Two papers accepted at AAAI 2022"
   venue: AAAI 2022
   note: >-
     [*Training on the Test Set: Mapping the System-Problem Space in
@@ -243,7 +255,7 @@
 # ---------------------------------------------------------------- 2021 ----
 
 - year: 2021
-  title: Five journal papers on AI benchmarks, generality, fairness and impact
+  title: "Five papers published on AI benchmarks, generality, fairness and impact"
   note: >-
     [*Research community dynamics behind popular AI
     benchmarks*](https://rdcu.be/ckK8X) (**Nature Machine Intelligence**),
@@ -259,19 +271,19 @@
     Informatics**).
 
 - year: 2021
-  title: "European Commission JRC Excellence Award: Best Young Researcher"
+  title: "Awarded the European Commission JRC Excellence Award: Best Young Researcher"
   venue: European Commission JRC
 
 # ---------------------------------------------------------------- 2020 ----
 
 - year: 2020
-  title: Co-organising the 1st Workshop on Evaluating Progress in AI (EPAI 2020)
+  title: "Co-organising the 1st Workshop on Evaluating Progress in AI (EPAI 2020) at ECAI 2020"
   url: http://dmip.webs.upv.es/EPAI2020/
   venue: ECAI 2020
   venue_url: http://ecai2020.eu/
 
 - year: 2020
-  title: Three papers accepted at ECAI 2020
+  title: "Three papers accepted at ECAI 2020"
   venue: ECAI 2020
   venue_url: http://ecai2020.eu/
   note: >-
@@ -283,7 +295,7 @@
     Techniques](https://ecai2020.eu/papers/1285_paper.pdf).
 
 - year: 2020
-  title: Papers accepted in IEEE TKDE and IEEE Transactions on Games
+  title: "Two papers published in IEEE TKDE and IEEE Transactions on Games"
   note: >-
     [*CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science
     Trajectories*](https://doi.org/10.1109/TKDE.2019.2962680) and [*Dual
@@ -291,19 +303,19 @@
     Generality*](https://doi.org/10.1109/TG.2018.2883773).
 
 - year: 2020
-  title: "Does AI Qualify for the Job? A Bidirectional Model Mapping Labour and AI Intensities"
+  title: "Paper accepted at AIES 2020: “Does AI Qualify for the Job? A Bidirectional Model Mapping Labour and AI Intensities”"
   venue: AIES 2020
   venue_url: https://www.aies-conference.com/2020/
 
 # ---------------------------------------------------------------- 2019 ----
 
 - year: 2019
-  title: "Item Response Theory in AI: Analysing Machine Learning Classifiers at the Instance Level"
+  title: "Paper published in the Artificial Intelligence Journal: “Item Response Theory in AI: Analysing Machine Learning Classifiers at the Instance Level”"
   url: https://authors.elsevier.com/a/1YWua-c5NdLy
   venue: Artificial Intelligence Journal
 
 - year: 2019
-  title: Two papers accepted at ECML 2019
+  title: "Two papers accepted at ECML 2019"
   venue: ECML-PKDD 2019
   note: >-
     [Automated Data Transformation with Inductive Programming and Dynamic

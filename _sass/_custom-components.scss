@@ -612,19 +612,21 @@ a.card:hover .card__title {
   text-transform: uppercase;
 }
 
+/* Awards are the one label allowed besides the type tag and "Paper".
+   Amber so they never read as another action link. */
 .badge--award,
 .archive a.badge--award {
-  background: var(--accent-soft);
-  border-color: var(--accent-line);
-  color: var(--accent);
+  background: var(--award-bg);
+  border-color: var(--award-border);
+  color: var(--award-text);
   font-weight: 600;
   text-decoration: none;
 }
 
 .archive a.badge--award:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--accent-contrast);
+  border-color: var(--award-text);
+  color: var(--award-text);
+  text-decoration: none;
 }
 
 /* The single "Paper" pill — outline only, so it stays light on a
