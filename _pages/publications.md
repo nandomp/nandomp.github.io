@@ -19,12 +19,6 @@ classes:
 <p class="pub-item__authors">{{ pub.authors | replace: me, me_bold }}</p>
 <h3 class="pub-item__title">{% if pub.url %}<a href="{{ pub.url }}">&ldquo;{{ pub.title }}&rdquo;</a>{% else %}&ldquo;{{ pub.title }}&rdquo;{% endif %}</h3>
 <p class="pub-item__meta"><a class="pub-item__venue" href="{{ pub.venue_url }}"><em>{{ pub.venue }}</em></a>{% if pub.details %}, {{ pub.details }}{% endif %}, {{ group.year }}.</p>
-{%- comment -%}
-  ONE action link per entry, always labelled "Paper", never anything else.
-  Target priority: DOI > OpenReview > url > PDF > any other link present.
-  Every other entry in `links:` is deliberately ignored — this template has
-  no loop over it, so no DOI/BibTeX/Slides/Code button can ever be emitted.
-{%- endcomment -%}
 {%- assign paper_url = "" -%}
 {%- assign doi_link = pub.links | where: "label", "DOI" | first -%}
 {%- assign openreview_link = pub.links | where: "label", "OpenReview" | first -%}
