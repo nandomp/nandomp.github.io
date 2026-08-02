@@ -16,11 +16,12 @@
    persists in localStorage. The OS `prefers-color-scheme` setting is
    deliberately NOT consulted. */
 @mixin custom-dark-tokens {
-  --accent:          #60a5fa;
-  --accent-strong:   #93c5fd;
-  --accent-contrast: #0b1220;
-  --accent-soft:     rgba(96, 165, 250, 0.15);
-  --accent-line:     rgba(96, 165, 250, 0.35);
+  /* Same Dusk Blue hue, lifted in lightness so it stays readable on #0e1116. */
+  --accent:          #7d9cc0;  /* 6.7:1 on --bg */
+  --accent-strong:   #9db8d6;  /* hover */
+  --accent-contrast: #0b1220;  /* text on an --accent fill — 6.7:1 */
+  --accent-soft:     rgba(125, 156, 192, 0.16);
+  --accent-line:     rgba(125, 156, 192, 0.38);
 
   --bg:            #0e1116;
   --surface:       #12161c;
@@ -46,6 +47,19 @@
   --award-border: rgba(251, 191, 36, 0.40);
   --award-text:   #fbbf24;  /* 9.6:1 on --bg */
 
+  /* Same type mapping and hues as light mode. Only Dusk Blue is lifted, so
+     the darkest chip still reads as a chip against the dark page. */
+  --type-journal-bg:    #3f5f85;  /* Dusk Blue, +8% lightness */
+  --type-journal-fg:    #ffffff;  /* 6.6:1 */
+  --type-conference-bg: #ab5f6f;
+  --type-conference-fg: #ffffff;  /* 4.6:1 */
+  --type-workshop-bg:   #6d597a;
+  --type-workshop-fg:   #ffffff;  /* 6.3:1 */
+  --type-informal-bg:   #eaac8b;
+  --type-informal-fg:   #3d2b1f;  /* 6.9:1 */
+  --type-book-bg:       #e56b6f;
+  --type-book-fg:       #331416;  /* 5.3:1 */
+
   color-scheme: dark;
 }
 
@@ -55,12 +69,15 @@
   --font-sans: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   --font-mono: Monaco, Consolas, "Lucida Console", monospace;
 
-  /* Color :: light (default) */
-  --accent:          #1d4ed8;
-  --accent-strong:   #1e3a8a;
-  --accent-contrast: #ffffff;
-  --accent-soft:     rgba(29, 78, 216, 0.08);
-  --accent-line:     rgba(29, 78, 216, 0.25);
+  /* Color :: light (default)
+     Accent is "Ocean Sunset" Dusk Blue. Everything accent-coloured on the
+     site — links, publication titles, the Paper pill, timeline dots, focus
+     rings — reads from --accent, so this is the only place to change it. */
+  --accent:          #355070;  /* Dusk Blue — 8.2:1 on white */
+  --accent-strong:   #263c55;  /* hover */
+  --accent-contrast: #ffffff;  /* text on an --accent fill — 8.2:1 */
+  --accent-soft:     rgba(53, 80, 112, 0.08);
+  --accent-line:     rgba(53, 80, 112, 0.28);
 
   --bg:            #ffffff;
   --surface:       #ffffff;
@@ -85,6 +102,20 @@
   --award-bg:     #fffbeb;
   --award-border: #fcd34d;
   --award-text:   #92400e;  /* 6.9:1 on --award-bg */
+
+  /* Publication type badges — "Ocean Sunset". One token pair per family so
+     the mapping is identical in every year and in both themes. Ratios are
+     badge text against its own fill. */
+  --type-journal-bg:    #355070;  /* Dusk Blue */
+  --type-journal-fg:    #ffffff;  /* 8.2:1 */
+  --type-conference-bg: #ab5f6f;  /* Rosewood, 4% darker for AA */
+  --type-conference-fg: #ffffff;  /* 4.6:1 */
+  --type-workshop-bg:   #6d597a;  /* Dusty Lavender */
+  --type-workshop-fg:   #ffffff;  /* 6.3:1 */
+  --type-informal-bg:   #eaac8b;  /* Light Bronze */
+  --type-informal-fg:   #3d2b1f;  /* 6.9:1 */
+  --type-book-bg:       #e56b6f;  /* Light Coral */
+  --type-book-fg:       #331416;  /* 5.3:1 */
 
   /* Shape + motion */
   --radius-sm: 6px;

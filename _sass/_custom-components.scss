@@ -141,8 +141,8 @@ a.badge:hover {
    -------------------------------------------------------------------------- */
 
 /* Items are grouped by year; the year is printed once per group. Every item
-   uses exactly these rules, whether it sits in the short "Recent highlights"
-   list or in the full archive inside the <details> below it. */
+   uses exactly these rules, whether it sits in the current-year list on the
+   homepage or in the earlier-years archive at /highlights/. */
 
 .timeline {
   margin: 1.4em 0 0;
@@ -157,7 +157,8 @@ a.badge:hover {
 }
 
 /* Year label — the only place a date appears anywhere in the timeline. */
-.page__content .timeline__year {
+.page__content .timeline__year,
+.archive .timeline__year {
   margin: 0 0 0.6em;
   color: var(--text-faint);
   font-family: var(--font-sans);
@@ -214,7 +215,8 @@ a.badge:hover {
   transform: scale(1.15);
 }
 
-.page__content .timeline__title {
+.page__content .timeline__title,
+.archive .timeline__title {
   margin: 0 0 0.25em;
   color: var(--text-strong);
   font-family: var(--font-sans);
@@ -260,6 +262,31 @@ a.badge:hover {
   line-height: 1;
 }
 
+/* Discreet "Earlier highlights" line closing the section. */
+.timeline__more {
+  margin: 1.4em 0 0;
+  font-size: 0.84em;
+}
+
+.page__content .timeline__more a,
+.archive .timeline__more a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.page__content .timeline__more a:hover,
+.archive .timeline__more a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 700px) {
+  /* Line up with the items column, clear of the year rail. */
+  .timeline__more {
+    padding-left: 6.6rem;
+  }
+}
+
 @media screen and (min-width: 700px) {
   /* Year moves into its own left-hand column, aligned with the first item. */
   .timeline__group {
@@ -268,7 +295,8 @@ a.badge:hover {
     column-gap: 1.1rem;
   }
 
-  .page__content .timeline__year {
+  .page__content .timeline__year,
+  .archive .timeline__year {
     margin: 0;
     padding-top: 0.32em;
     text-align: right;
@@ -603,13 +631,45 @@ a.card:hover .card__title {
   margin-bottom: 0;
 }
 
+/* Type badges are colour-coded by publication family ("Ocean Sunset").
+   The mapping is driven by data-type on .pub-item, so it is automatically
+   identical across every year. */
 .badge--type {
-  background: transparent;
-  border-color: var(--border);
-  color: var(--text-faint);
+  background: var(--type-informal-bg);
+  border-color: transparent;
+  color: var(--type-informal-fg);
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.pub-item[data-type="journal"] .badge--type {
+  background: var(--type-journal-bg);
+  color: var(--type-journal-fg);
+}
+
+.pub-item[data-type="conference"] .badge--type {
+  background: var(--type-conference-bg);
+  color: var(--type-conference-fg);
+}
+
+.pub-item[data-type="workshop"] .badge--type {
+  background: var(--type-workshop-bg);
+  color: var(--type-workshop-fg);
+}
+
+/* Preprints and reports share the "informal" bronze (also the base rule). */
+.pub-item[data-type="preprint"] .badge--type,
+.pub-item[data-type="report"] .badge--type {
+  background: var(--type-informal-bg);
+  color: var(--type-informal-fg);
+}
+
+/* Book chapters and theses share the book coral. */
+.pub-item[data-type="chapter"] .badge--type,
+.pub-item[data-type="thesis"] .badge--type {
+  background: var(--type-book-bg);
+  color: var(--type-book-fg);
 }
 
 /* Awards are the one label allowed besides the type tag and "Paper".

@@ -7,9 +7,6 @@ classes:
   - page--publications
 ---
 
-Also on [Google Scholar](https://scholar.google.es/citations?user=a5qlaGIAAAAJ&hl=en) and [ORCID](http://orcid.org/0000-0003-2902-6477).
-{: .lead}
-
 {% comment %}
   Entries live in _data/publications.yml — edit that file, not this one.
   Every entry renders with the same structure:
