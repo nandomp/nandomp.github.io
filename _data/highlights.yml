@@ -31,6 +31,28 @@
 # ---------------------------------------------------------------- 2026 ----
 
 - year: 2026
+  title: "Paper accepted in Structural Change and Economic Dynamics: “A Rising Tide: Revisiting the Occupational Impact of AI in the Generative Era”"
+  venue: Structural Change and Economic Dynamics
+  venue_url: https://www.sciencedirect.com/journal/structural-change-and-economic-dynamics
+
+- year: 2026
+  title: "Two papers accepted at DS 2026 and IBERAMIA 2026"
+  note: >-
+    *"Size-Constrained Clustering via Bat Algorithm Optimization"* at
+    [**DS 2026**](https://discovery-science.org/) and *"GClus: Enforcing
+    Explicit Size Constraints in Graph Clustering through Structural
+    Refinement"* at
+    [**IBERAMIA 2026**](https://www.iberamia.org/iberamia/iberamia2026/).
+
+- year: 2026
+  title: "Two workshop papers accepted at QCDS 2026 and SoGood 2026"
+  note: >-
+    *"Pre-Generation LLM Failure Prediction Under Distribution Shift"* at
+    [**QCDS 2026**](https://qcds-2026.github.io/) and *"The Greenest Token Is
+    the One You Never Generate: Pre-Generation Abstention for Sustainable
+    LLMs"* at [**SoGood 2026**](https://ecmlpkdd.org/2026/), at ECML PKDD 2026.
+
+- year: 2026
   title: "Visiting Scholar at the Leverhulme Centre for the Future of Intelligence"
   venue: University of Cambridge (June - July)
 

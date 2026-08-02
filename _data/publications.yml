@@ -74,10 +74,18 @@
         - {label: DOI, url: "https://doi.org/10.1007/s41060-025-01006-4"}
 
     - title: "From Formal to Informal: How Register Shift Confuses LLMs in Spanish Dialect Recognition"
+      url: https://link.springer.com/article/10.1007/s41060-026-01177-8
       authors: Samuel Axel Zander-Marzano, José Hernández-Orallo, Fernando Martínez-Plumed, Pau Amores-Giner, Behzad Mehrbakhsh
       venue: International Journal of Data Science and Analytics (IJDSA)
       venue_url: https://link.springer.com/journal/41060
-      details: Springer, to appear
+      details: Springer
+      type: journal
+
+    - title: "A Rising Tide: Revisiting the Occupational Impact of AI in the Generative Era"
+      authors: Pablo Casas, Fernando Martínez-Plumed, Ignacio González-Vázquez, Emilia Gómez, Simone Salotti
+      venue: Structural Change and Economic Dynamics
+      venue_url: https://www.sciencedirect.com/journal/structural-change-and-economic-dynamics
+      details: Elsevier, accepted
       type: journal
 
     - title: Targeted Robustness for Regression via Top-Feature Noise
@@ -107,6 +115,30 @@
       venue_url: https://traconference.eu/
       details: Oral presentation
       type: conference
+
+    - title: Size-Constrained Clustering via Bat Algorithm Optimization
+      authors: Diego Vallejo-Huanga, Alexander Padilla, Cèsar Ferri, Fernando Martínez-Plumed
+      venue: International Conference on Discovery Science (DS 2026)
+      venue_url: https://discovery-science.org/
+      type: conference
+
+    - title: "GClus: Enforcing Explicit Size Constraints in Graph Clustering through Structural Refinement"
+      authors: Diego Vallejo-Huanga, Kevin Castillo, Zaida Jimenez, Cèsar Ferri, Fernando Martínez-Plumed
+      venue: Ibero-American Conference on Artificial Intelligence (IBERAMIA 2026)
+      venue_url: https://www.iberamia.org/iberamia/iberamia2026/
+      type: conference
+
+    - title: Pre-Generation LLM Failure Prediction Under Distribution Shift
+      authors: Yael Moros-Daval, Álvaro David Gómez Antón, Kexin Jiang-Chen, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed
+      venue: Workshop on Quantification and Classification under Dataset Shift (QCDS 2026)
+      venue_url: https://qcds-2026.github.io/
+      type: workshop
+
+    - title: "The Greenest Token Is the One You Never Generate: Pre-Generation Abstention for Sustainable LLMs"
+      authors: Yael Moros-Daval, Álvaro David Gómez Antón, Kexin Jiang-Chen, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed
+      venue: Workshop on Data Science for Social Good (SoGood 2026) @ ECML-PKDD
+      venue_url: https://ecmlpkdd.org/2026/
+      type: workshop
 
     - title: Revisiting the occupational impact of AI in the generative AI era
       authors: Pedro Casas, Enrique Fernández-Macías, Fernando Martínez-Plumed, Emilia Gómez, Ignacio González-Vázquez, Simone Salotti

@@ -18,7 +18,7 @@ classes:
 <article class="pub-item" data-type="{{ pub.type }}">
 <p class="pub-item__authors">{{ pub.authors | replace: me, me_bold }}</p>
 <h3 class="pub-item__title">{% if pub.url %}<a href="{{ pub.url }}">&ldquo;{{ pub.title }}&rdquo;</a>{% else %}&ldquo;{{ pub.title }}&rdquo;{% endif %}</h3>
-<p class="pub-item__meta"><a class="pub-item__venue" href="{{ pub.venue_url }}"><em>{{ pub.venue }}</em></a>{% if pub.details %}, {{ pub.details }}{% endif %}, {{ group.year }}.</p>
+<p class="pub-item__meta">{% if pub.venue_url %}<a class="pub-item__venue" href="{{ pub.venue_url }}"><em>{{ pub.venue }}</em></a>{% else %}<em class="pub-item__venue">{{ pub.venue }}</em>{% endif %}{% if pub.details %}, {{ pub.details }}{% endif %}, {{ group.year }}.</p>
 {%- assign paper_url = "" -%}
 {%- assign doi_link = pub.links | where: "label", "DOI" | first -%}
 {%- assign openreview_link = pub.links | where: "label", "OpenReview" | first -%}
