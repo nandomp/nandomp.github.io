@@ -13,7 +13,10 @@ redirect_from:
 Associate Professor at the Technical University of Valencia ([UPV](http://www.upv.es/)) and former Scientific Project Officer at the [Joint Research Centre](https://ec.europa.eu/jrc/en/about/jrc-site/seville), European Commission. Part of [VRAIN](https://vrain.upv.es/), [ELP](https://elp.webs.upv.es/) and the [DMIP Team](https://dmip.webs.upv.es/), and Director of the **NEW** [Master in AI & Big Data Analytics](https://iabigdata.webs.upv.es/) at the UPV. I hold a B.Sc. in Computer Science, an M.Sc. in Software Engineering, Formal Methods and Information Systems, a Post-Graduate Diploma in Engineering Business Management and a Ph.D in Computer Science from UPV. The evaluation and measurement of intelligent systems is, among other more applied research topics, the main scientific-technical objective of my research agenda.
 {: .lead}
 
-<p class="callout">👉 Subscribe to our <strong><a href="https://aievaluation.substack.com/">AI Evaluation Digest</a> 📐💻</strong> for the latest updates!</p>
+<div class="callout">
+  <p class="callout__text">I co-edit the <span class="callout__name">AI Evaluation Digest</span>, a newsletter on AI evaluation research.</p>
+  <a class="callout__action" href="https://aievaluation.substack.com/" target="_blank" rel="noopener">Subscribe</a>
+</div>
 
 ## Recent highlights
 

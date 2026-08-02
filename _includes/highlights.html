@@ -38,7 +38,8 @@
 {%- else -%}{%- assign type_label = item.type | capitalize -%}
 {%- endcase -%}
 <li class="timeline__item{% if highlight_count > highlight_initial %} timeline__item--extra{% endif %}"{% if item.type %} data-type="{{ item.type }}"{% endif %}>
-<h4 class="timeline__title">{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h4>
+{%- assign title_html = item.title | markdownify | remove: '<p>' | remove: '</p>' | strip -%}
+<h4 class="timeline__title">{% if item.url %}<a href="{{ item.url }}">{{ title_html }}</a>{% else %}{{ title_html }}{% endif %}</h4>
 {%- if item.note %}
 <div class="timeline__note">{{ item.note | markdownify }}</div>
 {%- endif %}

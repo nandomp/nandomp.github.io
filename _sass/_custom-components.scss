@@ -78,21 +78,64 @@ html.no-js .theme-toggle { display: none; }
   line-height: 1.6;
 }
 
+/* A quiet invitation, not a banner: slim bar, accent rule down the left,
+   barely-there tint, one small pill as the call to action. Wraps to two rows
+   on narrow screens with the pill dropping below the text. */
 .callout {
-  margin: 1.8em 0;
-  padding: 0.9em 1.1em;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  gap: 0.55em 1em;
+
+  margin: 1.7em 0;
+  padding: 0.75em 1em;
   background: var(--accent-soft);
-  border: 1px solid var(--accent-line);
-  border-radius: var(--radius);
-  font-size: 0.94em;
+  border: 0;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.9em;
 }
 
-.callout p {
+.callout__text {
+  -webkit-box-flex: 1;
+  flex: 1 1 16rem;
   margin: 0;
+  color: var(--text-muted);
+  line-height: 1.55;
 }
 
-.callout a {
-  text-decoration: underline;
+.callout__name {
+  color: var(--text-strong);
+  font-weight: 600;
+}
+
+.page__content .callout__action {
+  flex: 0 0 auto;
+  display: inline-block;
+  padding: 0.34em 0.95em;
+  background: transparent;
+  border: 1px solid var(--accent-line);
+  border-radius: var(--radius-pill);
+  color: var(--accent);
+  font-family: var(--font-sans);
+  font-size: 0.88em;
+  font-weight: 600;
+  line-height: 1.6;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background-color 0.15s var(--ease), border-color 0.15s var(--ease), color 0.15s var(--ease);
+}
+
+.page__content .callout__action:hover,
+.page__content .callout__action:focus-visible {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+  text-decoration: none;
 }
 
 

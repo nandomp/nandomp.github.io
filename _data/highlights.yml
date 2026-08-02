@@ -41,28 +41,23 @@
 
 - year: 2026
   type: conference
-  title: "Two papers accepted at DS 2026 and IBERAMIA 2026"
+  title: "Two papers accepted at [DS 2026](https://discovery-science.org/) and [IBERAMIA 2026](https://www.iberamia.org/iberamia/iberamia2026/)"
   note: >-
-    *"Size-Constrained Clustering via Bat Algorithm Optimization"* at
-    [**DS 2026**](https://discovery-science.org/) and *"GClus: Enforcing
-    Explicit Size Constraints in Graph Clustering through Structural
-    Refinement"* at
-    [**IBERAMIA 2026**](https://www.iberamia.org/iberamia/iberamia2026/).
+    *"Size-Constrained Clustering via Bat Algorithm Optimization"* (DS 2026)
+    and *"GClus: Enforcing Explicit Size Constraints in Graph Clustering
+    through Structural Refinement"* (IBERAMIA 2026).
 
 - year: 2026
   type: conference
-  title: "Three papers accepted at ECML-PKDD 2026, plus two workshop papers"
-  url: https://ecmlpkdd.org/2026/
+  title: "Three papers accepted at [ECML-PKDD 2026](https://ecmlpkdd.org/2026/), plus two workshop papers at [QCDS 2026](https://qcds-2026.github.io/) and [SoGood 2026](https://sites.google.com/view/sogood-2026/home)"
   note: >-
     *"What Should an AI Assessor Optimise for?"* (Machine Learning Journal
-    track), *"Robustness under Noise: Assessing the Impact of Perturbed Key
-    Attributes on Machine Learning Models"* (Research track), and *"CapFlex:
-    Multimodal Soft Clustering with Flexible Size Constraints"* (Demo track);
-    plus *"Pre-Generation LLM Failure Prediction Under Distribution Shift"* at
-    [**QCDS 2026**](https://qcds-2026.github.io/) and *"The Greenest Token Is
-    the One You Never Generate: Pre-Generation Abstention for Sustainable
-    LLMs"* at [**SoGood 2026**](https://sites.google.com/view/sogood-2026/home),
-    both at ECML PKDD 2026.
+    track), *"Targeted Robustness for Regression via Top-Feature Noise"*
+    (Research track), *"CapFlex:
+    Multimodal Soft Clustering with Flexible Size Constraints"* (Demo track),
+    *"Pre-Generation LLM Failure Prediction Under Distribution Shift"*
+    (QCDS 2026) and *"The Greenest Token Is the One You Never Generate:
+    Pre-Generation Abstention for Sustainable LLMs"* (SoGood 2026).
 
 - year: 2026
   type: research-stay
@@ -110,8 +105,7 @@
     Categorisation"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143256)
     and [*"A Framework to Categorise Modified General-Purpose AI Models as New
     Models Based on Behavioural
-    Changes"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143257),
-    advancing GPAI categorisation and regulatory assessment under the AI Act.
+    Changes"*](https://publications.jrc.ec.europa.eu/repository/handle/JRC143257).
 
 - year: 2025
   type: journal
@@ -119,14 +113,14 @@
   note: >-
     [*"Comparative analysis of public and expert perceptions of electrified
     vehicles in the European
-    Union"*](https://www.nature.com/articles/s41598-025-06071-0) (**Nature
-    Scientific Reports**), [*"Human or Machine: A novel deep learning framework
-    for autonomous driver identification based on vehicle
-    trajectories"*](https://ieeexplore.ieee.org/document/11247850) (**IEEE
-    Transactions on Intelligent Transportation Systems**) and [*"Follow the
+    Union"*](https://www.nature.com/articles/s41598-025-06071-0)
+    (Nature Scientific Reports), [*"Human or Machine: A novel deep learning
+    framework for autonomous driver identification based on vehicle
+    trajectories"*](https://ieeexplore.ieee.org/document/11247850)
+    (IEEE Transactions on Intelligent Transportation Systems) and [*"Follow the
     Leader: A Deep Reinforcement Learning Framework for Safe and Efficient
     Autonomous Car-Following"*](https://doi.org/10.1080/15472450.2025.2576907)
-    (**Taylor & Francis Intelligent Transportation Systems**).
+    (Taylor & Francis Intelligent Transportation Systems).
 
 - year: 2025
   type: workshop
@@ -153,24 +147,23 @@
 
 - year: 2025
   type: conference
-  title: "Two papers accepted at MDAI 2025 and DATA 2025"
+  title: "Two papers accepted at [MDAI 2025](https://www.mdai.cat/mdai2025/) and [DATA 2025](https://data.scitevents.org/?y=2025)"
   note: >-
     [*"Refining Community Detection in Social Networks: Agglomerative and
     Divisive Methods with Size
-    Constraints"*](https://doi.org/10.1007/978-3-032-00891-6_26) at
-    [**MDAI 2025**](https://www.mdai.cat/mdai2025/) and [*"ClustSize: An
-    Algorithmic Framework for Size-Constrained
-    Clustering"*](https://doi.org/10.5220/0013558900003967) at
-    [**DATA 2025**](https://data.scitevents.org/?y=2025).
+    Constraints"*](https://doi.org/10.1007/978-3-032-00891-6_26) (MDAI 2025)
+    and [*"ClustSize: An Algorithmic Framework for Size-Constrained
+    Clustering"*](https://doi.org/10.5220/0013558900003967) (DATA 2025).
 
 - year: 2025
   type: preprint
   title: "New preprints on AI evaluation"
   note: >-
-    📐 [*General Scales Unlock AI Evaluation with Explanatory and Predictive
-    Power*](https://arxiv.org/pdf/2503.06378) (𝕏
-    [thread](https://x.com/lexin_zhou/status/1899271596264825308)) and 📎
-    [*What should an AI assessor optimise for?*](https://arxiv.org/abs/2502.00365).
+    [*"General Scales Unlock AI Evaluation with Explanatory and Predictive
+    Power"*](https://arxiv.org/pdf/2503.06378) (arXiv,
+    [thread](https://x.com/lexin_zhou/status/1899271596264825308)) and
+    [*"What should an AI assessor optimise
+    for?"*](https://arxiv.org/abs/2502.00365) (arXiv).
 
 - year: 2025
   type: journal
@@ -209,6 +202,7 @@
     [*"Language Task Difficulty Prediction through LLM-Annotated
     Meta-Features"*](https://www.ecai2024.eu/programme/accepted-papers).
 
+
 - year: 2024
   type: conference
   title: "Three papers accepted"
@@ -230,14 +224,12 @@
 
 - year: 2024
   type: journal
-  title: "Two papers published in MLST and Intelligent Data Analysis"
+  title: "Two papers published in [MLST](https://iopscience.iop.org/journal/2632-2153) and [Intelligent Data Analysis](https://www.iospress.com/catalog/journals/intelligent-data-analysis)"
   note: >-
-    [*Unveiling the Robustness of Machine Learning
-    Families*](https://doi.org/10.1088/2632-2153/ad62ab) in
-    [**MLST**](https://iopscience.iop.org/journal/2632-2153) and [*Cracking
-    black-box models: Revealing hidden machine learning techniques behind their
-    predictions*](https://doi.org/10.3233/IDA-230707) in
-    [**IDA**](https://www.iospress.com/catalog/journals/intelligent-data-analysis).
+    [*"Unveiling the Robustness of Machine Learning
+    Families"*](https://doi.org/10.1088/2632-2153/ad62ab) (MLST) and
+    [*"Cracking black-box models: Revealing hidden machine learning techniques
+    behind their predictions"*](https://doi.org/10.3233/IDA-230707) (IDA).
 
 - year: 2024
   type: service
@@ -266,14 +258,14 @@
 
 - year: 2023
   type: journal
-  title: "Two papers accepted in JAIR and Sustainable Computing"
+  title: "Two papers accepted in [JAIR](https://www.jair.org/index.php/jair) and [Sustainable Computing](https://www.sciencedirect.com/journal/sustainable-computing-informatics-and-systems)"
   note: >-
     [*"Your Prompt is My Command: On Assessing the Human-Centred Generality of
     Multimodal
     Models"*](https://dmip.webs.upv.es/papers/_JAIR2023__Your_Prompt_is_My_Command__PREPRINT.pdf)
-    in **JAIR** and [*"Trends in AI Inference Energy Consumption: Beyond the
+    (JAIR) and [*"Trends in AI Inference Energy Consumption: Beyond the
     Performance-vs-Parameter Laws of Deep
-    Learning"*](https://doi.org/10.1016/j.suscom.2023.100857) in **SUSCOM**.
+    Learning"*](https://doi.org/10.1016/j.suscom.2023.100857) (SUSCOM).
 
 - year: 2023
   type: journal
@@ -300,11 +292,11 @@
   title: "Two papers accepted"
   venue: AAAI 2022
   note: >-
-    [*Training on the Test Set: Mapping the System-Problem Space in
-    AI*](https://doi.org/10.1609/aaai.v36i11.21487) ([Blue Sky Idea Runner-Up
-    Award](https://cccblog.org/2022/03/03/blue-sky-at-aaai-2022/)) and [*When AI
-    Difficulty is Easy: The Explanatory Power of Predicting IRT
-    Difficulty*](https://doi.org/10.1609/aaai.v36i7.20739).
+    [*"Training on the Test Set: Mapping the System-Problem Space in
+    AI"*](https://doi.org/10.1609/aaai.v36i11.21487) ([Blue Sky Idea Runner-Up
+    Award](https://cccblog.org/2022/03/03/blue-sky-at-aaai-2022/)) and
+    [*"When AI Difficulty is Easy: The Explanatory Power of Predicting IRT
+    Difficulty"*](https://doi.org/10.1609/aaai.v36i7.20739).
 
 # ---------------------------------------------------------------- 2021 ----
 
@@ -312,18 +304,18 @@
   type: journal
   title: "Five papers published on AI benchmarks, generality, fairness and impact"
   note: >-
-    [*Research community dynamics behind popular AI
-    benchmarks*](https://rdcu.be/ckK8X) (**Nature Machine Intelligence**),
-    [*General intelligence disentangled via a generality metric for natural and
-    artificial intelligence*](https://www.nature.com/articles/s41598-021-01997-7)
-    (**Nature Scientific Reports**), [*"Missing the missing values: The ugly
+    [*"Research community dynamics behind popular AI
+    benchmarks"*](https://rdcu.be/ckK8X) (Nature Machine Intelligence),
+    [*"General intelligence disentangled via a generality metric for natural and
+    artificial intelligence"*](https://www.nature.com/articles/s41598-021-01997-7)
+    (Nature Scientific Reports), [*"Missing the missing values: The ugly
     duckling of fairness in machine learning"*](https://doi.org/10.1002/int.22415)
-    (**International Journal of Intelligent Systems**), [*"Measuring the
+    (International Journal of Intelligent Systems), [*"Measuring the
     Occupational Impact of AI: Tasks, Cognitive Abilities and AI
-    Benchmarks"*](https://doi.org/10.1613/jair.1.12647) (**JAIR**) and
+    Benchmarks"*](https://doi.org/10.1613/jair.1.12647) (JAIR) and
     [*"Futures of Artificial Intelligence through Technology Readiness
-    Levels"*](https://doi.org/10.1016/j.tele.2020.101525) (**Telematics and
-    Informatics**).
+    Levels"*](https://doi.org/10.1016/j.tele.2020.101525) (Telematics and
+    Informatics).
 
 - year: 2021
   type: award
@@ -345,21 +337,22 @@
   venue: ECAI 2020
   venue_url: http://ecai2020.eu/
   note: >-
-    [Tracking AI: The Capability is (Not)
-    Near](http://ecai2020.eu/papers/1009_paper.pdf), [AI Paradigms and AI
+    [*"Tracking AI: The Capability is (Not)
+    Near"*](http://ecai2020.eu/papers/1009_paper.pdf), [*"AI Paradigms and AI
     Safety: Mapping Artefacts and Techniques to Safety
-    Issues](https://ecai2020.eu/papers/1364_paper.pdf) and [Family and
+    Issues"*](https://ecai2020.eu/papers/1364_paper.pdf) and [*"Family and
     Prejudice: A Behavioural Taxonomy of Machine Learning
-    Techniques](https://ecai2020.eu/papers/1285_paper.pdf).
+    Techniques"*](https://ecai2020.eu/papers/1285_paper.pdf).
 
 - year: 2020
   type: journal
-  title: "Two papers published in IEEE TKDE and IEEE Transactions on Games"
+  title: "Two papers published in [IEEE TKDE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69) and [IEEE Transactions on Games](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7782673)"
   note: >-
-    [*CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science
-    Trajectories*](https://doi.org/10.1109/TKDE.2019.2962680) and [*Dual
-    Indicators to Analyse AI Benchmarks: Difficulty, Discrimination, Ability and
-    Generality*](https://doi.org/10.1109/TG.2018.2883773).
+    [*"CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science
+    Trajectories"*](https://doi.org/10.1109/TKDE.2019.2962680) (IEEE TKDE) and
+    [*"Dual Indicators to Analyse AI Benchmarks: Difficulty, Discrimination,
+    Ability and Generality"*](https://doi.org/10.1109/TG.2018.2883773)
+    (IEEE Transactions on Games).
 
 - year: 2020
   type: conference
@@ -380,7 +373,7 @@
   title: "Two papers accepted"
   venue: ECML-PKDD 2019
   note: >-
-    [Automated Data Transformation with Inductive Programming and Dynamic
-    Background Knowledge](https://doi.org/10.1007/978-3-030-46133-1_44) and
-    [ABK-ADAPT: Dynamic Background Knowledge for Automating Data
-    Transformation](https://doi.org/10.1007/978-3-030-46133-1_45).
+    [*"Automated Data Transformation with Inductive Programming and Dynamic
+    Background Knowledge"*](https://doi.org/10.1007/978-3-030-46133-1_44) and
+    [*"ABK-ADAPT: Dynamic Background Knowledge for Automating Data
+    Transformation"*](https://doi.org/10.1007/978-3-030-46133-1_45).
