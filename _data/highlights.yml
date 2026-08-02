@@ -50,13 +50,19 @@
     [**IBERAMIA 2026**](https://www.iberamia.org/iberamia/iberamia2026/).
 
 - year: 2026
-  type: workshop
-  title: "Two papers accepted at QCDS 2026 and SoGood 2026"
+  type: conference
+  title: "Three papers accepted at ECML-PKDD 2026, plus two workshop papers"
+  url: https://ecmlpkdd.org/2026/
   note: >-
-    *"Pre-Generation LLM Failure Prediction Under Distribution Shift"* at
+    *"What Should an AI Assessor Optimise for?"* (Machine Learning Journal
+    track), *"Robustness under Noise: Assessing the Impact of Perturbed Key
+    Attributes on Machine Learning Models"* (Research track), and *"CapFlex:
+    Multimodal Soft Clustering with Flexible Size Constraints"* (Demo track);
+    plus *"Pre-Generation LLM Failure Prediction Under Distribution Shift"* at
     [**QCDS 2026**](https://qcds-2026.github.io/) and *"The Greenest Token Is
     the One You Never Generate: Pre-Generation Abstention for Sustainable
-    LLMs"* at [**SoGood 2026**](https://ecmlpkdd.org/2026/), at ECML PKDD 2026.
+    LLMs"* at [**SoGood 2026**](https://sites.google.com/view/sogood-2026/home),
+    both at ECML PKDD 2026.
 
 - year: 2026
   type: research-stay
@@ -74,17 +80,6 @@
   title: "Paper published: “Predictable Artificial Intelligence”"
   url: https://doi.org/10.1016/j.artint.2026.104491
   venue: Artificial Intelligence Journal
-
-- year: 2026
-  type: conference
-  title: "Three papers accepted"
-  venue: ECML-PKDD 2026
-  venue_url: https://ecmlpkdd.org/2026/
-  note: >-
-    *"What should an AI assessor optimise for?"* (Machine Learning Journal
-    track), *"Robustness under noise: assessing the impact of perturbed key
-    attributes on machine learning models"* (Research track) and *"CapFlex:
-    Multimodal Soft Clustering with Flexible Size Constraints"* (Demo track).
 
 - year: 2026
   type: journal

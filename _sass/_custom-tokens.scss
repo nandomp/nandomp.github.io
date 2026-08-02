@@ -492,25 +492,64 @@ img {
     background: transparent;
     border: 0;
     box-shadow: none;
+    max-width: none;
   }
 }
 
-.author__urls li {
-  padding: 0.1em 0;
+/* Keeps the mobile dropdown from stretching off-screen; pills wrap inside. */
+.author__urls {
+  max-width: 15rem;
 }
 
-.author__urls a {
-  border-radius: var(--radius-sm);
+/* "Who / where I am" — location and employer stay plain, unboxed text. */
+.sidebar .author__urls .author__desktop {
+  margin: 0 0 0.35em;
+  padding: 0;
   color: var(--text-muted);
-  display: inline-block;
-  padding: 0.15em 0.3em;
-  text-decoration: none;
 }
 
-.author__urls a:hover {
+/* "Find me online" — every link becomes a small pill that wraps.
+   inline-block rather than a flex container on purpose: the theme's JS calls
+   jQuery .show() on this <ul>, which writes an inline display:block and would
+   silently override `display: flex`. */
+.sidebar .author__urls > li:not(.author__desktop) {
+  display: inline-block;
+  margin: 0 0.3rem 0.4rem 0;
+  padding: 0;
+}
+
+.sidebar .author__urls > li:not(.author__desktop) > a {
+  display: inline-block;
+  margin: 0;
+  /* 0.95em of the .sidebar li size (0.78em), not of the root — the theme
+     nests these, so a smaller value here compounds into unreadable text. */
+  padding: 0.34em 0.75em;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  color: var(--text-muted);
+  font-size: 0.95em;
+  font-weight: 500;
+  line-height: 1.6;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background-color 0.15s var(--ease), border-color 0.15s var(--ease), color 0.15s var(--ease);
+}
+
+.sidebar .author__urls > li:not(.author__desktop) > a:hover,
+.sidebar .author__urls > li:not(.author__desktop) > a:focus-visible {
   background: var(--accent-soft);
+  border-color: var(--accent);
   color: var(--accent);
   text-decoration: none;
+}
+
+/* Icon inherits the label colour, so it turns Dusk Blue on hover too. */
+.sidebar .author__urls > li:not(.author__desktop) > a .ai,
+.sidebar .author__urls > li:not(.author__desktop) > a .fa,
+.sidebar .author__urls > li:not(.author__desktop) > a .fas,
+.sidebar .author__urls > li:not(.author__desktop) > a .fab {
+  color: inherit;
 }
 
 .btn--inverse {
