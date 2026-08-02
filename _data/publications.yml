@@ -47,10 +47,11 @@
         - {label: DOI, url: "https://doi.org/10.1016/j.artint.2026.104491"}
 
     - title: What should an AI assessor optimise for?
+      url: https://link.springer.com/content/pdf/10.1007/s10994-026-07084-0.pdf
       authors: Daniel Romero-Alvarado, Fernando Martínez-Plumed, José Hernández-Orallo
       venue: Machine Learning Journal
       venue_url: https://link.springer.com/journal/10994
-      details: Springer, to appear
+      details: Springer
       type: journal
 
     - title: "Human or Machine: A Novel Deep Learning Framework for Autonomous Driver Identification Based on Vehicle Trajectories"
