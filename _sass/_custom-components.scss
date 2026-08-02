@@ -599,33 +599,73 @@ a.card:hover .card__title {
   text-transform: uppercase;
 }
 
-.pub-item[data-type="journal"] .badge--type {
+/* Keyed on [data-type] alone, so publications (.pub-item) and highlights
+   (.timeline__item) share one mapping — a "Journal" chip is identical on
+   both pages. */
+[data-type="journal"] .badge--type {
   background: var(--type-journal-bg);
   color: var(--type-journal-fg);
 }
 
-.pub-item[data-type="conference"] .badge--type {
+[data-type="conference"] .badge--type {
   background: var(--type-conference-bg);
   color: var(--type-conference-fg);
 }
 
-.pub-item[data-type="workshop"] .badge--type {
+[data-type="workshop"] .badge--type {
   background: var(--type-workshop-bg);
   color: var(--type-workshop-fg);
 }
 
 /* Preprints and reports share the "informal" bronze (also the base rule). */
-.pub-item[data-type="preprint"] .badge--type,
-.pub-item[data-type="report"] .badge--type {
+[data-type="preprint"] .badge--type,
+[data-type="report"] .badge--type {
   background: var(--type-informal-bg);
   color: var(--type-informal-fg);
 }
 
 /* Book chapters and theses share the book coral. */
-.pub-item[data-type="chapter"] .badge--type,
-.pub-item[data-type="thesis"] .badge--type {
+[data-type="chapter"] .badge--type,
+[data-type="thesis"] .badge--type {
   background: var(--type-book-bg);
   color: var(--type-book-fg);
+}
+
+/* Highlight-only kinds. Defined for talk/media/grant too so they are ready
+   the first time such an entry is added. */
+[data-type="talk"] .badge--type {
+  background: var(--type-talk-bg);
+  color: var(--type-talk-fg);
+}
+
+[data-type="award"] .badge--type {
+  background: var(--type-award-bg);
+  color: var(--type-award-fg);
+}
+
+[data-type="research-stay"] .badge--type {
+  background: var(--type-stay-bg);
+  color: var(--type-stay-fg);
+}
+
+[data-type="service"] .badge--type {
+  background: var(--type-service-bg);
+  color: var(--type-service-fg);
+}
+
+[data-type="organisation"] .badge--type {
+  background: var(--type-org-bg);
+  color: var(--type-org-fg);
+}
+
+[data-type="media"] .badge--type {
+  background: var(--type-media-bg);
+  color: var(--type-media-fg);
+}
+
+[data-type="grant"] .badge--type {
+  background: var(--type-grant-bg);
+  color: var(--type-grant-fg);
 }
 
 /* Awards are the one label allowed besides the type tag and "Paper".

@@ -47,8 +47,8 @@
   --award-border: rgba(251, 191, 36, 0.40);
   --award-text:   #fbbf24;  /* 9.6:1 on --bg */
 
-  /* Same type mapping and hues as light mode. Only Dusk Blue is lifted, so
-     the darkest chip still reads as a chip against the dark page. */
+  /* Same type mapping and hues as light mode. Only the three darkest fills
+     are lifted, so each still reads as a chip against the dark page. */
   --type-journal-bg:    #3f5f85;  /* Dusk Blue, +8% lightness */
   --type-journal-fg:    #ffffff;  /* 6.6:1 */
   --type-conference-bg: #ab5f6f;
@@ -59,6 +59,21 @@
   --type-informal-fg:   #3d2b1f;  /* 6.9:1 */
   --type-book-bg:       #e56b6f;
   --type-book-fg:       #331416;  /* 5.3:1 */
+
+  --type-talk-bg:       #e56b6f;
+  --type-talk-fg:       #331416;  /* 5.3:1 */
+  --type-award-bg:      #915f78;
+  --type-award-fg:      #ffffff;  /* 5.1:1 */
+  --type-stay-bg:       #5a6488;  /* indigo slate, lifted */
+  --type-stay-fg:       #ffffff;  /* 5.8:1 */
+  --type-service-bg:    #5f6e82;
+  --type-service-fg:    #ffffff;  /* 5.3:1 */
+  --type-org-bg:        #8a6e86;
+  --type-org-fg:        #ffffff;  /* 4.6:1 */
+  --type-media-bg:      #a55f55;
+  --type-media-fg:      #ffffff;  /* 4.8:1 */
+  --type-grant-bg:      #6a5a80;  /* deep plum-blue, lifted */
+  --type-grant-fg:      #ffffff;  /* 6.2:1 */
 
   color-scheme: dark;
 }
@@ -103,19 +118,35 @@
   --award-border: #fcd34d;
   --award-text:   #92400e;  /* 6.9:1 on --award-bg */
 
-  /* Publication type badges — "Ocean Sunset". One token pair per family so
-     the mapping is identical in every year and in both themes. Ratios are
-     badge text against its own fill. */
-  --type-journal-bg:    #355070;  /* Dusk Blue */
+  /* Type badges — "Ocean Sunset". Shared by publications AND highlights, so
+     a "Journal" chip looks the same wherever it appears. Ratios are badge
+     text against its own fill; the five anchors are the palette proper, the
+     rest are interpolations along the same blue→plum→rose→coral→bronze ramp. */
+  --type-journal-bg:    #355070;  /* Dusk Blue (anchor) */
   --type-journal-fg:    #ffffff;  /* 8.2:1 */
-  --type-conference-bg: #ab5f6f;  /* Rosewood, 4% darker for AA */
+  --type-conference-bg: #ab5f6f;  /* Rosewood (anchor), 4% darker for AA */
   --type-conference-fg: #ffffff;  /* 4.6:1 */
-  --type-workshop-bg:   #6d597a;  /* Dusty Lavender */
+  --type-workshop-bg:   #6d597a;  /* Dusty Lavender (anchor) */
   --type-workshop-fg:   #ffffff;  /* 6.3:1 */
-  --type-informal-bg:   #eaac8b;  /* Light Bronze */
+  --type-informal-bg:   #eaac8b;  /* Light Bronze (anchor) — preprint, report */
   --type-informal-fg:   #3d2b1f;  /* 6.9:1 */
-  --type-book-bg:       #e56b6f;  /* Light Coral */
+  --type-book-bg:       #e56b6f;  /* Light Coral (anchor) — chapter, thesis */
   --type-book-fg:       #331416;  /* 5.3:1 */
+
+  --type-talk-bg:       #e56b6f;  /* Light Coral (anchor) */
+  --type-talk-fg:       #331416;  /* 5.3:1 */
+  --type-award-bg:      #915f78;  /* plum, between lavender and rosewood */
+  --type-award-fg:      #ffffff;  /* 5.1:1 */
+  --type-stay-bg:       #4a5475;  /* indigo slate, sibling of dusk blue */
+  --type-stay-fg:       #ffffff;  /* 7.5:1 */
+  --type-service-bg:    #5f6e82;  /* muted slate blue */
+  --type-service-fg:    #ffffff;  /* 5.3:1 */
+  --type-org-bg:        #8a6e86;  /* mauve, lavender→plum */
+  --type-org-fg:        #ffffff;  /* 4.6:1 */
+  --type-media-bg:      #a55f55;  /* terracotta, coral→bronze */
+  --type-media-fg:      #ffffff;  /* 4.8:1 */
+  --type-grant-bg:      #57496b;  /* deep plum-blue */
+  --type-grant-fg:      #ffffff;  /* 8.2:1 */
 
   /* Shape + motion */
   --radius-sm: 6px;
