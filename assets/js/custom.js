@@ -60,7 +60,36 @@
   }
 
   /* ------------------------------------------------------------------ *
-   * 2. Publications search + year filter
+   * 2. Highlights "show earlier" toggle
+   * The extra items are already in the page; this only flips a class.
+   * ------------------------------------------------------------------ */
+
+  function initHighlightsToggle() {
+    var button = document.getElementById('highlights-toggle');
+    var timeline = document.getElementById('highlights');
+    if (!button || !timeline) { return; }
+
+    button.addEventListener('click', function () {
+      var expanded = timeline.className.indexOf('timeline--expanded') === -1;
+
+      if (expanded) {
+        timeline.className += ' timeline--expanded';
+      } else {
+        timeline.className = timeline.className
+          .replace(/\s*timeline--expanded/g, '');
+        /* Collapsing can leave the viewport below the list — pull it back. */
+        if (timeline.getBoundingClientRect().top < 0) {
+          timeline.scrollIntoView();
+        }
+      }
+
+      button.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      button.textContent = expanded ? 'Show fewer highlights' : 'Show earlier highlights';
+    });
+  }
+
+  /* ------------------------------------------------------------------ *
+   * 3. Publications search + year filter
    * ------------------------------------------------------------------ */
 
   function initPublications() {
@@ -158,6 +187,7 @@
 
   function init() {
     initThemeToggle();
+    initHighlightsToggle();
     initPublications();
   }
 

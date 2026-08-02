@@ -1,29 +1,38 @@
 {% comment %}
   Renders _data/highlights.yml as a year-grouped timeline.
   The year is printed once per group, never on the individual items, and the
-  markup is identical for every entry — so the short homepage list and the
-  full archive below it look exactly the same.
+  markup is identical for every entry.
 
-  Splitting is done by YEAR GROUP, never by item count, so the two blocks on
-  the homepage can never show the same item twice and no year label is ever
-  split across them. Adding a new item to the current year needs no changes.
+  The first `initial` items (default 10) are shown; the rest are rendered
+  into the page too but carry --extra classes and are hidden with CSS until
+  the "Show earlier highlights" button expands them. Nothing is fetched or
+  generated at runtime, so this works on plain GitHub Pages, and with JS
+  disabled (html.no-js) every item is visible and the button is hidden.
+
+  A year group whose items are ALL beyond the cut is hidden as a whole, so no
+  orphan year label is ever shown while collapsed. A group that straddles the
+  cut keeps its single label and reveals its remaining items on expand.
 
   Usage:
-    {% include highlights.html groups=1 %}       -> the most recent year only
-    {% include highlights.html skip_groups=1 %}  -> every earlier year
-    {% include highlights.html %}                -> everything
+    {% include highlights.html %}             -> 10 shown, rest behind the button
+    {% include highlights.html initial=5 %}   -> 5 shown
+    {% include highlights.html groups=1 %}    -> only the most recent year
 {% endcomment %}
 {% assign highlight_groups = site.data.highlights | group_by: "year" %}
 {% if include.groups %}{% assign highlight_groups = highlight_groups | slice: 0, include.groups %}{% endif %}
 {% if include.skip_groups %}{% assign highlight_groups = highlight_groups | slice: include.skip_groups, 999 %}{% endif %}
+{% assign highlight_initial = include.initial | default: 10 %}
+{% assign highlight_count = 0 %}
 
-<div class="timeline">
+<div class="timeline" id="highlights">
 {%- for group in highlight_groups %}
-<div class="timeline__group">
+{%- assign group_start = highlight_count %}
+<div class="timeline__group{% if group_start >= highlight_initial %} timeline__group--extra{% endif %}">
 <h3 class="timeline__year">{{ group.name }}</h3>
 <ol class="timeline__items">
 {%- for item in group.items %}
-<li class="timeline__item">
+{%- assign highlight_count = highlight_count | plus: 1 %}
+<li class="timeline__item{% if highlight_count > highlight_initial %} timeline__item--extra{% endif %}">
 <h4 class="timeline__title">{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h4>
 {%- if item.note %}
 <div class="timeline__note">{{ item.note | markdownify }}</div>
@@ -37,3 +46,6 @@
 </div>
 {%- endfor %}
 </div>
+{%- if highlight_count > highlight_initial %}
+<p class="timeline__toggle-wrap"><button type="button" class="timeline__toggle" id="highlights-toggle" aria-expanded="false" aria-controls="highlights">Show earlier highlights</button></p>
+{%- endif %}

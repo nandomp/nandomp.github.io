@@ -262,6 +262,43 @@ a.badge:hover {
   line-height: 1;
 }
 
+/* Items past the initial cut are present in the HTML, just hidden. With JS
+   disabled `no-js` stays on <html>, so everything is visible and the button
+   is suppressed instead. The theme strips `no-js` in <head>, before first
+   paint, so there is no flash of the full list. */
+html:not(.no-js) .timeline:not(.timeline--expanded) .timeline__item--extra,
+html:not(.no-js) .timeline:not(.timeline--expanded) .timeline__group--extra {
+  display: none;
+}
+
+html.no-js .timeline__toggle-wrap {
+  display: none;
+}
+
+.timeline__toggle-wrap {
+  margin: 1.5em 0 0;
+}
+
+.timeline__toggle {
+  padding: 0.4em 1em;
+  background: transparent;
+  border: 1px solid var(--accent-line);
+  border-radius: var(--radius-pill);
+  color: var(--accent);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.5;
+  transition: background-color 0.15s var(--ease), border-color 0.15s var(--ease), color 0.15s var(--ease);
+}
+
+.timeline__toggle:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+}
+
 
 @media screen and (min-width: 700px) {
   /* Year moves into its own left-hand column, aligned with the first item. */
@@ -276,6 +313,11 @@ a.badge:hover {
     margin: 0;
     padding-top: 0.32em;
     text-align: right;
+  }
+
+  /* Line the button up with the items column (4rem year + 1.1rem gap). */
+  .timeline__toggle-wrap {
+    padding-left: 5.1rem;
   }
 }
 
@@ -718,10 +760,63 @@ a.card:hover .card__title {
    Service :: venue grid + list cards
    -------------------------------------------------------------------------- */
 
-/* Service entries use exactly the publication-list treatment: no cards, a
-   hairline divider, an accent title line and a muted meta line with the
-   event/venue in italics. Metrics are deliberately identical to .pub-item /
-   .pub-item__title / .pub-item__meta so the two pages read as one system. */
+/* Programme Committees keeps the boxed card grid (deliberate exception to the
+   flat-list treatment used everywhere else): a venue name plus a row of year
+   pills reads better as a compact card than as a two-line list entry.
+   3 columns on wide screens, 2 on tablets, 1 on phones. */
+
+.venue-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin: 1.4em 0;
+}
+
+@media screen and (min-width: 560px) {
+  .venue-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .venue-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.venue-card {
+  padding: 0.85em 1em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease);
+}
+
+.venue-card:hover {
+  border-color: var(--accent-line);
+  box-shadow: var(--shadow-sm);
+}
+
+.venue-card__name {
+  margin: 0 0 0.5em;
+  color: var(--text-strong);
+  font-family: var(--font-sans);
+  font-size: 0.82em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.venue-card__years {
+  margin: 0;
+  line-height: 1;
+}
+
+/* Organising Committees, Editorial Boards and Awards use exactly the
+   publication-list treatment: no cards, a hairline divider, an accent title
+   line and a muted meta line with the event/venue in italics. Metrics are
+   deliberately identical to .pub-item / .pub-item__title / .pub-item__meta so
+   the two pages read as one system. */
 
 .svc-list {
   margin: 1.4em 0;

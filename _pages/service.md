@@ -12,56 +12,122 @@ Programme and organising committees, editorial boards, and awards.
 
 ## Programme Committees
 
-<ul class="svc-list">
-  <li class="svc-item">
-    <span class="svc-item__title">IJCAI</span>
-    <span class="svc-item__meta"><a href="https://ijcai19.org/">2019</a> · <a href="https://ijcai20.org/">2020</a> · <a href="https://ijcai-22.org/calls-survey/">2022</a> · <a href="https://ijcai24.org/">2024</a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">AAAI</span>
-    <span class="svc-item__meta"><a href="https://aaai.org/Conferences/AAAI-20/">2020</a> · <a href="https://aaai.org/Conferences/AAAI-21/">2021</a> · <a href="https://aaai.org/Conferences/AAAI-22/">2022<sup>+</sup></a> · <a href="https://aaai.org/Conferences/AAAI-23/">2023<sup>+</sup></a> · <a href="https://aaai.org/aaai-conference/">2024<sup>+</sup></a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">NIPS / NeurIPS</span>
-    <span class="svc-item__meta"><a href="https://nips.cc/Conferences/2018">2018</a> · <a href="https://nips.cc/Conferences/2019">2019</a> · <a href="https://nips.cc/Conferences/2020">2020</a> · <a href="https://nips.cc/Conferences/2021">2021</a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">UAI</span>
-    <span class="svc-item__meta"><a href="http://auai.org/uai2019/">2019</a> · <a href="http://www.auai.org/uai2020/">2020</a> · <a href="https://www.auai.org/~w-auai/uai2021/">2021</a> · <a href="https://www.auai.org/~w-auai/uai2021/">2022</a> · <a href="https://www.auai.org/uai2023/">2023</a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">ICLR</span>
-    <span class="svc-item__meta"><a href="https://iclr.cc/Conferences/2019">2019</a> · <a href="https://iclr.cc/">2020</a> · <a href="https://iclr.cc/">2021</a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">ECAI</span>
-    <span class="svc-item__meta"><a href="http://ecai2020.eu/">2020</a> · <a href="https://www.ecai2024.eu/">2024<sup>*</sup></a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">ECML PKDD</span>
-    <span class="svc-item__meta"><a href="https://ecmlpkdd2020.net/">2020</a> · <a href="https://2021.ecmlpkdd.org/">2021</a> · <a href="https://2022.ecmlpkdd.org/">2022</a> · <a href="https://2023.ecmlpkdd.org/">2023</a> · <a href="https://2024.ecmlpkdd.org/">2024</a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">ICML</span>
-    <span class="svc-item__meta"><a href="https://icml.cc/">2021</a> · <a href="https://icml.cc/">2022</a> · <a href="https://icml.cc/Conferences/2023">2023</a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">AAMAS</span>
-    <span class="svc-item__meta"><a href="https://aamas2021.soton.ac.uk/">2021</a> · <a href="https://aamas2022-conference.auckland.ac.nz/">2022</a> · <a href="https://aamas2023.soton.ac.uk/">2023</a> · <a href="https://www.aamas2024-conference.auckland.ac.nz/">2024</a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">ICMLA</span>
-    <span class="svc-item__meta"><a href="https://www.icmla-conference.org/icmla21/">2021</a> · <a href="https://www.icmla-conference.org/icmla22/">2022</a> · <a href="https://www.icmla-conference.org/icmla23/">2023</a> · <a href="https://www.icmla-conference.org/icmla24/">2024</a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">ACM SIGKDD</span>
-    <span class="svc-item__meta"><a href="https://www.kdd.org/kdd2021/">2021</a></span>
-  </li>
-  <li class="svc-item">
-    <span class="svc-item__title">ACL</span>
-    <span class="svc-item__meta"><a href="https://2023.aclweb.org/">2023</a></span>
-  </li>
-</ul>
+<div class="venue-grid">
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">IJCAI</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://ijcai19.org/">2019</a>
+      <a class="badge" href="https://ijcai20.org/">2020</a>
+      <a class="badge" href="https://ijcai-22.org/calls-survey/">2022</a>
+      <a class="badge" href="https://ijcai24.org/">2024</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">AAAI</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://aaai.org/Conferences/AAAI-20/">2020</a>
+      <a class="badge" href="https://aaai.org/Conferences/AAAI-21/">2021</a>
+      <a class="badge" href="https://aaai.org/Conferences/AAAI-22/">2022<sup>+</sup></a>
+      <a class="badge" href="https://aaai.org/Conferences/AAAI-23/">2023<sup>+</sup></a>
+      <a class="badge" href="https://aaai.org/aaai-conference/">2024<sup>+</sup></a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">NIPS / NeurIPS</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://nips.cc/Conferences/2018">2018</a>
+      <a class="badge" href="https://nips.cc/Conferences/2019">2019</a>
+      <a class="badge" href="https://nips.cc/Conferences/2020">2020</a>
+      <a class="badge" href="https://nips.cc/Conferences/2021">2021</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">UAI</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="http://auai.org/uai2019/">2019</a>
+      <a class="badge" href="http://www.auai.org/uai2020/">2020</a>
+      <a class="badge" href="https://www.auai.org/~w-auai/uai2021/">2021</a>
+      <a class="badge" href="https://www.auai.org/~w-auai/uai2021/">2022</a>
+      <a class="badge" href="https://www.auai.org/uai2023/">2023</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">ICLR</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://iclr.cc/Conferences/2019">2019</a>
+      <a class="badge" href="https://iclr.cc/">2020</a>
+      <a class="badge" href="https://iclr.cc/">2021</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">ECAI</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="http://ecai2020.eu/">2020</a>
+      <a class="badge" href="https://www.ecai2024.eu/">2024<sup>*</sup></a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">ECML PKDD</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://ecmlpkdd2020.net/">2020</a>
+      <a class="badge" href="https://2021.ecmlpkdd.org/">2021</a>
+      <a class="badge" href="https://2022.ecmlpkdd.org/">2022</a>
+      <a class="badge" href="https://2023.ecmlpkdd.org/">2023</a>
+      <a class="badge" href="https://2024.ecmlpkdd.org/">2024</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">ICML</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://icml.cc/">2021</a>
+      <a class="badge" href="https://icml.cc/">2022</a>
+      <a class="badge" href="https://icml.cc/Conferences/2023">2023</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">AAMAS</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://aamas2021.soton.ac.uk/">2021</a>
+      <a class="badge" href="https://aamas2022-conference.auckland.ac.nz/">2022</a>
+      <a class="badge" href="https://aamas2023.soton.ac.uk/">2023</a>
+      <a class="badge" href="https://www.aamas2024-conference.auckland.ac.nz/">2024</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">ICMLA</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://www.icmla-conference.org/icmla21/">2021</a>
+      <a class="badge" href="https://www.icmla-conference.org/icmla22/">2022</a>
+      <a class="badge" href="https://www.icmla-conference.org/icmla23/">2023</a>
+      <a class="badge" href="https://www.icmla-conference.org/icmla24/">2024</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">ACM SIGKDD</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://www.kdd.org/kdd2021/">2021</a>
+    </p>
+  </div>
+
+  <div class="venue-card">
+    <h3 class="venue-card__name">ACL</h3>
+    <p class="venue-card__years">
+      <a class="badge" href="https://2023.aclweb.org/">2023</a>
+    </p>
+  </div>
+
+</div>
 
 <p class="legend"><sup>+</sup> Senior PC member &nbsp;·&nbsp; <sup>*</sup> Area Chair</p>
 
