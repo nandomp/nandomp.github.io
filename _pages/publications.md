@@ -7,13 +7,6 @@ classes:
   - page--publications
 ---
 
-{% comment %}
-  Entries live in _data/publications.yml — edit that file, not this one.
-  Every entry renders with the same structure:
-    Authors. “Title”. Venue, details, Year.  [type] [Paper]
-  The single "Paper" pill uses `url`, which is the DOI whenever one exists.
-  The richer `links:` lists are kept in the data file but are not rendered.
-{% endcomment %}
 {% assign me = site.author.name %}
 {% capture me_bold %}<b class="pub-me">{{ me }}</b>{% endcapture %}
 
