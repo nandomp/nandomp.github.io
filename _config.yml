@@ -24,7 +24,8 @@ author:
   avatar           : "Nando2.jpg"
   name             : "Fernando Martínez-Plumed"
   pronouns         : # example: "she/her"  
-  bio              : "Associate Professor - Artificial Intelligence"
+  bio              : "Associate Professor"
+  bio_secondary    : "Artificial Intelligence" # rendered on its own line under the bio
   location         : "Valencia (Spain)"
   employer         : "Technical University of Valencia"
   uri              : # URL

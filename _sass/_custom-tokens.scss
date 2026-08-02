@@ -439,7 +439,10 @@ img {
   font-size: 0.78em;
 }
 
+/* Same accent as publication titles — reads from --accent, so dark mode
+   picks up the lighter tint automatically. Size and weight unchanged. */
 .sidebar .author__name {
+  color: var(--accent);
   font-family: var(--font-sans);
   font-size: 1.05em;
   font-weight: 600;
@@ -449,7 +452,17 @@ img {
 .author__bio {
   color: var(--text-muted);
   font-size: 0.82em;
-  line-height: 1.5;
+  line-height: 1.45;
+}
+
+/* Second bio line ("Artificial Intelligence") — its own line, a touch
+   smaller and lighter than the role above it. */
+.author__bio-secondary {
+  display: block;
+  margin-top: 0.1em;
+  color: var(--text-faint);
+  font-size: 0.94em;
+  line-height: 1.35;
 }
 
 .author__avatar img {
@@ -506,6 +519,16 @@ img {
   margin: 0 0 0.35em;
   padding: 0;
   color: var(--text-muted);
+}
+
+/* Gap between the "who / where" block and the pill row, so they read as two
+   groups. Scoped to 1024px — the width at which the theme actually shows
+   .author__desktop — otherwise the mobile dropdown, where those lines are
+   display:none but still in the DOM, would gain a stray gap at the top. */
+@media screen and (min-width: 1024px) {
+  .sidebar .author__urls .author__desktop + li:not(.author__desktop) {
+    margin-top: 0.85em;
+  }
 }
 
 /* "Find me online" — every link becomes a small pill that wraps.
