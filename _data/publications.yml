@@ -84,9 +84,10 @@
 
     - title: "A Rising Tide: Revisiting the Occupational Impact of AI in the Generative Era"
       authors: Enrique Fernández Macias, Enrique Pablo Casas, Fernando Martínez-Plumed, Ignacio González-Vázquez, Emilia Gómez, Simone Salotti
+      url: https://www.sciencedirect.com/science/article/pii/S0954349X26001396
       venue: Structural Change and Economic Dynamics
       venue_url: https://www.sciencedirect.com/journal/structural-change-and-economic-dynamics
-      details: Elsevier, accepted
+      details: Elsevier, in press
       type: journal
 
     - title: Targeted Robustness for Regression via Top-Feature Noise
