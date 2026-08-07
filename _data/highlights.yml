@@ -85,7 +85,8 @@
 
 - year: 2026
   type: conference
-  title: "Paper accepted: “Semi-Supervised Soft Clustering with Flexible Cardinality”"
+  title: "Paper published: “Semi-supervised Soft Clustering with Flexible Cardinality”"
+  url: https://doi.org/10.1007/978-3-032-31438-3_16
   venue: ICPR 2026
   venue_url: https://icpr2026.org/
 

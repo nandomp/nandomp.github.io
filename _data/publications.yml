@@ -102,14 +102,15 @@
       venue_url: https://ecmlpkdd.org/
       type: conference
 
-    - title: Semi-Supervised Soft Clustering with Flexible Cardinality
-      url: https://icpr2026.org/acceptedPapers.html
+    - title: Semi-supervised Soft Clustering with Flexible Cardinality
+      url: https://doi.org/10.1007/978-3-032-31438-3_16
       authors: Diego Vallejo-Huanga, Mateo Montenegro, Brenda Simbaña, Cèsar Ferri, Fernando Martínez-Plumed
       venue: International Conference on Pattern Recognition (ICPR 2026)
       venue_url: https://dblp.org/db/conf/icpr/index.html
+      details: Springer, LNCS 16821, pp. 232–247
       type: conference
       links:
-        - {label: Paper, url: "https://icpr2026.org/acceptedPapers.html"}
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-032-31438-3_16"}
 
     - title: "Analysis of Public and Expert Views on Electrified Vehicles: A Comparative Study in the European Union"
       authors: Andromachi Mourtzouchou, Andres L. Marin, Lorenzo Laveneziana, Alessandro Tansini, Jaime Suarez, Ada Garus, Monica Grosso, Fernando Martínez-Plumed, Rubén Cordera, Georgios Fontaras, Biagio Ciuffo
