@@ -1,0 +1,1205 @@
+/* ==========================================================================
+   CUSTOM :: SWISS GRID — the site's visual layer
+   --------------------------------------------------------------------------
+   Archivo (variable width/weight) for text, IBM Plex Mono for every label,
+   ink on warm white, hard rules instead of boxes or pills, and one vermilion
+   signal colour for marks, rules and underlines. Fonts are loaded in
+   _includes/head/custom.html.
+
+   This partial is imported last. It re-points the tokens from
+   _custom-tokens.scss (so every existing component picks up the palette,
+   fonts and square corners) and then restyles each component. The markup
+   and the structural rules in _custom-components.scss are unchanged.
+
+   Same constraints as the other custom partials: plain CSS custom
+   properties, no slashes in values (Ruby Sass 3.7 on GitHub Pages would
+   treat them as division), no min()/max().
+   ========================================================================== */
+
+body {
+  /* Palette — light */
+  --h-bg:        #f3f2ee;
+  --h-ink:       #0c0c0c;
+  --h-muted:     #5d5d58;  /* 5.9:1 on --h-bg */
+  --h-soft:      #cfcdc6;  /* hairlines only */
+  --h-sig:       #ff4612;  /* signal: marks, rules, underlines — never body text */
+  --h-sig-text:  #c2360b;  /* signal when it has to be text — 4.9:1 on --h-bg */
+  --h-on-sig:    #0c0c0c;  /* text on a --h-sig fill — 6.9:1 */
+  --h-sig-on-ink: #ff4612; /* signal text on an --h-ink fill — 5.9:1 */
+
+  --h-sans: "Archivo", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --h-mono: "IBM Plex Mono", Consolas, "Lucida Console", monospace;
+
+  /* Site tokens re-pointed at the Swiss palette. */
+  --font-sans:     var(--h-sans);
+  --font-mono:     var(--h-mono);
+  --bg:            var(--h-bg);
+  --surface:       var(--h-bg);
+  --surface-2:     var(--h-bg);
+  --surface-3:     var(--h-bg);
+  --text:          var(--h-ink);
+  --text-strong:   var(--h-ink);
+  --text-muted:    var(--h-muted);
+  --text-faint:    var(--h-muted);
+  --border:        var(--h-soft);
+  --border-strong: var(--h-ink);
+  --accent:        var(--h-ink);
+  --accent-strong: var(--h-sig-text);
+  --accent-contrast: var(--h-bg);
+  --accent-soft:   transparent;
+  --accent-line:   var(--h-ink);
+  --code-bg:       transparent;
+
+  --radius-sm:   0;
+  --radius:      0;
+  --radius-lg:   0;
+  --radius-pill: 0;
+  --shadow-sm:   none;
+  --shadow-md:   none;
+  --shadow-lg:   none;
+
+  /* Awards and service roles: signal fill or solid ink, no extra hues. */
+  --award-bg:        var(--h-sig);
+  --award-border:    var(--h-sig);
+  --award-text:      var(--h-on-sig);
+  --senior-bg:       var(--h-sig);
+  --senior-fg:       var(--h-on-sig);
+  --senior-bg-hover: var(--h-ink);
+  --senior-fg-hover: var(--h-bg);
+  --chair-bg:        var(--h-ink);
+  --chair-fg:        var(--h-bg);
+  --chair-bg-hover:  var(--h-sig);
+  --chair-fg-hover:  var(--h-on-sig);
+
+  background: var(--h-bg);
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+}
+
+html[data-theme="dark"] body {
+  /* Palette — dark: the same system inverted. */
+  --h-bg:        #0f0f0e;
+  --h-ink:       #f1f0ec;
+  --h-muted:     #a5a39c;  /* 7.6:1 on --h-bg */
+  --h-soft:      #34332f;
+  --h-sig:       #ff5a2a;
+  --h-sig-text:  #ff7a50;  /* 7.4:1 on --h-bg */
+  --h-on-sig:    #0c0c0c;
+  --h-sig-on-ink: #c2360b; /* the ink fill is light here — 4.6:1 */
+}
+
+html {
+  background: var(--bg);
+}
+
+::selection {
+  background: var(--h-sig);
+  color: var(--h-on-sig);
+}
+
+/* --------------------------------------------------------------------------
+   Type and links
+   -------------------------------------------------------------------------- */
+
+/* Prose links: ink text, thick vermilion underline. */
+body .page__content p > a:not(.badge):not(.callout__action),
+body .page__content li > a,
+body .archive p > a:not(.badge):not(.pub-item__venue),
+body .archive li > a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--h-sig);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
+body .page__content p > a:not(.badge):not(.callout__action):hover,
+body .page__content li > a:hover,
+body .archive p > a:not(.badge):not(.pub-item__venue):hover,
+body .archive li > a:hover {
+  color: var(--h-sig-text);
+}
+
+body .lead {
+  margin-bottom: 1.3em;
+  color: var(--h-ink);
+  font-size: 1.36em;
+  font-weight: 420;
+  letter-spacing: -0.012em;
+  line-height: 1.32;
+}
+
+body .lead strong {
+  font-weight: 700;
+}
+
+/* Page titles on inner pages ("Publications", "Teaching", ...). */
+body .page__title {
+  margin: 0 0 0.4em;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 3.4em;
+  font-stretch: 82%;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 0.92;
+}
+
+/* Section headings on inner pages: a heavy rule above, no rule below. */
+body .archive > h2 {
+  margin: 2.4em 0 0.8em;
+  padding: 0.45em 0 0;
+  border-top: 2px solid var(--h-ink);
+  border-bottom: 0;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 1.9em;
+  font-stretch: 85%;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+
+/* Base badge: a square mono tag with an ink outline. */
+body .badge {
+  border: 1px solid var(--h-ink);
+  border-radius: 0;
+  background: transparent;
+  color: var(--h-ink);
+  font-family: var(--h-mono);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+body a.badge:hover {
+  background: var(--h-ink);
+  border-color: var(--h-ink);
+  color: var(--h-bg);
+}
+
+/* Type labels everywhere (publications + highlights): mono caps with a
+   square mark — vermilion for journals, ink for everything else. */
+body .badge--type,
+body [data-type] .badge--type {
+  padding: 0;
+  margin: 0 1.1em 0 0;
+  background: transparent;
+  border: 0;
+  color: var(--h-ink);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+body .badge--type:before {
+  content: "";
+  display: inline-block;
+  width: 0.62em;
+  height: 0.62em;
+  margin: 0 0.6em 0.08em 0;
+  background: var(--h-ink);
+  vertical-align: middle;
+}
+
+body [data-type="journal"] .badge--type:before {
+  background: var(--h-sig);
+}
+
+/* --------------------------------------------------------------------------
+   Masthead
+   -------------------------------------------------------------------------- */
+
+body .masthead {
+  background: var(--h-bg);
+  border-bottom: 2px solid var(--h-ink);
+}
+
+body .masthead__menu-item--lg a,
+body .greedy-nav .visible-links li:first-child a {
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 1em;
+  font-stretch: 112%;
+  font-weight: 800;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+}
+
+body .greedy-nav a {
+  color: var(--h-ink);
+  font-family: var(--h-mono);
+  font-size: 0.72em;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+body .greedy-nav a:hover {
+  color: var(--h-sig-text);
+}
+
+body .greedy-nav .visible-links a:before {
+  background: var(--h-sig);
+  height: 2px;
+}
+
+body .greedy-nav button {
+  background-color: var(--h-ink);
+  border-radius: 0;
+}
+
+body .navicon,
+body .navicon:before,
+body .navicon:after {
+  background: var(--h-bg);
+}
+
+body .greedy-nav .hidden-links {
+  background: var(--h-bg);
+  border: 2px solid var(--h-ink);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+body .greedy-nav .hidden-links a:hover {
+  background: var(--h-ink);
+  color: var(--h-bg);
+}
+
+body .theme-toggle {
+  border: 1px solid var(--h-ink);
+  border-radius: 0;
+  color: var(--h-ink);
+}
+
+body .theme-toggle:hover {
+  background: var(--h-ink);
+  border-color: var(--h-ink);
+  color: var(--h-bg);
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar: square black-and-white portrait (colour on hover), heavy name,
+   mono facts, links as a ruled list with arrows.
+   -------------------------------------------------------------------------- */
+
+body .author__avatar img {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-filter: grayscale(1) contrast(1.08);
+  filter: grayscale(1) contrast(1.08);
+  transition: -webkit-filter 0.4s var(--ease), filter 0.4s var(--ease);
+}
+
+body .author__avatar img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: none;
+}
+
+body .sidebar .author__name {
+  margin-bottom: 0.35em;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 1.2em;
+  font-stretch: 82%;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  line-height: 1;
+}
+
+body .author__bio,
+body .author__bio-secondary,
+body .sidebar .author__urls .author__desktop {
+  color: var(--h-muted);
+  font-family: var(--h-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+body .author__bio {
+  margin-top: 0.6em;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--h-ink);
+}
+
+body .author__bio-secondary {
+  margin: 0;
+}
+
+/* Icons dropped: the ruled list carries the structure. */
+body .sidebar .author__urls i {
+  display: none;
+}
+
+body .author__urls {
+  background: var(--h-bg);
+  border: 2px solid var(--h-ink);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+body .author__urls:before {
+  border-color: var(--h-ink) transparent;
+}
+
+body .author__urls:after {
+  border-color: var(--h-bg) transparent;
+}
+
+@media screen and (min-width: 57.8125em) {
+  body .author__urls {
+    background: transparent;
+    border: 0;
+  }
+}
+
+body .sidebar .author__urls .author__desktop {
+  margin: 0;
+  white-space: normal;
+}
+
+body .sidebar .author__urls > li:not(.author__desktop) {
+  display: block;
+  margin: 0;
+  border-bottom: 1px solid var(--h-soft);
+}
+
+@media screen and (min-width: 1024px) {
+  body .sidebar .author__urls .author__desktop + li:not(.author__desktop) {
+    margin-top: 0.7em;
+    border-top: 1px solid var(--h-ink);
+  }
+}
+
+body .sidebar .author__urls > li:not(.author__desktop) > a {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0.5em 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: var(--h-ink);
+  font-family: var(--h-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+body .sidebar .author__urls > li:not(.author__desktop) > a:after {
+  content: "\2197";
+}
+
+body .sidebar .author__urls > li:not(.author__desktop) > a:hover,
+body .sidebar .author__urls > li:not(.author__desktop) > a:focus-visible {
+  background: transparent;
+  color: var(--h-sig-text);
+}
+
+body .btn--inverse {
+  background-color: transparent;
+  border: 2px solid var(--h-ink) !important;
+  border-radius: 0;
+  color: var(--h-ink) !important;
+  font-family: var(--h-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+body .btn--inverse:hover {
+  background-color: var(--h-ink);
+  color: var(--h-bg) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+body .page__footer {
+  background: var(--h-bg);
+  border-top: 2px solid var(--h-ink);
+  color: var(--h-muted);
+}
+
+body .page__footer-follow li,
+body .page__footer-copyright {
+  font-family: var(--h-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   HOMEPAGE
+   ========================================================================== */
+
+/* Newsletter: a solid ink band with a mono label and a signal button. */
+body .callout {
+  margin: 0 0 4.5em;
+  padding: 1.1em 1.3em;
+  gap: 0.8em 1.6em;
+  background: var(--h-ink);
+  border: 0;
+  border-radius: 0;
+  color: var(--h-bg);
+}
+
+body .callout:before {
+  content: "Newsletter /";
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  color: var(--h-sig-on-ink);
+  font-family: var(--h-mono);
+  font-size: 0.78em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+body .callout__text,
+body .callout__name {
+  color: var(--h-bg);
+}
+
+body .callout__name {
+  font-weight: 700;
+}
+
+body .page__content .callout__action {
+  padding: 0.7em 1.1em;
+  background: var(--h-sig);
+  border: 0;
+  border-radius: 0;
+  color: var(--h-on-sig);
+  font-family: var(--h-mono);
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+body .page__content .callout__action:after {
+  content: " \2192";
+}
+
+body .page__content .callout__action:hover,
+body .page__content .callout__action:focus-visible {
+  background: var(--h-bg);
+  color: var(--h-ink);
+}
+
+.page--home .page__content > h2 {
+  margin: 0 0 0.45em;
+  padding: 0;
+  border: 0;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 3.2em;
+  font-stretch: 82%;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 0.92;
+}
+
+.page--home .page__content > h2#elsewhere-on-this-site {
+  margin-top: 2.2em;
+  font-size: 2.1em;
+}
+
+/* Highlights — giant year, then ruled rows: a mono line (■ TYPE / VENUE)
+   above a bold title. The meta line comes last in the markup, so each item
+   is a flex column and the line is pulled up with `order`. */
+
+body .timeline {
+  margin-top: 0;
+}
+
+body .timeline__group {
+  margin: 0 0 2.2em;
+  padding-top: 0.6em;
+  border-top: 2px solid var(--h-ink);
+}
+
+body .page__content .timeline__year,
+body .archive .timeline__year {
+  margin: 0 0 0.25em;
+  padding: 0;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 2.4em;
+  font-stretch: 75%;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  text-align: left;
+}
+
+body .timeline__items {
+  padding: 0;
+}
+
+body .timeline__items:before,
+body .timeline__item:before {
+  display: none;
+}
+
+body .timeline__item {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  margin: 0;
+  padding: 0.8em 0 0.9em;
+  border-bottom: 1px solid var(--h-soft);
+}
+
+body .timeline__item:last-child {
+  border-bottom: 0;
+}
+
+/* Items past the initial cut stay hidden until "Show earlier highlights". */
+html:not(.no-js) body .timeline:not(.timeline--expanded) .timeline__item--extra {
+  display: none;
+}
+
+body .page__content .timeline__title,
+body .archive .timeline__title {
+  margin: 0;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 1.02em;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: 1.32;
+}
+
+body .timeline__title a,
+body .timeline__title a:hover {
+  color: var(--h-ink);
+  background-image: linear-gradient(var(--h-sig), var(--h-sig));
+  background-size: 0 2px;
+}
+
+body .timeline__title a:hover {
+  background-size: 100% 2px;
+}
+
+body .timeline__note {
+  margin: 0.35em 0 0;
+  color: var(--h-muted);
+  font-size: 0.86em;
+}
+
+body .page__content .timeline__note a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--h-soft);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+body .page__content .timeline__note a:hover {
+  color: var(--h-ink);
+  text-decoration-color: var(--h-sig);
+}
+
+body .timeline__links {
+  -webkit-box-ordinal-group: 0;
+  order: -1;
+  margin: 0 0 0.3em;
+  font-size: 0.68em;
+  line-height: 1.5;
+}
+
+/* Highlight badges are plain mono labels, not tags. */
+body .timeline__links .badge {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: var(--h-muted);
+  font-size: 1em;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: normal;
+}
+
+body .timeline__links .badge--type {
+  color: var(--h-ink);
+}
+
+body .timeline__links a.badge:hover {
+  background: transparent;
+  color: var(--h-sig-text);
+}
+
+/* " / " between labels; extra links get an arrow. */
+body .timeline__links .badge + .badge:before {
+  content: "\00a0/ ";
+  color: var(--h-muted);
+}
+
+body .timeline__links .badge--venue ~ a.badge:before {
+  content: "\00a0/ \2197\00a0";
+}
+
+body .timeline__toggle-wrap {
+  margin-top: 1.6em;
+}
+
+body .timeline__toggle {
+  padding: 0.85em 1.2em;
+  background: transparent;
+  border: 2px solid var(--h-ink);
+  border-radius: 0;
+  color: var(--h-ink);
+  font-family: var(--h-mono);
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+body .timeline__toggle:hover {
+  background: var(--h-ink);
+  border-color: var(--h-ink);
+  color: var(--h-bg);
+}
+
+/* "Elsewhere on this site" — numbered columns under heavy rules. */
+.page--home .card-grid {
+  counter-reset: home-card;
+  gap: 0 1.6rem;
+  margin-top: 0.6em;
+}
+
+.page--home .card {
+  padding: 0.7em 0 1.4em;
+  border-top: 2px solid var(--h-ink);
+  counter-increment: home-card;
+}
+
+.page--home .card:before {
+  content: "0" counter(home-card) " \2192";
+  display: block;
+  margin-bottom: 1.6em;
+  color: var(--h-ink);
+  font-family: var(--h-mono);
+  font-size: 0.72em;
+  letter-spacing: 0.04em;
+  transition: color 0.2s var(--ease);
+}
+
+body .page__content .card__title {
+  margin: 0 0 0.35em;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 1.5em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+body a.card:hover .card__title {
+  color: var(--h-sig-text);
+  text-decoration: none;
+}
+
+.page--home a.card:hover:before {
+  color: var(--h-sig-text);
+}
+
+body .card__desc {
+  color: var(--h-muted);
+  font-size: 0.84em;
+}
+
+/* ==========================================================================
+   PUBLICATIONS
+   ========================================================================== */
+
+/* No rule under the toolbar: the first year's heavy rule closes it. */
+body .pub-toolbar {
+  gap: 0.6rem 0.9rem;
+  margin-bottom: 1.6em;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+body .pub-search {
+  padding: 0.65em 0.9em;
+  background: transparent;
+  border: 2px solid var(--h-ink);
+  border-radius: 0;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 0.9em;
+}
+
+body .pub-search::placeholder {
+  color: var(--h-muted);
+}
+
+body .pub-search:focus {
+  border-color: var(--h-sig);
+  box-shadow: none;
+}
+
+body .pub-count {
+  color: var(--h-muted);
+  font-family: var(--h-mono);
+  font-size: 0.72em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+body .pub-years {
+  gap: 0;
+}
+
+body .pub-year-chip {
+  margin: 0 -1px -1px 0;
+  padding: 0.35em 0.7em;
+  background: transparent;
+  border: 1px solid var(--h-ink);
+  border-radius: 0;
+  color: var(--h-ink);
+  font-family: var(--h-mono);
+  font-size: 0.7em;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+}
+
+body .pub-year-chip:hover {
+  background: transparent;
+  border-color: var(--h-ink);
+  color: var(--h-sig-text);
+}
+
+body .pub-year-chip[aria-pressed="true"] {
+  background: var(--h-ink);
+  border-color: var(--h-ink);
+  color: var(--h-bg);
+}
+
+body .pub-year {
+  margin-bottom: 2.6em;
+  padding-top: 0.6em;
+  border-top: 2px solid var(--h-ink);
+}
+
+body .archive .pub-year__label {
+  position: static;
+  margin: 0 0 0.2em;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 2.4em;
+  font-stretch: 75%;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+}
+
+body .pub-item {
+  padding: 0.9em 0 1em;
+  border-bottom: 1px solid var(--h-soft);
+}
+
+body .pub-item:last-child {
+  border-bottom: 0;
+}
+
+body .pub-item__authors {
+  color: var(--h-muted);
+  font-size: 0.84em;
+}
+
+body .pub-me {
+  color: var(--h-ink);
+  font-weight: 700;
+}
+
+body .archive .pub-item__title {
+  margin: 0.1em 0 0.25em;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 1.06em;
+  font-weight: 650;
+  letter-spacing: -0.008em;
+  line-height: 1.3;
+}
+
+body .archive .pub-item__title a {
+  color: inherit;
+  text-decoration: none;
+  background-image: linear-gradient(var(--h-sig), var(--h-sig));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 2px;
+  transition: background-size 0.25s var(--ease);
+}
+
+body .archive .pub-item__title a:hover,
+body .archive .pub-item__title a:focus-visible {
+  color: inherit;
+  text-decoration: none;
+  background-size: 100% 2px;
+}
+
+body .pub-item__meta {
+  color: var(--h-muted);
+  font-size: 0.86em;
+}
+
+body .archive .pub-item__venue {
+  color: var(--h-ink);
+  border-bottom: 1px solid var(--h-soft);
+}
+
+body .archive .pub-item__venue:hover {
+  color: var(--h-sig-text);
+  border-bottom-color: var(--h-sig);
+}
+
+body .pub-item__links {
+  margin-top: 0.15em;
+  line-height: 1.6;
+}
+
+body .pub-item__links .badge {
+  margin: 0 1.1em 0 0;
+  font-size: 0.68em;
+}
+
+/* "Paper" becomes a mono text link with an arrow. */
+body .archive .badge--action {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--h-sig);
+  color: var(--h-ink);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+body .archive .badge--action:after {
+  content: "\00a0\2197";
+}
+
+body .archive .badge--action:hover {
+  background: transparent;
+  border-color: var(--h-sig);
+  color: var(--h-sig-text);
+}
+
+/* Award: a solid signal block. */
+body .badge--award,
+body .archive a.badge--award {
+  padding: 0.15em 0.55em;
+  background: var(--h-sig);
+  border: 0;
+  color: var(--h-on-sig);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+body .archive a.badge--award:hover {
+  background: var(--h-ink);
+  color: var(--h-bg);
+}
+
+body .pub-empty {
+  color: var(--h-muted);
+  font-family: var(--h-mono);
+  font-size: 0.78em;
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   TEACHING
+   ========================================================================== */
+
+body .course-card {
+  margin: 0 0 2.4em;
+  padding-top: 0.55em;
+  border-top: 2px solid var(--h-ink);
+}
+
+body .archive .course-card > h3 {
+  margin: 0 0 0.3em;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 1.35em;
+  font-stretch: 88%;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+body .archive .course-card > h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body .archive .course-card > h3 a:hover,
+body .archive .course-card > h3 a:focus-visible {
+  color: var(--h-sig-text);
+  text-decoration: none;
+}
+
+body .course-card__meta {
+  margin-bottom: 0.8em;
+  color: var(--h-muted);
+  font-family: var(--h-mono);
+  font-size: 0.7em;
+  letter-spacing: 0.05em;
+}
+
+body .course-card li {
+  padding: 0.55em 0;
+  border-top: 1px solid var(--h-soft);
+  font-size: 0.92em;
+}
+
+body .course-card li:first-child {
+  border-top: 1px solid var(--h-soft);
+}
+
+body .course-card li .years {
+  color: var(--h-muted);
+  font-family: var(--h-mono);
+  font-size: 0.76em;
+  letter-spacing: 0.02em;
+}
+
+body .course-card li .note {
+  color: var(--h-sig-text);
+  font-family: var(--h-mono);
+  font-size: 0.76em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   SERVICE
+   ========================================================================== */
+
+body .venue-grid {
+  gap: 0 1.6rem;
+}
+
+/* 1px rule per venue, so the 2px section rule above stays the stronger one. */
+body .venue-card {
+  padding: 0.55em 0 1.3em;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--h-ink);
+  border-radius: 0;
+}
+
+body .venue-card:hover {
+  border-color: var(--h-ink);
+  box-shadow: none;
+}
+
+body .venue-card__name {
+  margin: 0 0 0.6em;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 1.15em;
+  font-stretch: 88%;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  text-transform: none;
+}
+
+body .venue-card__years .badge {
+  margin: 0 0.25em 0.35em 0;
+  padding: 0.25em 0.5em;
+  font-size: 0.7em;
+}
+
+body .venue-card__years .badge--senior-pc {
+  background: var(--senior-bg);
+  border-color: var(--senior-bg);
+  color: var(--senior-fg);
+}
+
+body .archive a.badge--senior-pc:hover {
+  background: var(--senior-bg-hover);
+  border-color: var(--senior-bg-hover);
+  color: var(--senior-fg-hover);
+}
+
+body .venue-card__years .badge--area-chair {
+  background: var(--chair-bg);
+  border-color: var(--chair-bg);
+  color: var(--chair-fg);
+}
+
+body .archive a.badge--area-chair:hover {
+  background: var(--chair-bg-hover);
+  border-color: var(--chair-bg-hover);
+  color: var(--chair-fg-hover);
+}
+
+body .legend {
+  color: var(--h-muted);
+  font-family: var(--h-mono);
+  font-size: 0.7em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+body .legend__key {
+  border-radius: 0;
+  border-color: var(--h-ink);
+}
+
+body .legend__key--senior-pc {
+  background: var(--senior-bg);
+  border-color: var(--senior-bg);
+}
+
+body .legend__key--area-chair {
+  background: var(--chair-bg);
+  border-color: var(--chair-bg);
+}
+
+body .svc-item {
+  padding: 0.85em 0 0.95em;
+  border-bottom: 1px solid var(--h-soft);
+}
+
+body .svc-item:last-child {
+  border-bottom: 0;
+}
+
+body .archive .svc-item__title {
+  margin: 0 0 0.2em;
+  color: var(--h-ink);
+  font-family: var(--h-sans);
+  font-size: 1.06em;
+  font-weight: 650;
+  letter-spacing: -0.008em;
+  line-height: 1.3;
+}
+
+body .archive .svc-item__title a {
+  color: inherit;
+  text-decoration: none;
+  background-image: linear-gradient(var(--h-sig), var(--h-sig));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 2px;
+  transition: background-size 0.25s var(--ease);
+}
+
+body .archive .svc-item__title a:hover,
+body .archive .svc-item__title a:focus-visible {
+  color: inherit;
+  text-decoration: none;
+  background-size: 100% 2px;
+}
+
+body .archive .svc-item__meta {
+  color: var(--h-muted);
+  font-size: 0.86em;
+}
+
+body .archive .svc-item__meta a {
+  color: var(--h-ink);
+  border-bottom: 1px solid var(--h-soft);
+}
+
+body .archive .svc-item__meta a:hover {
+  color: var(--h-sig-text);
+  border-bottom-color: var(--h-sig);
+}
+
+/* ==========================================================================
+   Wide screens: the year gets its own sticky column beside its entries,
+   on the homepage and on Publications alike.
+   ========================================================================== */
+
+@media screen and (min-width: 700px) {
+  body .timeline__group,
+  body .pub-year {
+    display: grid;
+    grid-template-columns: 5.2rem minmax(0, 1fr);
+    column-gap: 1.2rem;
+  }
+
+  body .page__content .timeline__year,
+  body .archive .timeline__year,
+  body .archive .pub-year__label {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90px;
+    -webkit-align-self: start;
+    align-self: start;
+    margin: 0;
+    padding-top: 0.1em;
+    font-size: 2.6em;
+  }
+
+  /* The label spans every row of its year; entries fill the second column. */
+  body .archive .pub-year__label {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: span 80;
+  }
+
+  body .pub-item {
+    grid-column-start: 2;
+  }
+
+  body .timeline__toggle-wrap {
+    padding-left: 6.4rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Phones: smaller display sizes so nothing overflows.
+   -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 599px) {
+  body .lead {
+    font-size: 1.18em;
+  }
+
+  body .page__title,
+  .page--home .page__content > h2 {
+    font-size: 2.5em;
+  }
+
+  .page--home .page__content > h2#elsewhere-on-this-site,
+  body .archive > h2 {
+    font-size: 1.6em;
+  }
+
+  .page--home .card {
+    padding-bottom: 1em;
+  }
+
+  .page--home .card:before {
+    margin-bottom: 0.8em;
+  }
+}

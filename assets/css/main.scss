@@ -42,9 +42,12 @@
 
 /*
  * Site customisations — keep these LAST.
- * All bespoke design lives in these three partials so the vendored theme
- * files above stay untouched and remain easy to update.
+ * All bespoke design lives in these partials so the vendored theme files
+ * above stay untouched and remain easy to update. custom-swiss comes last:
+ * it is the current visual layer (palette, type, components) on top of the
+ * structure defined by the three before it.
  */
 @import "custom-tokens";
 @import "custom-components";
 @import "custom-dark";
+@import "custom-swiss";

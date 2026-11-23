@@ -79,8 +79,9 @@
 }
 
 :root {
-  /* Type — the theme's original system stack, used for the whole site.
-     No webfonts are loaded; hierarchy comes from size and weight alone. */
+  /* Type — the theme's original system stack. _custom-swiss.scss re-points
+     these two tokens at Archivo and IBM Plex Mono (loaded in
+     _includes/head/custom.html); this stack stays as the fallback. */
   --font-sans: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   --font-mono: Monaco, Consolas, "Lucida Console", monospace;
 
