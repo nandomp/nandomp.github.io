@@ -153,10 +153,13 @@
       type: conference
 
     - title: Pre-Generation LLM Failure Prediction Under Distribution Shift
+      url: https://qcds-2026.github.io/proceedings/10Moros-Daval.pdf
       authors: Yael Moros-Daval, Álvaro David Gómez Antón, Kexin Jiang-Chen, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed
       venue: Workshop on Quantification and Classification under Dataset Shift (QCDS 2026)
       venue_url: https://qcds-2026.github.io/
       type: workshop
+      links:
+        - {label: PDF, url: "https://qcds-2026.github.io/proceedings/10Moros-Daval.pdf"}
 
     - title: "The Greenest Token Is the One You Never Generate: Pre-Generation Abstention for Sustainable LLMs"
       authors: Yael Moros-Daval, Álvaro David Gómez Antón, Kexin Jiang-Chen, Cèsar Ferri, José Hernández-Orallo, Fernando Martínez-Plumed
