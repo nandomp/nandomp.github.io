@@ -28,12 +28,13 @@
 
     - title: General Scales Unlock AI Evaluation with Explanatory and Predictive Power
       url: https://www.nature.com/articles/s41586-026-10303-2
-      authors: Lexin Zhou, Lorenzo Pacchiardi, Fernando Martínez-Plumed, …, José Hernández-Orallo
+      authors: Lexin Zhou, Lorenzo Pacchiardi, Fernando Martínez-Plumed, Katherine M. Collins, Yael Moros-Daval, Seraphina Zhang, Qinlin Zhao, Yitian Huang, Luning Sun, Jonathan E. Prunty, Zongqian Li, Pablo Sánchez-García, Kexin Jiang-Chen, Pablo A. M. Casares, Jiyun Zu, John Burden, Behzad Mehrbakhsh, David Stillwell, Manuel Cebrian, Jindong Wang, Peter Henderson, Sherry Tongshuang Wu, Patrick C. Kyllonen, Lucy Cheke, Xing Xie, José Hernández-Orallo
       venue: Nature
       venue_url: https://www.nature.com/nature/
-      details: Vol. 652, p. 810
+      details: Vol. 652(8108), pp. 58–67
       type: journal
       links:
+        - {label: DOI, url: "https://doi.org/10.1038/s41586-026-10303-2"}
         - {label: Paper, url: "https://www.nature.com/articles/s41586-026-10303-2"}
 
     - title: "Predictable Artificial Intelligence"
@@ -41,18 +42,21 @@
       authors: Lexin Zhou, Pablo A. Moreno-Casares, Fernando Martínez-Plumed, John Burden, Ryan Burnell, Lucy Cheke, Cèsar Ferri, Alexandru Marcoci, Behzad Mehrbakhsh, Yael Moros-Daval, Seán Ó hÉigeartaigh, Danaja Rutar, Wout Schellaert, Konstantinos Voudouris, José Hernández-Orallo
       venue: Artificial Intelligence Journal (AIJ)
       venue_url: https://www.sciencedirect.com/journal/artificial-intelligence
-      details: Elsevier, in press
+      details: Elsevier, Vol. 353, Article 104491
       type: journal
       links:
         - {label: DOI, url: "https://doi.org/10.1016/j.artint.2026.104491"}
 
     - title: What should an AI assessor optimise for?
-      url: https://link.springer.com/content/pdf/10.1007/s10994-026-07084-0.pdf
+      url: https://doi.org/10.1007/s10994-026-07084-0
       authors: Daniel Romero-Alvarado, Fernando Martínez-Plumed, José Hernández-Orallo
       venue: Machine Learning Journal
       venue_url: https://link.springer.com/journal/10994
-      details: Springer
+      details: Springer, Vol. 115(7), Article 167
       type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/s10994-026-07084-0"}
+        - {label: PDF, url: "https://link.springer.com/content/pdf/10.1007/s10994-026-07084-0.pdf"}
 
     - title: "Human or Machine: A Novel Deep Learning Framework for Autonomous Driver Identification Based on Vehicle Trajectories"
       url: https://ieeexplore.ieee.org/document/11247850
@@ -62,6 +66,7 @@
       details: Vol. 27(1), pp. 1388–1399
       type: journal
       links:
+        - {label: DOI, url: "https://doi.org/10.1109/TITS.2025.3628491"}
         - {label: Paper, url: "https://ieeexplore.ieee.org/document/11247850"}
 
     - title: "Robustness under noise: assessing the impact of perturbed key attributes on machine learning models"
@@ -69,7 +74,7 @@
       authors: Cristina Padró-Ferragut, Fernando Martínez-Plumed, Mª José Ramírez-Quintana
       venue: International Journal of Data Science and Analytics (IJDSA)
       venue_url: https://link.springer.com/journal/41060
-      details: Vol. 22, Article 71
+      details: Vol. 22(1), Article 71
       type: journal
       links:
         - {label: DOI, url: "https://doi.org/10.1007/s41060-025-01006-4"}
@@ -81,26 +86,38 @@
       venue_url: https://link.springer.com/journal/41060
       details: Vol. 22(1), Article 205
       type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/s41060-026-01177-8"}
 
     - title: "A Rising Tide: Revisiting the Occupational Impact of AI in the Generative Era"
-      authors: Pablo Casas, Enrique Fernández-Macías, Fernando Martínez-Plumed, Ignacio González-Vázquez, Emilia Gómez, Simone Salotti
+      authors: Pablo Casas, Enrique Fernández-Macías, Fernando Martínez-Plumed, Emilia Gómez, Ignacio González-Vázquez, Simone Salotti
       url: https://www.sciencedirect.com/science/article/pii/S0954349X26001396
       venue: Structural Change and Economic Dynamics
       venue_url: https://www.sciencedirect.com/journal/structural-change-and-economic-dynamics
-      details: Elsevier, in press
+      details: Elsevier, Vol. 80, pp. 223–240
       type: journal
+      links:
+        - {label: DOI, url: "https://doi.org/10.1016/j.strueco.2026.07.016"}
 
     - title: Targeted Robustness for Regression via Top-Feature Noise
+      url: https://doi.org/10.1007/978-3-032-37654-1_13
       authors: Fernando Martínez-Plumed, Cristina Padró-Ferragut, Mª José Ramírez-Quintana
       venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2026)
       venue_url: https://ecmlpkdd.org/
+      details: Research Track, Springer, LNCS 16941, pp. 213–228
       type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-032-37654-1_13"}
 
     - title: "CapFlex: Multimodal Soft Clustering with Flexible Size Constraints"
+      url: https://doi.org/10.1007/978-3-032-37685-5_20
       authors: Diego Vallejo-Huanga, Mateo Montenegro, Brenda Simbaña, Cèsar Ferri, Fernando Martínez-Plumed
       venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2026)
       venue_url: https://ecmlpkdd.org/
+      details: Demo Track, Springer, LNCS 16950, pp. 293–296
       type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-032-37685-5_20"}
 
     - title: Semi-supervised Soft Clustering with Flexible Cardinality
       url: https://doi.org/10.1007/978-3-032-31438-3_16
@@ -120,10 +137,14 @@
       type: conference
 
     - title: Size-Constrained Clustering via Bat Algorithm Optimization
+      url: https://doi.org/10.1007/978-3-032-41086-3_45
       authors: Diego Vallejo-Huanga, Alexander Padilla, Cèsar Ferri, Fernando Martínez-Plumed
       venue: International Conference on Discovery Science (DS 2026)
       venue_url: https://discovery-science.org/
+      details: Springer, LNCS 17130, pp. 702–717
       type: conference
+      links:
+        - {label: DOI, url: "https://doi.org/10.1007/978-3-032-41086-3_45"}
 
     - title: "GClus: Enforcing Explicit Size Constraints in Graph Clustering through Structural Refinement"
       authors: Diego Vallejo-Huanga, Kevin Castillo, Zaida Jimenez, Cèsar Ferri, Fernando Martínez-Plumed
@@ -151,9 +172,29 @@
       details: European Commission, 2026/02, JRC145832
       type: report
 
+    - title: "A Battery for AI Propensity Measurement: Rubrics, Synthetic Item Banks, and Annotations"
+      url: https://arxiv.org/abs/2610.34614
+      authors: Peter Romero, Haotian Li, Hugo Save, Luning Sun, Zachary R. Tidler, Kazuya Horibe, Joe Watson, Daniel Romero-Alvarado, Israel Mason-Williams, Fernando Martínez-Plumed, José Hernández-Orallo
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "arXiv:2610.34614"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/2610.34614"}
+
+    - title: "Keeping Time vs. Understanding Time: Neither Alone Explains Temporal Reasoning in LLMs"
+      url: https://arxiv.org/abs/2610.29507
+      authors: Auss Abbood, Fernando Martínez-Plumed, José Hernández-Orallo, Nigel Collier
+      venue: arXiv
+      venue_url: https://arxiv.org/
+      details: "arXiv:2610.29507"
+      type: preprint
+      links:
+        - {label: arXiv, url: "https://arxiv.org/abs/2610.29507"}
+
     - title: From Human-Level AI Tales to AI Leveling Human Scales
       url: https://arxiv.org/abs/2602.18911
-      authors: Peter Romero, Fernando Martínez-Plumed, Zachary R. Tyler, Matthieu Téhénan, Sipeng Chen, Álvaro David Gómez Antón, Luning Sun, Manuel Cebrian, Lexin Zhou, Yael Moros-Daval, Daniel Romero-Alvarado, Félix Martí Pérez, Kevin Wei, José Hernández-Orallo
+      authors: Peter Romero, Fernando Martínez-Plumed, Zachary R. Tidler, Matthieu Téhénan, Sipeng Chen, Álvaro David Gómez Antón, Luning Sun, Manuel Cebrian, Lexin Zhou, Yael Moros-Daval, Daniel Romero-Alvarado, Félix Martí Pérez, Kevin Wei, José Hernández-Orallo
       venue: arXiv
       venue_url: https://arxiv.org/
       details: "arXiv:2602.18911"
@@ -278,6 +319,7 @@
       authors: Daniel Romero Alvarado, Yael Moros Daval, Behzad Mehrbakhsh, Fernando Martínez-Plumed
       venue: Congreso Nacional de Innovación Educativa y Docencia en Red (IN-RED 2025)
       venue_url: https://ojs.upv.es/index.php/INRED
+      details: Editorial UPV, pp. 1004–1018
       type: conference
       links:
         - {label: DOI, url: "https://doi.org/10.4995/INRED2025.2025.20651"}
@@ -287,6 +329,7 @@
       authors: Yael Moros Daval, Daniel Romero Alvarado, Behzad Mehrbakhsh, Fernando Martínez-Plumed
       venue: Congreso Nacional de Innovación Educativa y Docencia en Red (IN-RED 2025)
       venue_url: https://ojs.upv.es/index.php/INRED
+      details: Editorial UPV, pp. 1019–1033
       type: conference
       links:
         - {label: DOI, url: "https://doi.org/10.4995/INRED2025.2025.20652"}
@@ -442,6 +485,14 @@
       type: workshop
       links:
         - {label: PDF, url: "https://xai.w.uib.no/files/2024/07/ACL_2024_CONDA-Confounders.pdf"}
+
+    - title: "A response to ‘We Need a Science of Evals’"
+      url: https://aievaluation.substack.com/p/a-response-to-we-need-a-science-of
+      authors: José Hernández-Orallo, Fernando Martínez-Plumed
+      venue: The AI Evaluation Substack
+      venue_url: https://aievaluation.substack.com/
+      details: Blog post
+      type: report
 
 - year: 2023
   entries:
