@@ -88,8 +88,14 @@ html[data-theme="dark"] body {
   --h-sig-on-ink: #c2360b; /* the ink fill is light here — 4.6:1 */
 }
 
+/* <html> sits outside body, where the palette lives, so it gets the two page
+   colours directly. It shows in the body's bottom margin, behind the footer. */
 html {
-  background: var(--bg);
+  background: #f3f2ee;
+}
+
+html[data-theme="dark"] {
+  background: #0f0f0e;
 }
 
 ::selection {
@@ -440,6 +446,15 @@ body .page__footer-copyright {
 /* ==========================================================================
    HOMEPAGE
    ========================================================================== */
+
+/* Same column width as Publications / Teaching / Service. The homepage uses
+   the theme's single layout, which adds a 2/12 right gutter on wide screens
+   that the archive layout doesn't; 57.8125em is the theme's $large. */
+@media screen and (min-width: 57.8125em) {
+  .page--home .page {
+    padding-right: 0;
+  }
+}
 
 /* Newsletter: a solid ink band with a mono label and a signal button. */
 body .callout {
